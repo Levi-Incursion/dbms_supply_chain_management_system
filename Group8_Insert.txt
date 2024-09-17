@@ -1,0 +1,2508 @@
+SET SEARCH_PATH TO group8dbmsproject;
+
+INSERT INTO ADMINISTRATION VALUES ( 'Ayush chatta' , 00000001) , ( 'Yash garg' , 00000002 ) , ( 'Aryesh Dave' , 00000003 ) , 
+( 'Tirth Patel' , 00000004) , ( 'Kalhar Patel' , 00000005) , ( 'Kirtan Mevada' , 00000006) , 
+( 'Naisheel Patel' , 00000007 ) ,( 'Dhruvam Shah' , 00000008 ) ,
+( 'Shivam Madlani' , 00000009 ),
+( 'Kavya Kumar' , 00000010) ,( 'Manan Pareekh' , 00000011) ,( 'Harshil Patel' , 00000012),
+( 'Samarth Langalia' , 00000013) ,( 'Shreyansh Vyas' , 00000014) ,
+( 'Rhythm Arya' , 00000015),
+( 'Rishi Arora' , 00000016) , ( 'Akhil Kanteti' , 00000017) , ( 'Sahil Singh' , 00000018),
+( 'Chaitanya Sheth' , 00000019) , ( 'Yashowardhan Bhagat' , 00000020) , 
+( 'Raj Lutya' , 00000021) , ( 'Mehul Rawal' , 00000022) , ( 'Aryan Tripathi' , 00000023),
+( 'Kanishk Jain' , 00000024) , ( 'Abhinav Agarwal' , 00000025) , 
+( 'Meet Upadhyaya' , 00000026) , ( 'Aarsh Bagda' , 00000027) , ( 'Meet Patel' , 00000028) ,
+( 'Adit Parekh' , 00000029) , ( 'Hiya Chaudhary' , 00000030) , ( 'Jay Malaviya' , 00000031) , 
+( 'Rajkumar Chauhan' , 00000032) , ( 'Mustafa Lokhandwala' , 00000033) , 
+( 'Bhavya Dudhagara' , 00000034) , ( 'Viren Goswami' , 00000035) , 
+( 'Mauli Bhavsar' , 00000036) , ( 'Vrajkumar Patel' , 00000037) , ( 'Manav Fitter' , 00000038),
+( 'Deepak Hansda' , 00000039) , ( 'Vedant Pandya' , 00000040) , 
+( 'Krish Vaghela' , 00000041) , ( 'Jay Parikh' , 00000042) , ( 'Manav Vaghela' , 00000043) , 
+( 'Divyam Thacker' , 00000044) , ( 'Dev Changela' , 00000045) , 
+( 'Jayesh Pandya' , 00000046) , ( 'Mayank Gour' , 00000047) , 
+( 'Ayush Mangroliya' , 00000048) , ( 'Jenil Patel' , 00000049) , ( 'Smit Rupapara' , 00000050);
+
+INSERT INTO Manufacturer VALUES
+('PARMAR PARTH SANJAY', 11110001 , 00000001 , 'Otis Computers' ,  9999911001,'Goa','Madgaon', 'formis@verizon.net'), 
+('JAIMIN LEUVA SHAILESHBHAI', 11110002, 00000002, 'Salty Sizzle',  6162740723 , 'Goa','Madgaon', 'leslie@mac.com'),
+('Kristen Rodgers', 11110003, 00000003, 'Frozen Wonders', 8917324778,
+'Goa','Madgaon', 'crowl@yahoo.com'),
+('Rebekah Whitney', 11110004, 00000004, 'Paramount Industry',  7979064805,
+'Goa','Madgaon', 'danny@gmail.com '),
+('Anthony Roberts', 11110005, 00000005,'Laser Semiconductors', 8709376512, 'Goa','Madgaon', 'natepuri@outlook.com'),
+('Bryan Smith', 11110006, 00000006, 'Manufacturing Plant',  6127942169,
+'Goa', 'Panaji','symbolic@comcast.net'),
+('Matthew Fuller', 11110007, 00000007, 'Allied Assembly', 7440344631,
+'Goa', 'Panaji','roesch@me.com'),
+('Katherine Dominguez', 11110008, 00000008, 'Yurkas',  8217658907, 
+'Goa', 'Panaji', 'thassine@outlook.com'),
+('Sandra Robinson', 11110009,00000009, 'All-Purpose Shutter',  7979772128,
+'Goa', 'Panaji','goldberg@me.com'),
+('Aaron Armstrong', 11110010, 00000010, 'Worldwide Industry',  8079455632,
+'Goa', 'Panaji', 'doche@msn.com'),
+('Erica Thompson', 11110011, 00000011, 'Stampede Shutter',  6127991651,
+'Gujarat', 'kutch', 'karasik@msn.com'),
+('Donna Schmidt', 11110012, 00000012, 'Unbreakable Press',  6127910397, 
+'Gujarat', 'kutch','mnemonic@mac.com'),
+('Brian Stone', 11110013, 00000013, 'Maison de Paris',  6129730037,
+'Gujarat', 'kutch','satishr@att.net'),
+('Nicole Wilson', 11110014, 00000014, 'Assembly Work',  6127972544,
+'Gujarat', 'kutch','rcwil@yahoo.ca'),
+('Laura Munoz', 11110015, 00000015, 'Allyn Group', 6749083980, 
+'Gujarat', 'kutch', 'bryanw@mac.com'),
+('Jamie Mcguire', 11110016, 00000016, 'Globe Industry', 8911292198,
+'Gujarat', 'Ahmedabad', 'rcwil@verizon.net'),
+('Brandon Solomon', 11110017, 00000017, 'Manufacturing Oriented', 6127930652,
+'Gujarat', 'Ahmedabad', 'jshearer@gmail.com'),
+('Christine Ortega', 11110018, 00000018, 'The Lounge Factory', 6127903502, 
+'Gujarat', 'Ahmedabad',' mschilli@sbcglobal.net' ),
+('Shawn Rollins', 11110019,  00000019, 'QQ Components', 8917085441,
+'Gujarat', 'Ahmedabad','jrkorson@msn.com'),
+('Spencer Cox', 11110020, 00000020, 'Sealifol', 8079958434, 
+'Gujarat', 'Ahmedabad','caidaperl@verizon.net'),
+('Shawn Wallace',11110021,00000021,'General Electric Engineering', 7887040098,
+'Gujarat', 'Bhuj', 'esbeck@aol.com'),
+('Brett Martin', 11110022, 000000022, 'Industryoryx', 6127913986,
+'Gujarat', 'Bhuj', 'lridener@yahoo.ca'),
+('Krystal Evans', 11110023,00000023, 'Dynasty Assembly', 7194734679,
+'Gujarat', 'Bhuj', 'jadavis@aol.com'),
+('Margaret Foster', 11110024, 00000024, 'Fluid Innovations',6127916247,
+'Gujarat', 'Bhuj','pkplex@me.com'),
+('Charles Walter', 11110025, 00000025, 'Geoff Richards Motor', 6711372876,
+'Gujarat', 'Bhuj','overbom@hotmail.com'),
+('Daniel Anderson', 11110026, 00000026, 'Techtronic Industries', 6127949988,
+'Haryana', 'Ambala', 'bartlett@comcast.net'),
+('Zachary Berg', 11110027, 00000027, 'Forsyth Industries', 6511090859, 
+'Haryana', 'Ambala', 'mhassel@optonline.net'),
+('Michael Espinoza', 11110028, 00000028, 'Connex Industrial', 6418423810,
+'Haryana', 'Ambala', 'giafly@me.com'),
+('Eileen Rivera', 11110029, 00000029, 'Authority Industry', 6618460337,
+'Haryana', 'Ambala', 'stewwy@aol.com'),
+('Brett Richardson', 11110030, 00000030, 'Kukurinha Robotics', 8152981594,
+'Haryana', 'Ambala', 'scitext@hotmail.com'),
+('Amber Harmon', 11110031, 00000031, 'iKona Instruments', 7479550402, 
+'Jharkhand', 'Ranchi', 'farber@sbcglobal.net'),
+('Carrie Richards', 11110032, 00000032, 'M. Horton Castings', 8847664538,
+'Jharkhand', 'Ranchi', 'ivoibs@sbcglobal.net'),
+('Laura Rodriguez', 11110033, 00000033, 'Tradufacturing', 8079892566, 
+'Jharkhand', 'Ranchi', 'pakaste@live.com'),
+('Brian Buchanan', 11110034, 00000034, 'The Micro Team', 7979740097,
+'Jharkhand', 'Ranchi','sinclair@outlook.com'),
+('Danielle Gonzalez', 11110035, 00000035, 'Coconut Grove Pty', 6121318940,
+'Jharkhand', 'Ranchi', 'galbra@outlook.com'),
+('Charles Castillo', 11110036, 00000036, 'Surgical Subs', 7931358370,
+'Kerela', 'Kochi', 'biglou@att.net'),
+('Michael Russell', 11110037, 00000037, 'Assured Industries', 6127961673,
+'Kerela', 'Kochi', 'quantaman@sbcglobal.net'),
+('Amy Parker', 11110038, 00000038, 'Tj Distributing', 7931348491,
+'Kerela', 'Kochi', 'hillct@yahoo.com'),
+('Susan Morrison', 11110039, 00000039, 'Videography-Bespoke', 7931339496,
+'Kerela', 'Kochi', 'tattooman@outlook.com'),
+('Peter Moss', 11110040, 00000040, 'Friends Factory', 6127985839,
+'Kerela', 'Kochi', 'amimojo@yahoo.ca'),
+('Phillip Bryant', 11110041, 00000041, 'McPhies Wholesale', 816783075,
+'Himachal', 'Bilaspur', 'guialbu@yahoo.ca'),
+('Jessica Huerta', 11110042, 00000042, 'Prevention Innovated', 8770755313,
+'Himachal', 'Bilaspur', 'malin@me.com'),
+('Amanda Wagner', 11110043, 00000043, 'TecnoTech', 835363477,
+'Himachal', 'Bilaspur', 'mjewell@optonline.net'),
+('Ryan Garcia', 11110044, 00000044, 'Active Assembly', 6711896737,
+'Himachal', 'Bilaspur', 'sblack@live.com'),
+('Yasho', 11110045, 00000045, 'Avas Technology', 6127923165,
+'Himachal', 'Bilaspur', 'syncnine@mac.com');
+
+INSERT INTO distributor VALUES
+(22220001, 'ADITYA PRAJAPATI' , 7499352909 , 'adityaprajapati@gmail.com','Gujarat','Gandhinagar'),
+(22220002, 'KANISHK PAREEK' , 8708407692 , 'kanishkpareek@gmail.com','Gujarat','Gandhinagar'),
+(22220003, 'Kirk Mcdonald' , 7400394913 , 'tgonda@affliatemagz.com','Gujarat','Gandhinagar'),
+(22220004, 'Michele Daniels' , 6128394353 , 'natalushechka87@paceforwarders.com','Gujarat','Gandhinagar' ),
+(22220005, 'Michael Rivera' , 6127990467 , 'al0@rabihtech.xyz','Gujarat','Gandhinagar'),
+(22220006, 'Jason Garcia' , 9935714868 , 'mrmikef6n6w@mtcxmail.com','Madhya Pradesh','Bhopal'),
+(22220007, 'Ashley Sanders' , 8701918486 , 'lobzik52@tehsisri.live','Madhya Pradesh','Bhopal'),
+(22220008, 'Amy Smith' , 8667583197 , 'cpoulson3@taobaigou.club','Madhya Pradesh','Indore'),
+(22220009, 'Michele Ramos' , 6127941733 , 'fuxexp08@mtcxmail.com','Madhya Pradesh','Indore'),
+(22220010, 'Jennifer Miller' , 8079010956 , 'andrex20@7kratom.com','Madhya Pradesh','Indore'),
+(22220011, 'Randall Rogers' , 8247489341 , 'vitaliymartynov1970@iyapokers.com','Maharashtra','Mumbai'),
+(22220012, 'Casey Perez' , 6411178341 , '35085834@4funpedia.com','Maharashtra','Mumbai'),
+(22220013, 'Alisha Marshall' , 6127994492 , 'prettyeyedbabe09@kcs-th.com','Maharashtra','Mumbai'),
+(22220014, 'Jesse Macdonald' , 7393113214 , 'aywzzn@marcusguillermojaka.rocks','Maharashtra','Mumbai'),
+(22220015, 'Kirk Beck' , 7979844810 , 'songtm@componentartscstamp.store','Maharashtra','Mumbai' ),
+(22220016, 'Christopher Griffith' , 8917679964 , 'mrssam92@vansant.it','Delhi','New Delhi'),
+(22220017, 'Christian Rodriguez' , 7318856849 , 'peeenut26@flinttone.xyz','Delhi','New Delhi'),
+(22220018, 'Ryan Hendrix' , 6127902805 , 'lola15062011@yagatekimi.com','Delhi','New Delhi'),
+(22220019, 'James Mcclain' , 7428929797 , 'timshhenkksenij@sakiori.it','Delhi','New Delhi'),
+(22220020, 'Andrew Brooks' , 6127957458 , 'alexeibel1@jamtogel.org','Delhi','New Delhi'),
+(22220021, 'Joseph Barker' , 7286180116 , 'evdokimovkirov@cuentaspremium-es.xyz','Assam','Guwahati'),
+(22220022, 'Abigail Parrish' , 7402326482 , 'icu812@akanshabhatia.com','Assam','Guwahati'),
+(22220023, 'Abigail Parrish' , 8167212521 , 'msjada@terrorism.tk','Assam','Guwahati'),
+(22220024, 'Nicholas Herman' , 6030745706 , 'clavik9@liquidlogisticsmanagement.com','Assam','Guwahati'),
+(22220025, 'Alexis Sanchez' , 8319016616 , 'mikeyjamesray@collegeofpublicspeaking.com','Bihar','Patna'),
+(22220026, 'Roger Mitchell' , 6127927680 , 'ksagidullina@fabtours.online','Bihar','Patna'),
+(22220027, 'Amanda Harrison' , 6127951984 , 'yrist09@gengkapak.ml','Bihar','Patna'),
+(22220028, 'Michelle Joseph' , 6127900279 , 'eloisedonnelly@residencecure.com','Bihar','Patna'),
+(22220029, 'Terri Terrell' , 6127941273 , 'davidkonheim@illinoisscno.org','Bihar','Patna'),
+(22220030, 'Daniel Rogers' , 6719132971 , 'cubasesx@upol.fun','Karnataka','Bengaluru'),
+(22220031, 'Joshua Rogers' , 7041996025 , 'infinityk@iheartdog.info','Karnataka','Bengaluru'),
+(22220032, 'Michelle Watkins' , 8079584303 , 'cochranplymouth@yasir.studio','Karnataka','Bengaluru'),
+(22220033, 'Michael Rodriguez' , 6511233343 , 'irinavoronina8@realhairlossmedicine.com','Karnataka','Bengaluru'),
+(22220034, 'Laurie Gutierrez' , 6120837645 , 'bicak2@illinoisscno.org','Madhya Pradesh','Ujjain'),
+(22220035, 'Erin Taylor' , 6411736247 , 'tstbates@yt-google.com','Madhya Pradesh','Ujjain'),
+(22220036, 'Alexis House' , 8708819005 , 'samstheman20@nahhakql.xyz','Andhra Pradesh','Hyderabad'),
+(22220037, 'Julie Odonnell' , 6127969403 , 'bbbb11@quebecstart.com','Andhra Pradesh','Hyderabad'),
+(22220038, 'Jacob Diaz' , 8369640912 , 'iamcorey77@akunprm.com','Andhra Pradesh','Hyderabad'),
+(22220039, 'Edward Mitchell' , 7979080926 , 'manfredtheissen@thefmailcom.com','Andhra Pradesh','Hyderabad'),
+(22220040, 'Nancy Fisher' , 8912441344 , 'famverkaik@alilike.us','Andhra Pradesh','Hyderabad'),
+(22220041, 'Kevin Flores' , 7449597922 , 'hjppjh@boranora.com','Goa','Ponda'),
+(22220042, 'Sherry Hill' , 6127913886 , 'fsousa3@coughone.com','Goa','Ponda'),
+(22220043, 'Brian Johnson' , 8708609476 , 'fitan60@hdev-storee.ml','Goa','Ponda'),
+(22220044, 'Shawn Mays' , 6319531358 , 'andrewbbtt@ameliachoi.com','Goa','Ponda'),
+(22220045, 'Victoria Lee' , 6127967843 , 'egor5963@uinkopal.cloud','Goa','Ponda'),
+(22220046, 'Victoria Lee' , 7287054017 , 'steven6969@visionpluseee.fun','Jharkhand','Ranchi'),
+(22220047, 'Sherry Brooks' , 6127990563 , 'quickjetta2@joseshdecuis.com','Jharkhand','Ranchi'),
+(22220048, 'Albert Stanton' , 6127937563 , 'epg54@food4thoughtcuisine.com','Jharkhand','Ranchi'),
+(22220049, 'Charlotte Malone' , 7281280252 , 'sergdeversant@typestring.com','Jharkhand','Ranchi'),
+(22220050, 'Brandon Rojas' , 6120154109 , 'jimpotts@nktechnical.tech','Jharkhand','Ranchi'),
+(22220051, 'Michael King' , 6748935370 , 'resnik4@maildivine.com','Jharkhand','Ranchi'),
+(22220052, 'Debbie Lee' , 6128133635 , 'colby4u111@484.pl','Jharkhand','Ranchi'),
+(22220053, 'Kimberly Garcia' , 8167858502 , 'nezabitaya@buyedoewllc.com','Jharkhand','Ranchi'),
+(22220054, 'Michelle Reid' , 8847845229 , '7jmmwhdclyw@seafoodpn.com','Gujarat','Ahmedabad'),
+(22220055, 'Cristina Reed' , 8847663444 , 'mbecerra@thanosskali209.online','Gujarat','Ahmedabad'),
+(22220056, 'Jon Alexander' , 7979735079 , 'voltdina@rapidbeos.net','Gujarat','Ahmedabad'),
+(22220057, 'Matthew Rowland' , 8079091217 , 'amtews@thefmailcom.com','Gujarat','Ahmedabad'),
+(22220058, 'Kim Zhang' , 7979813362 , 'lgasl1@kingyslmail.top','Gujarat','Ahmedabad'),
+(22220059, 'Kathryn Nunez' , 6127901110 , 'cali2412@kingyslmail.top','Gujarat','Ahmedabad'),
+(22220060, 'Brian Williams' , '7285130067' , 'nik2002tar@amphist.com','Gujarat','Ahmedabad'),
+(22220061, 'Roodra Ayyar' , 6127972884 , 'krictinamihai@ccvisal.xyz','Gujarat','Ahmedabad');
+--Supplier
+INSERT INTO SUPPLIER VALUES (33330001,'Aarav Patel',9876543210,'john.doe123@gmail.com','Maharashtra','Mumbai');
+INSERT INTO SUPPLIER VALUES (33330002,'Riya Singh',8765432109,'emma.smith456@yahoo.com','Karnataka','Bengaluru');
+INSERT INTO SUPPLIER VALUES (33330003,'Anaya Sharma',7654321098,'david.jones789@hotmail.com','Tamil Nadu','Chennai');
+INSERT INTO SUPPLIER VALUES (33330004,'Arjun Gupta',6543210987,'sarah.wilson234@gmail.com','Gujarat','Ahmedabad');
+INSERT INTO SUPPLIER VALUES (33330005,'Saanvi Joshi',5432109876,'michael.brown567@yahoo.com','Uttar Pradesh','Lucknow');
+INSERT INTO SUPPLIER VALUES (33330006,'Yuvan Patel',4321098765,'sophia.nguyen890@hotmail.com','Rajasthan','Jaipur');
+INSERT INTO SUPPLIER VALUES (33330007,'Kavya Singh',3210987654,'benjamin.jackson123@gmail.com','Kerala','Thiruvananthapuram');
+INSERT INTO SUPPLIER VALUES (33330008,'Ishaan Patel',2109876543,'ava.thomas456@yahoo.com','Punjab','Chandigarh');
+INSERT INTO SUPPLIER VALUES (33330009,'Ananya Verma',1098765432,'lucas.lee789@hotmail.com','Telangana','Hyderabad');
+INSERT INTO SUPPLIER VALUES (33330010,'Rohit Sharma',9876543221,'isabella.harris234@gmail.com','West Bengal','Kolkata');
+INSERT INTO SUPPLIER VALUES (33330011,'Aanya Gupta',9876543232,'ethan.taylor567@yahoo.com','Madhya Pradesh','Bhopal');
+INSERT INTO SUPPLIER VALUES (33330012,'Aniket Singh',8765432123,'mia.clark890@hotmail.com','Odisha','Bhubaneswar');
+INSERT INTO SUPPLIER VALUES (33330013,'Aisha Khan',7654321012,'alexander.evans123@gmail.com','Haryana','Gurugram');
+INSERT INTO SUPPLIER VALUES (33330014,'Pranav Sharma',6543210901,'olivia.robinson456@yahoo.com','Andhra Pradesh','Vijayawada');
+INSERT INTO SUPPLIER VALUES (33330015,'Shreya Patel',5432109890,'daniel.hall789@hotmail.com','Bihar','Patna');
+INSERT INTO SUPPLIER VALUES (33330016,'Aditya Kumar',4321098779,'emily.green234@gmail.com','Jharkhand','Ranchi');
+INSERT INTO SUPPLIER VALUES (33330017,'Nisha Singh',3210987668,'william.walker567@yahoo.com','Chhattisgarh','Raipur');
+INSERT INTO SUPPLIER VALUES (33330018,'Ankit Verma',2109876557,'amelia.wright890@hotmail.com','Uttarakhand','Dehradun');
+INSERT INTO SUPPLIER VALUES (33330019,'Divya Sharma',1098765446,'james.turner123@gmail.com','Himachal Pradesh','Shimla');
+INSERT INTO SUPPLIER VALUES (33330020,'Arnav Patel',9876543335,'harper.james456@yahoo.com','Goa','Panaji');
+INSERT INTO SUPPLIER VALUES (33330021,'Sonali Gupta',9876543344,'benjamin.morris789@hotmail.com','Maharashtra','Mumbai');
+INSERT INTO SUPPLIER VALUES (33330022,'Abhinav Singh',8765432235,'sophia.scott234@gmail.com','Karnataka','Bengaluru');
+INSERT INTO SUPPLIER VALUES (33330023,'Priya Patel',7654321124,'henry.hill567@yahoo.com','Tamil Nadu','Chennai');
+INSERT INTO SUPPLIER VALUES (33330024,'Dhruv Sharma',6543211013,'abigail.lewis890@hotmail.com','Gujarat','Ahmedabad');
+INSERT INTO SUPPLIER VALUES (33330025,'Neha Singh',5432109902,'liam.baker123@gmail.com','Uttar Pradesh','Lucknow');
+INSERT INTO SUPPLIER VALUES (33330026,'Rishi Verma',4321098791,'mia.allen456@yahoo.com','Rajasthan','Jaipur');
+INSERT INTO SUPPLIER VALUES (33330027,'Kirti Patel',3210987680,'lucas.ross789@hotmail.com','Kerala','Thiruvananthapuram');
+INSERT INTO SUPPLIER VALUES (33330028,'Manish Sharma',2109876569,'elizabeth.phillips234@gmail.com','Punjab','Chandigarh');
+INSERT INTO SUPPLIER VALUES (33330029,'Tanvi Singh',1098765458,'samuel.campbell567@yahoo.com','Telangana','Hyderabad');
+INSERT INTO SUPPLIER VALUES (33330030,'Sujit Patel',9876543447,'chloe.howard890@hotmail.com','West Bengal','Kolkata');
+INSERT INTO SUPPLIER VALUES (33330031,'Kiran Gupta',9876543456,'jackson.long123@gmail.com','Madhya Pradesh','Bhopal');
+INSERT INTO SUPPLIER VALUES (33330032,'Rahul Sharma',8765432347,'charlotte.nelson456@yahoo.com','Odisha','Bhubaneswar');
+INSERT INTO SUPPLIER VALUES (33330033,'Poonam Singh',7654321236,'ethan.parker789@hotmail.com','Haryana','Gurugram');
+INSERT INTO SUPPLIER VALUES (33330034,'Prateek Patel',6543211125,'emma.rodriguez234@gmail.com','Andhra Pradesh','Vijayawada');
+INSERT INTO SUPPLIER VALUES (33330035,'Anu Sharma',5432109914,'daniel.cooper567@yahoo.com','Bihar','Patna');
+INSERT INTO SUPPLIER VALUES (33330036,'Sandeep Singh',4321098803,'grace.bennett890@hotmail.com','Jharkhand','Ranchi');
+INSERT INTO SUPPLIER VALUES (33330037,'Aarti Patel',3210987692,'alexander.cox123@gmail.com','Chhattisgarh','Raipur');
+INSERT INTO SUPPLIER VALUES (33330038,'Vishal Sharma',2109876581,'mia.evans456@yahoo.com','Uttarakhand','Dehradun');
+INSERT INTO SUPPLIER VALUES (33330039,'Shilpa Singh',1098765470,'noah.flores789@hotmail.com','Himachal Pradesh','Shimla');
+INSERT INTO SUPPLIER VALUES (33330040,'Shivansh Gupta',9876543559,'ava.murphy234@gmail.com','Goa','Panaji');
+INSERT INTO SUPPLIER VALUES (33330041,'Rupal Patel',9876543568,'liam.howard567@yahoo.com','Maharashtra','Mumbai');
+INSERT INTO SUPPLIER VALUES (33330042,'Rajat Sharma',8765432459,'emily.gonzalez890@hotmail.com','Karnataka','Bengaluru');
+INSERT INTO SUPPLIER VALUES (33330043,'Meenakshi Singh',7654321348,'jacob.mitchell123@gmail.com','Tamil Nadu','Chennai');
+INSERT INTO SUPPLIER VALUES (33330044,'Vivek Patel',6543211237,'harper.young456@yahoo.com','Gujarat','Ahmedabad');
+INSERT INTO SUPPLIER VALUES (33330045,'Shubhi Sharma',5432109925,'lucas.jones789@hotmail.com','Uttar Pradesh','Lucknow');
+INSERT INTO SUPPLIER VALUES (33330046,'Parth Singh',4321098816,'charlotte.bell234@gmail.com','Rajasthan','Jaipur');
+INSERT INTO SUPPLIER VALUES (33330047,'Deepa Patel',3210987705,'jackson.gray567@yahoo.com','Kerala','Thiruvananthapuram');
+INSERT INTO SUPPLIER VALUES (33330048,'Kartik Sharma',2109876594,'olivia.scott890@hotmail.com','Punjab','Chandigarh');
+INSERT INTO SUPPLIER VALUES (33330049,'Sonam Singh',1098765481,'samuel.wilson123@gmail.com','Telangana','Hyderabad');
+INSERT INTO SUPPLIER VALUES (33330050,'Gaurav Patel',9876543660,'isabella.stewart456@yahoo.com','West Bengal','Kolkat');
+
+--parts
+
+
+INSERT INTO Parts VALUES (44440001,'Key switches',506,'keyboard');
+INSERT INTO Parts VALUES (44440002,'Keycaps',751,'keyboard');
+INSERT INTO Parts VALUES (44440003,'Keyboard matrix',108,'keyboard');
+INSERT INTO Parts VALUES (44440004,'Keyboard controller',753,'keyboard');
+INSERT INTO Parts VALUES (44440005,'PCB',691,'keyboard');
+INSERT INTO Parts VALUES (44440006,'LEDs',255,'keyboard');
+INSERT INTO Parts VALUES (44440007,'USB connector',752,'keyboard');
+INSERT INTO Parts VALUES (44440008,'Diodes',389,'keyboard');
+INSERT INTO Parts VALUES (44440009,'Image sensor',985,'webcam');
+INSERT INTO Parts VALUES (44440010,'Lens',560,'webcam');
+INSERT INTO Parts VALUES (44440011,'Image processor',605,'webcam');
+INSERT INTO Parts VALUES (44440012,'Microphone',679,'webcam');
+INSERT INTO Parts VALUES (44440013,'drivers',527,'Headset');
+INSERT INTO Parts VALUES (44440014,'Microphone',210,'Headset');
+INSERT INTO Parts VALUES (44440015,'ear hooks',432,'Headset');
+INSERT INTO Parts VALUES (44440016,'earbuds',875,'Headset');
+INSERT INTO Parts VALUES (44440017,'amplification',570,'Headset');
+INSERT INTO Parts VALUES (44440018,'Optical sensor',142,'Mouse');
+INSERT INTO Parts VALUES (44440019,'Microcontroller',740,'Mouse');
+INSERT INTO Parts VALUES (44440020,'Scroll wheel',554,'Mouse');
+INSERT INTO Parts VALUES (44440021,'glides',362,'Mouse');
+INSERT INTO Parts VALUES (44440022,'wireless receiver',978,'Mouse');
+INSERT INTO Parts VALUES (44440023,'drivers',585,'earbuds');
+INSERT INTO Parts VALUES (44440024,'Microphone',136,'earbuds');
+INSERT INTO Parts VALUES (44440025,'ear hooks',783,'earbuds');
+INSERT INTO Parts VALUES (44440026,'earbuds',973,'earbuds');
+INSERT INTO Parts VALUES (44440027,'amplification',815,'earbuds');
+INSERT INTO Parts VALUES (44440028,'sensor',499,'touchpads');
+INSERT INTO Parts VALUES (44440029,'controller',802,'touchpads');
+INSERT INTO Parts VALUES (44440030,'Touchpad surface',169,'touchpads');
+INSERT INTO Parts VALUES (44440031,'Button switches',415,'touchpads');
+INSERT INTO Parts VALUES (44440032,'Mounting hardware:',345,'touchpads');
+INSERT INTO Parts VALUES (44440033,'Backlighting',288,'touchpads');
+INSERT INTO Parts VALUES (44440034,'Display panel',307,'monitors');
+INSERT INTO Parts VALUES (44440035,'Backlight',142,'monitors');
+INSERT INTO Parts VALUES (44440036,'bezel',815,'monitors');
+INSERT INTO Parts VALUES (44440037,'Monitor stand',343,'monitors');
+INSERT INTO Parts VALUES (44440038,'Electronics and circuitry',106,'monitors');
+INSERT INTO Parts VALUES (44440039,'Input connectors',923,'monitors');
+INSERT INTO Parts VALUES (44440040,'Power supply',291,'monitors');
+INSERT INTO Parts VALUES (44440041,'OSD',348,'monitors');
+INSERT INTO Parts VALUES (44440042,'CPU',899,'mobile');
+INSERT INTO Parts VALUES (44440043,'Memory',392,'mobile');
+INSERT INTO Parts VALUES (44440044,'Display',952,'mobile');
+INSERT INTO Parts VALUES (44440045,'Battery',377,'mobile');
+INSERT INTO Parts VALUES (44440046,'Cameras',649,'mobile');
+INSERT INTO Parts VALUES (44440047,'Audio components',540,'mobile');
+INSERT INTO Parts VALUES (44440048,'Sensors',289,'mobile');
+INSERT INTO Parts VALUES (44440049,'Buttons',697,'mobile');
+INSERT INTO Parts VALUES (44440050,'Stylus Pens',214,'ipad accessories');
+INSERT INTO Parts VALUES (44440051,'Chargers',673,'ipad accessories');
+INSERT INTO Parts VALUES (44440052,'Cases',857,'ipad accessories');
+INSERT INTO Parts VALUES (44440053,'Microcontroller',727,'game controller');
+INSERT INTO Parts VALUES (44440054,'Buttons',475,'game controller');
+INSERT INTO Parts VALUES (44440055,'Joysticks',320,'game controller');
+INSERT INTO Parts VALUES (44440056,'Analog Sticks',513,'game controller');
+INSERT INTO Parts VALUES (44440057,'Sensors',299,'game controller');
+INSERT INTO Parts VALUES (44440058,'Triggers',225,'game controller');
+INSERT INTO Parts VALUES (44440059,'Vibration Motors',906,'game controller');
+INSERT INTO Parts VALUES (44440060,'PCB',583,'game controller');
+INSERT INTO Parts VALUES (44440061,'Enclosure',760,'game controller');
+INSERT INTO Parts VALUES (44440062,' Wireless Module',716,'game controller');
+INSERT INTO Parts VALUES (44440063,'Battery',700,'game controller');
+INSERT INTO Parts VALUES (44440064,'Software',913,'game controller');
+INSERT INTO Parts VALUES (44440065,'Trackball Module',615,'trackball');
+INSERT INTO Parts VALUES (44440066,'Buttons',728,'trackball');
+INSERT INTO Parts VALUES (44440067,'PCB',578,'trackball');
+INSERT INTO Parts VALUES (44440068,'Enclosure',577,'trackball');
+INSERT INTO Parts VALUES (44440069,'Wireless Module',642,'trackball');
+INSERT INTO Parts VALUES (44440070,'Ball Bearings',595,'trackball');
+INSERT INTO Parts VALUES (44440071,'Sensors',859,'trackball');
+INSERT INTO Parts VALUES (44440072,'Controller',272,'trackball');
+INSERT INTO Parts VALUES (44440073,'Mounting Hardware',163,'trackball');
+INSERT INTO Parts VALUES (44440074,'Software',612,'trackball');
+INSERT INTO Parts VALUES (44440075,'Display',870,'tablets');
+INSERT INTO Parts VALUES (44440076,'Processor',762,'tablets');
+INSERT INTO Parts VALUES (44440077,'RAM',220,'tablets');
+INSERT INTO Parts VALUES (44440078,'SSD',128,'tablets');
+INSERT INTO Parts VALUES (44440079,'OS',272,'tablets');
+INSERT INTO Parts VALUES (44440080,'Battery',318,'tablets');
+INSERT INTO Parts VALUES (44440081,'Wireless Connectivity',964,'tablets');
+INSERT INTO Parts VALUES (44440082,'Cameras',191,'tablets');
+INSERT INTO Parts VALUES (44440083,'Sensors',386,'tablets');
+INSERT INTO Parts VALUES (44440084,'Touchscreen Controller',396,'tablets');
+INSERT INTO Parts VALUES (44440085,'Audio Components',430,'tablets');
+INSERT INTO Parts VALUES (44440086,'GPU',878,'game consoles');
+INSERT INTO Parts VALUES (44440087,'RAM',423,'game consoles');
+INSERT INTO Parts VALUES (44440088,'SSD',284,'game consoles');
+INSERT INTO Parts VALUES (44440089,'HDD',808,'game consoles');
+INSERT INTO Parts VALUES (44440090,'PSU',661,'game consoles');
+INSERT INTO Parts VALUES (44440091,'Motherboard',160,'game consoles');
+INSERT INTO Parts VALUES (44440092,'CPU',865,'game consoles');
+INSERT INTO Parts VALUES (44440093,'Sensor',681,'pointer');
+INSERT INTO Parts VALUES (44440094,'Buttons',474,'pointer');
+INSERT INTO Parts VALUES (44440095,'Housing',404,'pointer');
+INSERT INTO Parts VALUES (44440096,'PCB',897,'pointer');
+INSERT INTO Parts VALUES (44440097,'Power Source',470,'pointer');
+INSERT INTO Parts VALUES (44440098,'LED lights',544,'pointer');
+INSERT INTO Parts VALUES (44440099,'capacitors',497,'pointer');
+INSERT INTO Parts VALUES (44440100,'Software',336,'pointe');
+
+-- supplies
+
+INSERT INTO SUPPLIES VALUES (33330001,44440001,11110001,702);
+INSERT INTO SUPPLIES VALUES (33330002,44440002,11110002,972);
+INSERT INTO SUPPLIES VALUES (33330003,44440003,11110003,974);
+INSERT INTO SUPPLIES VALUES (33330004,44440004,11110004,627);
+INSERT INTO SUPPLIES VALUES (33330005,44440005,11110005,506);
+INSERT INTO SUPPLIES VALUES (33330006,44440006,11110006,988);
+INSERT INTO SUPPLIES VALUES (33330007,44440007,11110007,834);
+INSERT INTO SUPPLIES VALUES (33330008,44440008,11110008,776);
+INSERT INTO SUPPLIES VALUES (33330009,44440009,11110009,882);
+INSERT INTO SUPPLIES VALUES (33330010,44440010,11110010,823);
+INSERT INTO SUPPLIES VALUES (33330011,44440011,11110011,678);
+INSERT INTO SUPPLIES VALUES (33330012,44440012,11110012,882);
+INSERT INTO SUPPLIES VALUES (33330013,44440013,11110013,888);
+INSERT INTO SUPPLIES VALUES (33330014,44440014,11110014,550);
+INSERT INTO SUPPLIES VALUES (33330015,44440015,11110015,515);
+INSERT INTO SUPPLIES VALUES (33330016,44440016,11110016,736);
+INSERT INTO SUPPLIES VALUES (33330017,44440017,11110017,627);
+INSERT INTO SUPPLIES VALUES (33330018,44440018,11110018,824);
+INSERT INTO SUPPLIES VALUES (33330019,44440019,11110019,835);
+INSERT INTO SUPPLIES VALUES (33330020,44440020,11110020,634);
+INSERT INTO SUPPLIES VALUES (33330021,44440021,11110021,504);
+INSERT INTO SUPPLIES VALUES (33330022,44440022,11110022,865);
+INSERT INTO SUPPLIES VALUES (33330023,44440023,11110023,599);
+INSERT INTO SUPPLIES VALUES (33330024,44440024,11110024,979);
+INSERT INTO SUPPLIES VALUES (33330025,44440025,11110025,787);
+INSERT INTO SUPPLIES VALUES (33330026,44440026,11110026,570);
+INSERT INTO SUPPLIES VALUES (33330027,44440027,11110027,926);
+INSERT INTO SUPPLIES VALUES (33330028,44440028,11110028,827);
+INSERT INTO SUPPLIES VALUES (33330029,44440029,11110029,816);
+INSERT INTO SUPPLIES VALUES (33330030,44440030,11110030,586);
+INSERT INTO SUPPLIES VALUES (33330031,44440031,11110031,943);
+INSERT INTO SUPPLIES VALUES (33330032,44440032,11110032,675);
+INSERT INTO SUPPLIES VALUES (33330033,44440033,11110033,651);
+INSERT INTO SUPPLIES VALUES (33330034,44440034,11110034,581);
+INSERT INTO SUPPLIES VALUES (33330035,44440035,11110035,929);
+INSERT INTO SUPPLIES VALUES (33330036,44440036,11110036,904);
+INSERT INTO SUPPLIES VALUES (33330037,44440037,11110037,911);
+INSERT INTO SUPPLIES VALUES (33330038,44440038,11110038,868);
+INSERT INTO SUPPLIES VALUES (33330039,44440039,11110039,718);
+INSERT INTO SUPPLIES VALUES (33330040,44440040,11110040,674);
+INSERT INTO SUPPLIES VALUES (33330041,44440041,11110041,926);
+INSERT INTO SUPPLIES VALUES (33330042,44440042,11110042,572);
+INSERT INTO SUPPLIES VALUES (33330043,44440043,11110043,918);
+INSERT INTO SUPPLIES VALUES (33330044,44440044,11110044,877);
+INSERT INTO SUPPLIES VALUES (33330045,44440045,11110045,710);
+INSERT INTO SUPPLIES VALUES (33330046,44440046,11110001,624);
+INSERT INTO SUPPLIES VALUES (33330047,44440047,11110002,711);
+INSERT INTO SUPPLIES VALUES (33330048,44440048,11110003,757);
+INSERT INTO SUPPLIES VALUES (33330049,44440049,11110004,516);
+INSERT INTO SUPPLIES VALUES (33330050,44440050,11110005,541);
+INSERT INTO SUPPLIES VALUES (33330001,44440051,11110006,526);
+INSERT INTO SUPPLIES VALUES (33330002,44440052,11110007,773);
+INSERT INTO SUPPLIES VALUES (33330003,44440053,11110008,522);
+INSERT INTO SUPPLIES VALUES (33330004,44440054,11110009,725);
+INSERT INTO SUPPLIES VALUES (33330005,44440055,11110010,990);
+INSERT INTO SUPPLIES VALUES (33330006,44440056,11110011,980);
+INSERT INTO SUPPLIES VALUES (33330007,44440057,11110012,875);
+INSERT INTO SUPPLIES VALUES (33330008,44440058,11110013,814);
+INSERT INTO SUPPLIES VALUES (33330009,44440059,11110014,944);
+INSERT INTO SUPPLIES VALUES (33330010,44440060,11110015,764);
+INSERT INTO SUPPLIES VALUES (33330011,44440061,11110016,512);
+INSERT INTO SUPPLIES VALUES (33330012,44440062,11110017,573);
+INSERT INTO SUPPLIES VALUES (33330013,44440063,11110018,922);
+INSERT INTO SUPPLIES VALUES (33330014,44440064,11110019,689);
+INSERT INTO SUPPLIES VALUES (33330015,44440065,11110020,759);
+INSERT INTO SUPPLIES VALUES (33330016,44440066,11110021,783);
+INSERT INTO SUPPLIES VALUES (33330017,44440067,11110022,706);
+INSERT INTO SUPPLIES VALUES (33330018,44440068,11110023,878);
+INSERT INTO SUPPLIES VALUES (33330019,44440069,11110024,768);
+INSERT INTO SUPPLIES VALUES (33330020,44440070,11110025,622);
+INSERT INTO SUPPLIES VALUES (33330021,44440071,11110026,599);
+INSERT INTO SUPPLIES VALUES (33330022,44440072,11110027,946);
+INSERT INTO SUPPLIES VALUES (33330023,44440073,11110028,924);
+INSERT INTO SUPPLIES VALUES (33330024,44440074,11110029,763);
+INSERT INTO SUPPLIES VALUES (33330025,44440075,11110030,704);
+INSERT INTO SUPPLIES VALUES (33330026,44440076,11110031,848);
+INSERT INTO SUPPLIES VALUES (33330027,44440077,11110032,753);
+INSERT INTO SUPPLIES VALUES (33330028,44440078,11110033,542);
+INSERT INTO SUPPLIES VALUES (33330029,44440079,11110034,918);
+INSERT INTO SUPPLIES VALUES (33330030,44440080,11110035,712);
+INSERT INTO SUPPLIES VALUES (33330031,44440081,11110036,840);
+INSERT INTO SUPPLIES VALUES (33330032,44440082,11110037,930);
+INSERT INTO SUPPLIES VALUES (33330033,44440083,11110038,901);
+INSERT INTO SUPPLIES VALUES (33330034,44440084,11110039,762);
+INSERT INTO SUPPLIES VALUES (33330035,44440085,11110040,611);
+INSERT INTO SUPPLIES VALUES (33330036,44440086,11110041,865);
+INSERT INTO SUPPLIES VALUES (33330037,44440087,11110042,610);
+INSERT INTO SUPPLIES VALUES (33330038,44440088,11110043,784);
+INSERT INTO SUPPLIES VALUES (33330039,44440089,11110044,699);
+INSERT INTO SUPPLIES VALUES (33330040,44440090,11110045,514);
+INSERT INTO SUPPLIES VALUES (33330041,44440091,11110041,939);
+INSERT INTO SUPPLIES VALUES (33330042,44440092,11110042,796);
+INSERT INTO SUPPLIES VALUES (33330043,44440093,11110043,842);
+INSERT INTO SUPPLIES VALUES (33330044,44440094,11110044,527);
+INSERT INTO SUPPLIES VALUES (33330045,44440095,11110045,740);
+INSERT INTO SUPPLIES VALUES (33330046,44440096,11110020,560);
+INSERT INTO SUPPLIES VALUES (33330047,44440097,11110021,569);
+INSERT INTO SUPPLIES VALUES (33330048,44440098,11110022,983);
+INSERT INTO SUPPLIES VALUES (33330049,44440099,11110023,899);
+INSERT INTO SUPPLIES VALUES (33330050,44440100,11110024,95);
+
+-- products
+
+INSERT INTO products VALUES ('MN0001','MX Master 3X',1);
+INSERT INTO products VALUES ('MN0002','Wireless Comfort Keyboard 5050',2);
+INSERT INTO products VALUES ('MN0003','LifeCam HD-3000 Webcam',3);
+INSERT INTO products VALUES ('MN0004','LifeChat LX-3000 Headset',4);
+INSERT INTO products VALUES ('MN0005','Surface Earbuds',5);
+INSERT INTO products VALUES ('MN0006','Wireless Mobile Mouse 1850',1);
+INSERT INTO products VALUES ('MN0007','Natural Ergonomic Keyboard 4000',2);
+INSERT INTO products VALUES ('MN0008','LifeCam Studio Webcam',3);
+INSERT INTO products VALUES ('MN0009','Xbox Wireless Headset',4);
+INSERT INTO products VALUES ('MN0010','Surface Earbuds+',5);
+INSERT INTO products VALUES ('MN0011','Sculpt Comfort Mouse',1);
+INSERT INTO products VALUES ('MN0012','Wireless Desktop 900 Keyboard and Mouse',2);
+INSERT INTO products VALUES ('MN0013','LifeCam Cinema Webcam',3);
+INSERT INTO products VALUES ('MN0014','LifeChat LX-6000 Headset',4);
+INSERT INTO products VALUES ('MN0015','JBL Free X Earbuds',5);
+INSERT INTO products VALUES ('MN0016','Arc Touch Mouse',1);
+INSERT INTO products VALUES ('MN0017','Surface Ergonomic Keyboard',2);
+INSERT INTO products VALUES ('MN0018','LifeCam HD-5000 Webcam',3);
+INSERT INTO products VALUES ('MN0019','Jabra Evolve2 40 Headset',4);
+INSERT INTO products VALUES ('MN0020','Samsung Galaxy Buds Pro Earbuds',5);
+INSERT INTO products VALUES ('MN0021','Sculpt Ergonomic Desktop Keyboard and Mouse',1);
+INSERT INTO products VALUES ('MN0022','Wireless Comfort Desktop 5050 Keyboard and Mouse',2);
+INSERT INTO products VALUES ('MN0023','Logitech C920S Pro HD Webcam',3);
+INSERT INTO products VALUES ('MN0024','JBL Quantum 800 Headset',4);
+INSERT INTO products VALUES ('MN0025','Sony WF-1000XM4 Earbuds',5);
+INSERT INTO products VALUES ('MN0026','Surface Mobile Mouse',1);
+INSERT INTO products VALUES ('MN0027','Wireless Desktop 850 Keyboard and Mouse',2);
+INSERT INTO products VALUES ('MN0028','Logitech Brio Ultra HD Webcam',3);
+INSERT INTO products VALUES ('MN0029','Bose QuietComfort 35 II Headset',4);
+INSERT INTO products VALUES ('MN0030','Apple AirPods Pro Earbuds',5);
+INSERT INTO products VALUES ('MN0031','Arc Mouse',1);
+INSERT INTO products VALUES ('MN0032','Surface Pro Type Cover',2);
+INSERT INTO products VALUES ('MN0033','Razer Kiyo Webcam',3);
+INSERT INTO products VALUES ('MN0034','SteelSeries Arctis Pro Wireless Headset',4);
+INSERT INTO products VALUES ('MN0035','Sony WH-1000XM4 Headset',4);
+INSERT INTO products VALUES ('MN0036','Samsung Galaxy Buds Pro+',5);
+INSERT INTO products VALUES ('MN0037','Surface Precision Mouse',1);
+INSERT INTO products VALUES ('MN0038','Microsoft Modern Keyboard with Fingerprint ID',2);
+INSERT INTO products VALUES ('MN0039','Logitech StreamCam Plus Webcam',3);
+INSERT INTO products VALUES ('MN0040','Sennheiser HD 660 S Headset',4);
+INSERT INTO products VALUES ('MN0041','Jabra Elite 85t Earbuds',5);
+INSERT INTO products VALUES ('MN0042','Microsoft Designer Compact Keyboard',2);
+INSERT INTO products VALUES ('MN0043','Logitech MX Anywhere 3 Mouse',1);
+INSERT INTO products VALUES ('MN0044','LG UltraFine 5K Display Monitor',9);
+INSERT INTO products VALUES ('MN0045','Razer BlackShark V2 Pro Headset',4);
+INSERT INTO products VALUES ('MN0046','Bose SoundSport Free Earbuds',5);
+INSERT INTO products VALUES ('MN0047','Dell UltraSharp U2415 Monitor',9);
+INSERT INTO products VALUES ('MN0048','Logitech G Pro X Mechanical Gaming Keyboard',2);
+INSERT INTO products VALUES ('MN0049','Logitech G Pro Wireless Gaming Mouse',1);
+INSERT INTO products VALUES ('MN0050','Razer Kiwi Pro Webcam',3);
+INSERT INTO products VALUES ('MN0051','MX Master 3X',10);
+INSERT INTO products VALUES ('MN0052','MX Master 4',11);
+INSERT INTO products VALUES ('MN0053','Xbox Series X',13);
+INSERT INTO products VALUES ('MN0054','Surface Pro 7',12);
+INSERT INTO products VALUES ('MN0055','Surface Laptop 4',14);
+INSERT INTO products VALUES ('MN0056','Xbox Series X',13);
+INSERT INTO products VALUES ('MN0057','Surface Pen',11);
+INSERT INTO products VALUES ('MN0058','Surface Dock',11);
+INSERT INTO products VALUES ('MN0059','Microsoft 365 Personal',11);
+INSERT INTO products VALUES ('MN0060','Wireless Mobile Mouse 1850',1);
+
+
+--tax
+INSERT INTO TAX VALUES ('MN0001',7.5);
+INSERT INTO TAX VALUES ('MN0002',6.7);
+INSERT INTO TAX VALUES ('MN0003',8.5);
+INSERT INTO TAX VALUES ('MN0004',7.6);
+INSERT INTO TAX VALUES ('MN0005',8.8);
+INSERT INTO TAX VALUES ('MN0006',6.1);
+INSERT INTO TAX VALUES ('MN0007',6.8);
+INSERT INTO TAX VALUES ('MN0008',7.6);
+INSERT INTO TAX VALUES ('MN0009',9.3);
+INSERT INTO TAX VALUES ('MN0010',6.7);
+INSERT INTO TAX VALUES ('MN0011',5.7);
+INSERT INTO TAX VALUES ('MN0012',8.6);
+INSERT INTO TAX VALUES ('MN0013',5.5);
+INSERT INTO TAX VALUES ('MN0014',9.8);
+INSERT INTO TAX VALUES ('MN0015',6.1);
+INSERT INTO TAX VALUES ('MN0016',7.1);
+INSERT INTO TAX VALUES ('MN0017',7.6);
+INSERT INTO TAX VALUES ('MN0018',5.9);
+INSERT INTO TAX VALUES ('MN0019',6.7);
+INSERT INTO TAX VALUES ('MN0020',9.6);
+INSERT INTO TAX VALUES ('MN0021',8.6);
+INSERT INTO TAX VALUES ('MN0022',6.2);
+INSERT INTO TAX VALUES ('MN0023',9.1);
+INSERT INTO TAX VALUES ('MN0024',7.5);
+INSERT INTO TAX VALUES ('MN0025',7.6);
+INSERT INTO TAX VALUES ('MN0026',8.5);
+INSERT INTO TAX VALUES ('MN0027',6.7);
+INSERT INTO TAX VALUES ('MN0028',8.5);
+INSERT INTO TAX VALUES ('MN0029',9.4);
+INSERT INTO TAX VALUES ('MN0030',5.8);
+INSERT INTO TAX VALUES ('MN0031',6.4);
+INSERT INTO TAX VALUES ('MN0032',9);
+INSERT INTO TAX VALUES ('MN0033',6.7);
+INSERT INTO TAX VALUES ('MN0034',5.5);
+INSERT INTO TAX VALUES ('MN0035',8.1);
+INSERT INTO TAX VALUES ('MN0036',5.5);
+INSERT INTO TAX VALUES ('MN0037',9.8);
+INSERT INTO TAX VALUES ('MN0038',5.5);
+INSERT INTO TAX VALUES ('MN0039',7.4);
+INSERT INTO TAX VALUES ('MN0040',5.5);
+INSERT INTO TAX VALUES ('MN0041',9.3);
+INSERT INTO TAX VALUES ('MN0042',8.3);
+INSERT INTO TAX VALUES ('MN0043',7.1);
+INSERT INTO TAX VALUES ('MN0044',8.8);
+INSERT INTO TAX VALUES ('MN0045',6.3);
+INSERT INTO TAX VALUES ('MN0046',9.8);
+INSERT INTO TAX VALUES ('MN0047',7.6);
+INSERT INTO TAX VALUES ('MN0048',6.7);
+INSERT INTO TAX VALUES ('MN0049',6.7);
+INSERT INTO TAX VALUES ('MN0050',5.6);
+INSERT INTO TAX VALUES ('MN0051',5.5);
+INSERT INTO TAX VALUES ('MN0052',9.3);
+INSERT INTO TAX VALUES ('MN0053',8.3);
+INSERT INTO TAX VALUES ('MN0054',7.1);
+INSERT INTO TAX VALUES ('MN0055',8.8);
+INSERT INTO TAX VALUES ('MN0056',6.3);
+INSERT INTO TAX VALUES ('MN0057',9.8);
+INSERT INTO TAX VALUES ('MN0058',7.6);
+INSERT INTO TAX VALUES ('MN0059',6.7);
+INSERT INTO TAX VALUES ('MN0060',6.7);
+
+-- retailer
+
+INSERT INTO Retailer (R_GST_Num, Retailer_Name, R_Shop_Name, Contact_Email, Contact_number, "State", City) 
+VALUES 
+(55550001, 'Mayank Chaudhary', 'Chaudhary rox', 'machaudhary@gmail.com', 9788674568, 'Uttar Pradesh', 'Meerut'),
+(55550002, 'Amit Singh', 'Singh Retail', 'amitsingh@gmail.com', 9867543210, 'Uttar Pradesh', 'Ghaziabad'),
+(55550003, 'Priya Sharma', 'Priya Fashion', 'priyasharma@gmail.com', 7896541230, 'Uttar Pradesh', 'Noida'),
+(55550004, 'Rahul Verma', 'Verma Collection', 'rahulverma@gmail.com', 9978675432, 'Uttar Pradesh', 'Lucknow'),
+(55550005, 'Ravi Gupta', 'Gupta Emporium', 'ravigupta@gmail.com', 9876543210, 'Uttar Pradesh', 'Kanpur'),
+(55550006, 'Arun Kumar', 'Arun Supermart', 'arunkumar@gmail.com', 9988776655, 'Uttar Pradesh', 'Varanasi'),
+(55550007, 'Sujata Singh', 'Singh Enterprises', 'sujatasingh@gmail.com', 7896541230, 'Uttar Pradesh', 'Allahabad'),
+(55550008, 'Saurabh Singh', 'Saurabh Retail', 'saurabhsingh@gmail.com', 9978654321, 'Uttar Pradesh', 'Gorakhpur'),
+(55550009, 'Ankit Yadav', 'Yadav Collection', 'ankityadav@gmail.com', 7896541230, 'Uttar Pradesh', 'Bareilly'),
+(55550010, 'Neha Verma', 'Neha Emporium', 'nehaverma@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550011, 'Shikha Gupta', 'Gupta Fashion', 'shikhagupta@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550012, 'Rajat Chauhan', 'Rajat Collection', 'rajatchauhan@gmail.com', 9978654321, 'Uttar Pradesh', 'Ghaziabad'),
+(55550013, 'Suresh Kumar', 'Suresh Supermart', 'sureshkumar@gmail.com', 7896541230, 'Uttar Pradesh', 'Meerut'),
+(55550014, 'Alok Sharma', 'Sharma Emporium', 'aloksharma@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550015, 'Aman Verma', 'Verma Fashion', 'amanverma@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550016, 'Anshika Singh', 'Anshika Collection', 'anshikasingh@gmail.com', 9978654321, 'Uttar Pradesh', 'Gorakhpur'),
+(55550017, 'Mukesh Yadav', 'Yadav Supermart', 'mukeshyadav@gmail.com', 7896541230, 'Uttar Pradesh', 'Bareilly'),
+(55550018, 'Anjali Gupta', 'Gupta Emporium', 'anjaligupta@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550019, 'Akash Singh', 'Singh Collection', 'akashsingh@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550020, 'Alok Chauhan', 'Alok Retail', 'alokchauhan@gmail.com', 9978654321, 'Uttar Pradesh', 'Ghaziabad'),
+(55550021, 'Shalini Verma', 'Verma Supermart', 'shaliniverma@gmail.com', 7896541230, 'Uttar Pradesh', 'Meerut'),
+(55550022, 'Rajeev Kumar', 'Rajeev Emporium', 'rajeevkumar@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550023, 'Nidhi Sharma', 'Nidhi Collection', 'nidhisharma@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550024, 'Amit Verma', 'Verma Fashion', 'amitverma@gmail.com', 9978654321, 'Uttar Pradesh', 'Gorakhpur'),
+(55550025, 'Aditi Yadav', 'Yadav Supermart', 'aditiyadav@gmail.com', 7896541230, 'Uttar Pradesh', 'Bareilly'),
+(55550026, 'Kunal Gupta', 'Gupta Emporium', 'kunalgupta@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550027, 'Deepak Singh', 'Singh Collection', 'deepaksingh@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550028, 'Harsh Chauhan', 'Harsh Retail', 'harshchauhan@gmail.com', 9978654321, 'Uttar Pradesh', 'Ghaziabad'),
+(55550029, 'Kavita Verma', 'Verma Supermart', 'kavitaverma@gmail.com', 7896541230, 'Uttar Pradesh', 'Meerut'),
+(55550030, 'Siddharth Kumar', 'Siddharth Emporium', 'siddharthkumar@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550031, 'Akshay Sharma', 'Sharma Collection', 'akshaysharma@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550032, 'Ravi Chaudhary', 'Ravi Emporium', 'ravichaudhary@gmail.com', 9978654321, 'Uttar Pradesh', 'Gorakhpur'),
+(55550033, 'Vikas Yadav', 'Yadav Supermart', 'vikasyadav@gmail.com', 7896541230, 'Uttar Pradesh', 'Bareilly'),
+(55550034, 'Sneha Gupta', 'Gupta Emporium', 'snehagupta@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550035, 'Sakshi Singh', 'Singh Collection', 'sakshisingh@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550036, 'Pankaj Chauhan', 'Pankaj Retail', 'pankajchauhan@gmail.com', 9978654321, 'Uttar Pradesh', 'Ghaziabad'),
+(55550037, 'Riya Verma', 'Verma Supermart', 'riyaverma@gmail.com', 7896541230, 'Uttar Pradesh', 'Meerut'),
+(55550038, 'Aman Kumar', 'Aman Emporium', 'amankumar@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550039, 'Rahul Sharma', 'Sharma Collection', 'rahulsharma@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550040, 'Manish Chaudhary', 'Chaudhary Emporium', 'manishchaudhary@gmail.com', 9978654321, 'Uttar Pradesh', 'Gorakhpur'),
+(55550041, 'Divya Yadav', 'Yadav Supermart', 'divyayadav@gmail.com', 7896541230, 'Uttar Pradesh', 'Bareilly'),
+(55550042, 'Abhishek Gupta', 'Gupta Emporium', 'abhishekgupta@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550043, 'Rashmi Singh', 'Singh Collection', 'rashmisingh@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550044, 'Shubham Chauhan', 'Shubham Retail', 'shubhamchauhan@gmail.com', 9978654321, 'Uttar Pradesh', 'Ghaziabad'),
+(55550045, 'Kirti Verma', 'Verma Supermart', 'kirtiverma@gmail.com', 7896541230, 'Uttar Pradesh', 'Meerut'),
+(55550046, 'Alok Singh', 'Alok Emporium', 'aloksingh@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550047, 'Shivani Sharma', 'Sharma Collection', 'shivanisharma@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550048, 'Rahul Chaudhary', 'Rahul Emporium', 'rahulchaudhary@gmail.com', 9978654321, 'Uttar Pradesh', 'Gorakhpur'),
+(55550049, 'Nikita Yadav', 'Yadav Supermart', 'nikitayadav@gmail.com', 7896541230, 'Uttar Pradesh', 'Bareilly'),
+(55550050, 'Akash Gupta', 'Gupta Emporium', 'akashgupta@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550051, 'Pooja Singh', 'Singh Collection', 'poojasingh@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550052, 'Gaurav Chauhan', 'Gaurav Retail', 'gauravchaudhary@gmail.com', 9978654321, 'Uttar Pradesh', 'Ghaziabad'),
+(55550053, 'Simran Verma', 'Verma Supermart', 'simranverma@gmail.com', 7896541230, 'Uttar Pradesh', 'Meerut'),
+(55550054, 'Rajat Kumar', 'Rajat Emporium', 'rajatkumar@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550055, 'Sneha Sharma', 'Sharma Collection', 'snehasharma@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550056, 'Vikram Chaudhary', 'Chaudhary Emporium', 'vikramchaudhary@gmail.com', 9978654321, 'Uttar Pradesh', 'Gorakhpur'),
+(55550057, 'Anjali Yadav', 'Yadav Supermart', 'anjaloyadav@gmail.com', 7896541230, 'Uttar Pradesh', 'Bareilly'),
+(55550058, 'Ankit Gupta', 'Gupta Emporium', 'ankitgupta@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550059, 'Aayushi Singh', 'Singh Collection', 'aayushisingh@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550060, 'Alok Chauhan', 'Alok Retail', 'alokchauhan@gmail.com', 9978654321, 'Uttar Pradesh', 'Ghaziabad'),
+(55550061, 'Vaishali Verma', 'Verma Supermart', 'vaishaliverma@gmail.com', 7896541230, 'Uttar Pradesh', 'Meerut'),
+(55550062, 'Suresh Kumar', 'Suresh Emporium', 'sureshkumar@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550063, 'Rohit Sharma', 'Sharma Collection', 'rohitsharma@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550064, 'Priya Chaudhary', 'Chaudhary Emporium', 'priyachaudhary@gmail.com', 9978654321, 'Uttar Pradesh', 'Gorakhpur'),
+(55550065, 'Anil Yadav', 'Yadav Supermart', 'anilyadav@gmail.com', 7896541230, 'Uttar Pradesh', 'Bareilly'),
+(55550066, 'Harsh Gupta', 'Gupta Emporium', 'harshgupta@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550067, 'Ritu Singh', 'Singh Collection', 'ritusingh@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550068, 'Shubham Chauhan', 'Shubham Retail', 'shubhamchauhan@gmail.com', 9978654321, 'Uttar Pradesh', 'Ghaziabad'),
+(55550069, 'Alok Verma', 'Verma Supermart', 'alokverma@gmail.com', 7896541230, 'Uttar Pradesh', 'Meerut'),
+(55550070, 'Manoj Kumar', 'Manoj Emporium', 'manojkumar@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550071, 'Nisha Sharma', 'Sharma Collection', 'nishasharma@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550072, 'Prabhat Chaudhary', 'Chaudhary Emporium', 'prabhatchaudhary@gmail.com', 9978654321, 'Uttar Pradesh', 'Gorakhpur'),
+(55550073, 'Vijay Yadav', 'Yadav Supermart', 'vijayyadav@gmail.com', 7896541230, 'Uttar Pradesh', 'Bareilly'),
+(55550074, 'Nidhi Gupta', 'Gupta Emporium', 'nidhigupta@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550075, 'Shivangi Singh', 'Singh Collection', 'shivangisingh@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550076, 'Abhishek Chauhan', 'Abhishek Retail', 'abhishekchauhan@gmail.com', 9978654321, 'Uttar Pradesh', 'Ghaziabad'),
+(55550077, 'Prakash Verma', 'Verma Supermart', 'prakashverma@gmail.com', 7896541230, 'Uttar Pradesh', 'Meerut'),
+(55550078, 'Rohit Kumar', 'Rohit Emporium', 'rohitkumar@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550079, 'Kavita Sharma', 'Sharma Collection', 'kavitasharma@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550080, 'Siddharth Chaudhary', 'Chaudhary Emporium', 'siddharthchaudhary@gmail.com', 9978654321, 'Uttar Pradesh', 'Gorakhpur'),
+(55550081, 'Radha Yadav', 'Yadav Supermart', 'radaayadav@gmail.com', 7896541230, 'Uttar Pradesh', 'Bareilly'),
+(55550082, 'Riya Gupta', 'Gupta Emporium', 'riyagupta@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550083, 'Anjali Singh', 'Singh Collection', 'anjalisingh@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550084, 'Shubham Chaudhary', 'Shubham Retail', 'shubhamchaudhary@gmail.com', 9978654321, 'Uttar Pradesh', 'Ghaziabad'),
+(55550085, 'Akshay Verma', 'Verma Supermart', 'akshayverma@gmail.com', 7896541230, 'Uttar Pradesh', 'Meerut'),
+(55550086, 'Rahul Kumar', 'Rahul Emporium', 'rahulkumar@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550087, 'Kritika Sharma', 'Sharma Collection', 'kritikasharma@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550088, 'Alok Chaudhary', 'Chaudhary Emporium', 'alokchaudhary@gmail.com', 9978654321, 'Uttar Pradesh', 'Gorakhpur'),
+(55550089, 'Sachin Yadav', 'Yadav Supermart', 'sachinyadav@gmail.com', 7896541230, 'Uttar Pradesh', 'Bareilly'),
+(55550090, 'Anu Gupta', 'Gupta Emporium', 'anugupta@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550091, 'Ritu Singh', 'Singh Collection', 'ritusingh@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550092, 'Harsh Chauhan', 'Harsh Retail', 'harshchauhan@gmail.com', 9978654321, 'Uttar Pradesh', 'Ghaziabad'),
+(55550093, 'Rajat Verma', 'Verma Supermart', 'rajatverma@gmail.com', 7896541230, 'Uttar Pradesh', 'Meerut'),
+(55550094, 'Saket Kumar', 'Saket Emporium', 'saketkumar@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550095, 'Shreya Sharma', 'Sharma Collection', 'shreyasharma@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550096, 'Anuj Chaudhary', 'Chaudhary Emporium', 'anujchaudhary@gmail.com', 9978654321, 'Uttar Pradesh', 'Gorakhpur'),
+(55550097, 'Shweta Yadav', 'Yadav Supermart', 'shwetayadav@gmail.com', 7896541230, 'Uttar Pradesh', 'Bareilly'),
+(55550098, 'Ankita Gupta', 'Gupta Emporium', 'ankitagupta@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550099, 'Ankush Singh', 'Singh Collection', 'ankushsingh@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550100, 'Varun Chauhan', 'Varun Retail', 'varunchauhan@gmail.com', 9978654321, 'Uttar Pradesh', 'Ghaziabad'),
+(55550101, 'Divya Verma', 'Verma Supermart', 'divyaverma@gmail.com', 7896541230, 'Uttar Pradesh', 'Meerut'),
+(55550102, 'Vikas Kumar', 'Vikas Emporium', 'vikaskumar@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550103, 'Sonia Sharma', 'Sharma Collection', 'soniasharma@gmail.com', 7896541230, 'Uttar Pradesh' , 'Kanpur'),
+(55550104, 'Rahul Chaudhary', 'Chaudhary Emporium', 'rahulchaudhary@gmail.com', 9978654321, 'Uttar Pradesh', 'Gorakhpur'),
+(55550105, 'Priyanka Yadav', 'Yadav Supermart', 'priyankayadav@gmail.com', 7896541230, 'Uttar Pradesh', 'Bareilly'),
+(55550106, 'Raj Gupta', 'Gupta Emporium', 'rajgupta@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550107, 'Surbhi Singh', 'Singh Collection', 'surbhisingh@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550108, 'Vishal Chauhan', 'Vishal Retail', 'vishalchauhan@gmail.com', 9978654321, 'Uttar Pradesh', 'Ghaziabad'),
+(55550109, 'Ravi Verma', 'Verma Supermart', 'raviverma@gmail.com', 7896541230, 'Uttar Pradesh', 'Meerut'),
+(55550110, 'Nitin Kumar', 'Nitin Emporium', 'nitinkumar@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550111, 'Simran Sharma', 'Sharma Collection', 'simransharma@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550112, 'Ashok Chaudhary', 'Chaudhary Emporium', 'ashokchaudhary@gmail.com', 9978654321, 'Uttar Pradesh', 'Gorakhpur'),
+(55550113, 'Priya Yadav', 'Yadav Supermart', 'priyayadav@gmail.com', 7896541230, 'Uttar Pradesh', 'Bareilly'),
+(55550114, 'Sachin Gupta', 'Gupta Emporium', 'sachingupta@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550115, 'Rahul Singh', 'Singh Collection', 'rahulsingh@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550116, 'Anjali Chauhan', 'Anjali Retail', 'anjali@gmail.com', 9978654321, 'Uttar Pradesh', 'Ghaziabad'),
+(55550117, 'Rajat Verma', 'Verma Supermart', 'rajatverma1@gmail.com', 7896541230, 'Uttar Pradesh', 'Meerut'),
+(55550118, 'Ankit Kumar', 'Ankit Emporium', 'ankitkumar@gmail.com', 9978654321, 'Uttar Pradesh', 'Kanpur'),
+(55550119, 'Divya Sharma', 'Sharma Collection', 'divyasharma@gmail.com', 7896541230, 'Uttar Pradesh', 'Lucknow'),
+(55550120, 'Gaurav Chaudhary', 'Chaudhary Emporium', 'gauravchaudhary@gmail.com', 9978654321, 'Uttar Pradesh', 'Gorakhpur');
+
+-- manufacturer
+
+INSERT INTO Manufactures VALUES (11110001,'MN0001','2019-04-27',1643);
+INSERT INTO Manufactures VALUES (11110002,'MN0002','2021-11-16',1818);
+INSERT INTO Manufactures VALUES (11110003,'MN0003','2021-10-19',1142);
+INSERT INTO Manufactures VALUES (11110004,'MN0004','2021-12-05',1882);
+INSERT INTO Manufactures VALUES (11110005,'MN0005','2018-05-22',1290);
+INSERT INTO Manufactures VALUES (11110006,'MN0006','2021-08-30',1876);
+INSERT INTO Manufactures VALUES (11110007,'MN0007','2021-08-09',1785);
+INSERT INTO Manufactures VALUES (11110008,'MN0008','2018-07-08',1993);
+INSERT INTO Manufactures VALUES (11110009,'MN0009','2021-10-14',1873);
+INSERT INTO Manufactures VALUES (11110010,'MN0010','2018-02-24',1855);
+INSERT INTO Manufactures VALUES (11110011,'MN0011','2020-09-20',1009);
+INSERT INTO Manufactures VALUES (11110012,'MN0012','2021-04-15',1057);
+INSERT INTO Manufactures VALUES (11110013,'MN0013','2018-05-12',1127);
+INSERT INTO Manufactures VALUES (11110014,'MN0014','2022-08-28',1116);
+INSERT INTO Manufactures VALUES (11110015,'MN0015','2018-02-28',1419);
+INSERT INTO Manufactures VALUES (11110016,'MN0016','2021-01-17',1279);
+INSERT INTO Manufactures VALUES (11110017,'MN0017','2020-02-28',1890);
+INSERT INTO Manufactures VALUES (11110018,'MN0018','2020-03-05',1252);
+INSERT INTO Manufactures VALUES (11110019,'MN0019','2019-01-12',1415);
+INSERT INTO Manufactures VALUES (11110020,'MN0020','2018-01-12',1713);
+INSERT INTO Manufactures VALUES (11110021,'MN0021','2019-07-19',1315);
+INSERT INTO Manufactures VALUES (11110022,'MN0022','2023-03-18',1299);
+INSERT INTO Manufactures VALUES (11110023,'MN0023','2019-05-18',1095);
+INSERT INTO Manufactures VALUES (11110024,'MN0024','2020-01-05',1588);
+INSERT INTO Manufactures VALUES (11110025,'MN0025','2020-10-14',1777);
+INSERT INTO Manufactures VALUES (11110026,'MN0026','2019-09-01',1395);
+INSERT INTO Manufactures VALUES (11110027,'MN0027','2022-04-15',1219);
+INSERT INTO Manufactures VALUES (11110028,'MN0028','2020-09-28',1344);
+INSERT INTO Manufactures VALUES (11110029,'MN0029','2019-08-01',1814);
+INSERT INTO Manufactures VALUES (11110030,'MN0030','2021-09-07',1378);
+INSERT INTO Manufactures VALUES (11110031,'MN0031','2018-09-10',1552);
+INSERT INTO Manufactures VALUES (11110032,'MN0032','2020-08-31',1236);
+INSERT INTO Manufactures VALUES (11110033,'MN0033','2018-09-11',1492);
+INSERT INTO Manufactures VALUES (11110034,'MN0034','2021-07-16',1511);
+INSERT INTO Manufactures VALUES (11110035,'MN0035','2021-05-30',1310);
+INSERT INTO Manufactures VALUES (11110036,'MN0036','2018-09-05',1110);
+INSERT INTO Manufactures VALUES (11110037,'MN0037','2020-04-28',1671);
+INSERT INTO Manufactures VALUES (11110038,'MN0038','2019-08-23',1511);
+INSERT INTO Manufactures VALUES (11110039,'MN0039','2020-08-09',1415);
+INSERT INTO Manufactures VALUES (11110040,'MN0040','2023-01-20',1426);
+INSERT INTO Manufactures VALUES (11110041,'MN0041','2020-10-28',1699);
+INSERT INTO Manufactures VALUES (11110042,'MN0042','2021-12-20',1338);
+INSERT INTO Manufactures VALUES (11110043,'MN0043','2019-07-09',1733);
+INSERT INTO Manufactures VALUES (11110044,'MN0044','2018-01-24',1907);
+INSERT INTO Manufactures VALUES (11110045,'MN0045','2021-08-21',1273);
+INSERT INTO Manufactures VALUES (11110025,'MN0046','2019-03-24',1726);
+INSERT INTO Manufactures VALUES (11110026,'MN0047','2022-12-21',1518);
+INSERT INTO Manufactures VALUES (11110027,'MN0048','2022-01-20',1245);
+INSERT INTO Manufactures VALUES (11110028,'MN0049','2020-02-09',1297);
+INSERT INTO Manufactures VALUES (11110029,'MN0050','2021-11-03',1276);
+INSERT INTO Manufactures VALUES (11110030,'MN0051','2022-09-12',1835);
+INSERT INTO Manufactures VALUES (11110031,'MN0052','2022-08-16',1154);
+INSERT INTO Manufactures VALUES (11110032,'MN0053','2020-02-28',1814);
+INSERT INTO Manufactures VALUES (11110033,'MN0054','2021-09-05',1063);
+INSERT INTO Manufactures VALUES (11110034,'MN0055','2021-07-27',1798);
+INSERT INTO Manufactures VALUES (11110035,'MN0056','2018-05-19',1651);
+INSERT INTO Manufactures VALUES (11110036,'MN0057','2018-05-16',1284);
+INSERT INTO Manufactures VALUES (11110037,'MN0058','2020-07-23',1052);
+INSERT INTO Manufactures VALUES (11110038,'MN0059','2021-05-20',1125);
+INSERT INTO Manufactures VALUES (11110039,'MN0060','2020-05-08',1909);
+
+-- D_contains 
+
+INSERT INTO D_contains (model_no, Distributor_ID, quantity) 
+VALUES 
+('MN0001', 22220001, 1000),
+('MN0002', 22220002, 500),
+('MN0003', 22220003, 800),
+('MN0004', 22220004, 200),
+('MN0005', 22220005, 300),
+('MN0006', 22220006, 400),
+('MN0007', 22220007, 100),
+('MN0008', 22220008, 150),
+('MN0009', 22220009, 250),
+('MN0010', 22220010, 600),
+('MN0011', 22220011, 900),
+('MN0012', 22220012, 700),
+('MN0013', 22220013, 1000),
+('MN0014', 22220014, 500),
+('MN0015', 22220015, 800),
+('MN0016', 22220016, 200),
+('MN0017', 22220017, 300),
+('MN0018', 22220018, 400),
+('MN0019', 22220019, 100),
+('MN0020', 22220020, 150),
+('MN0021', 22220021, 250),
+('MN0022', 22220022, 600),
+('MN0023', 22220023, 900),
+('MN0024', 22220024, 700),
+('MN0025', 22220025, 1000),
+('MN0026', 22220026, 500),
+('MN0027', 22220027, 800),
+('MN0028', 22220028, 200),
+('MN0029', 22220029, 300),
+('MN0030', 22220030, 400),
+('MN0031', 22220031, 100),
+('MN0032', 22220032, 150),
+('MN0033', 22220033, 250),
+('MN0034', 22220034, 600),
+('MN0035', 22220035, 900),
+('MN0036', 22220036, 700),
+('MN0037', 22220037, 1000),
+('MN0038', 22220038, 500),
+('MN0039', 22220039, 800),
+('MN0040', 22220040, 200),
+('MN0041', 22220041, 300),
+('MN0042', 22220042, 400),
+('MN0043', 22220043, 100),
+('MN0044', 22220044, 150),
+('MN0045', 22220045, 250),
+('MN0046', 22220046, 600),
+('MN0047', 22220047, 900),
+('MN0048', 22220048, 700),
+('MN0049', 22220049, 1000),
+('MN0050', 22220050, 500),
+('MN0051', 22220051, 900),
+('MN0052', 22220052, 700),
+('MN0053', 22220053, 1000),
+('MN0054', 22220054, 500),
+('MN0055', 22220055, 800),
+('MN0056', 22220056, 200),
+('MN0057', 22220057, 300),
+('MN0058', 22220058, 400),
+('MN0059', 22220059, 100),
+('MN0060', 22220060, 150);
+
+-- CUSTOMER 
+
+INSERT INTO customer  VALUES
+  ('Kirtan Mevada', 77770001, 'Himachal Pradesh', 'Shimla', 'Kirtanrox@gmail.com', 7966768123),
+  ('John Smith', 77770002, 'California', 'San Francisco', 'johnsmith@gmail.com', 4151234567),
+  ('Alice Johnson', 77770003, 'New York', 'New York City', 'alice.johnson@gmail.com', 2125551212),
+  ('Bob Roberts', 77770004, 'Texas', 'Houston', 'bobroberts@gmail.com', 7135551234),
+  ('Samantha Lee', 77770005, 'California', 'Los Angeles', 'samlee@gmail.com', 3105556789),
+  ('Michael Chen', 77770006, 'California', 'San Diego', 'michaelchen@gmail.com', 6195554321),
+  ('Emily Davis', 77770007, 'Florida', 'Miami', 'emily.davis@gmail.com', 3055555678),
+  ('Daniel Kim', 77770008, 'California', 'San Jose', 'daniel.kim@gmail.com', 4085558765),
+  ('Karen Brown', 77770009, 'California', 'Sacramento', 'karen.brown@gmail.com', 9165552345),
+  ('David Wilson', 77770010, 'Texas', 'Austin', 'david.wilson@gmail.com', 5125557890),
+  ('Jessica Nguyen', 77770011, 'California', 'San Francisco', 'jessica.nguyen@gmail.com', 4155553456),
+  ('Jonathan Lee', 77770012, 'New York', 'Buffalo', 'jonathan.lee@gmail.com', 7165556789),
+  ('Linda Martinez', 77770013, 'Texas', 'Dallas', 'linda.martinez@gmail.com', 2145559012),
+  ('William Rodriguez', 77770014, 'California', 'Los Angeles', 'william.rodriguez@gmail.com', 3235552345),
+  ('Olivia Brown', 77770015, 'Florida', 'Tampa', 'olivia.brown@gmail.com', 8135555678),
+  ('Matthew Park', 77770016, 'California', 'San Diego', 'matthew.park@gmail.com', 6195558765),
+  ('Sophia Hernandez', 77770017, 'Texas', 'Houston', 'sophia.hernandez@gmail.com', 7135551234),
+  ('Andrew Kim', 77770018, 'California', 'San Jose', 'andrew.kim@gmail.com', 4085559012),
+  ('Ava Gonzalez', 77770019, 'California', 'Sacramento', 'ava.gonzalez@gmail.com', 9165553456),
+  ('James Lee', 77770020, 'New York', 'New York City', 'james.lee@gmail.com', 2125556789),
+  ('Ethan Garcia', 77770021, 'Texas', 'Austin', 'ethan.garcia@gmail.com', 5125559012),
+  ('Isabella Davis', 77770022, 'California', 'San Francisco', 'isabella.davis@gmail.com', 4155551234),
+('Joseph Nguyen', 77770023, 'California', 'Los Angeles', 'joseph.nguyen@gmail.com', 3235555678),
+('Madison Martinez', 77770024, 'Florida', 'Miami', 'madison.martinez@gmail.com', 3055559012),
+('Nicholas Rodriguez', 77770025, 'California', 'San Diego', 'nicholas.rodriguez@gmail.com', 6195552345),
+('Chloe Kim', 77770026, 'California', 'San Jose', 'chloe.kim@gmail.com', 4085555678),
+('Mia Brown', 77770027, 'California', 'Sacramento', 'mia.brown@gmail.com', 9165559012),
+('Daniel Lee', 77770028, 'New York', 'Buffalo', 'daniel.lee@gmail.com', 7165552345),
+('Evelyn Martinez', 77770029, 'Texas', 'Dallas', 'evelyn.martinez@gmail.com', 2145555678),
+('Christopher Rodriguez', 77770030, 'California', 'Los Angeles', 'christopher.rodriguez@gmail.com', 3235559012),
+('Victoria Nguyen', 77770031, 'California', 'San Francisco', 'victoria.nguyen@gmail.com', 4155552345),
+('Justin Hernandez', 77770032, 'Texas', 'Houston', 'justin.hernandez@gmail.com', 7135556789),
+('Avery Kim', 77770033, 'California', 'San Jose', 'avery.kim@gmail.com', 4085551234),
+('Aria Gonzalez', 77770034, 'California', 'Sacramento', 'aria.gonzalez@gmail.com', 9165555678),
+('Ryan Lee', 77770035, 'New York', 'New York City', 'ryan.lee@gmail.com', 2125559012),
+('Liam Garcia', 77770036, 'Texas', 'Austin', 'liam.garcia@gmail.com', 5125552345),
+('Amelia Davis', 77770037, 'California', 'San Francisco', 'amelia.davis@gmail.com', 4155555678),
+('Jackson Nguyen', 77770038, 'California', 'Los Angeles', 'jackson.nguyen@gmail.com', 3235559012),
+('Sophie Martinez', 77770039, 'Florida', 'Miami', 'sophie.martinez@gmail.com', 3055552345),
+('Alexander Rodriguez', 77770040, 'California', 'San Diego', 'alexander.rodriguez@gmail.com', 6195555678),
+('Hannah Kim', 77770041, 'California', 'San Jose', 'hannah.kim@gmail.com', 4085559012),
+('Aaliyah Brown', 77770042, 'California', 'Sacramento', 'aaliyah.brown@gmail.com', 9165552345),
+('Benjamin Lee', 77770043, 'New York', 'Buffalo', 'benjamin.lee@gmail.com', 7165556789),
+('Natalie Martinez', 77770044, 'Texas', 'Dallas', 'natalie.martinez@gmail.com', 2145559012),
+('William Rodriguez', 77770045, 'California', 'Los Angeles', 'william.rodriguez@gmail.com', 3235552345),
+('Sofia Nguyen', 77770046, 'California', 'San Francisco', 'sofia.nguyen@gmail.com', 4155555678),
+('Gabriel Hernandez', 77770047, 'Texas', 'Houston', 'gabriel.hernandez@gmail.com', 7135559012),
+('Lily Kim', 77770048, 'California', 'San Jose', 'lily.kim@gmail.com', 4085552345),
+('Anthony Gonzalez', 77770049, 'California', 'Sacramento', 'anthony.gonzalez@gmail.com', 9165555678),
+('Ethan Lee', 77770050, 'New York', 'New York City', 'ethan.lee@gmail.com', 2125559012),
+('Isabella Garcia', 77770051, 'Texas', 'Austin', 'isabella.garcia@gmail.com', 5125552345),
+('Olivia Davis', 77770052, 'California', 'San Francisco', 'olivia.davis@gmail.com', 4155555678),
+('Joshua Nguyen', 77770053, 'California', 'Los Angeles', 'joshua.nguyen@gmail.com', 3235559012),
+('Natalie Martinez', 77770054, 'Florida', 'Miami', 'natalie.martinez@gmail.com', 3055552345),
+('Andrew Rodriguez', 77770055, 'California', 'San Diego', 'andrew.rodriguez@gmail.com', 6195555678),
+('Ava Kim', 77770056, 'California', 'San Jose', 'ava.kim@gmail.com', 4085559012),
+('Emma Brown', 77770057, 'California', 'Sacramento', 'emma.brown@gmail.com', 9165552345),
+('Jacob Lee', 77770058, 'New York', 'Buffalo', 'jacob.lee@gmail.com', 7165556789),
+('Mia Martinez', 77770059, 'Texas', 'Dallas', 'mia.martinez@gmail.com', 2145559012),
+('Sophia Rodriguez', 77770060, 'California', 'Los Angeles', 'sophia.rodriguez@gmail.com', 3235552345),
+('Ethan Nguyen', 77770061, 'California', 'San Francisco', 'ethan.nguyen@gmail.com', 4155555678),
+('James Hernandez', 77770062, 'Texas', 'Houston', 'james.hernandez@gmail.com', 7135559012),
+('Emily Kim', 77770063, 'California', 'San Jose', 'emily.kim@gmail.com', 4085552345),
+('Daniel Gonzalez', 77770064, 'California', 'Sacramento', 'daniel.gonzalez@gmail.com', 9165555678),
+('William Lee', 77770065, 'New York', 'New York City', 'william.lee@gmail.com', 2125559012),
+('Ayush Patel', 77770066, 'Himachal Pradesh', 'Shimla', 'Kirtanrox@gmail.com', 7966768123),
+('John Doe', 77770067, 'California', 'Los Angeles', 'johndoe@gmail.com', 1234567890),
+('Jane Smith', 77770068, 'New York', 'New York City', 'janesmith@gmail.com', 2345678901),
+('Bob Johnson', 77770069, 'Texas', 'Houston', 'bobjohnson@gmail.com', 3456789012),
+('Mary Brown', 77770070, 'Florida', 'Miami', 'marybrown@gmail.com', 4567890123),
+('David Lee', 77770071, 'California', 'San Francisco', 'davidlee@gmail.com', 5678901234),
+('Linda Davis', 77770072, 'New York', 'Buffalo', 'lindadavis@gmail.com', 6789012345),
+('Richard Wilson', 77770073, 'Texas', 'Austin', 'richardwilson@gmail.com', 7890123456),
+('Karen Thompson', 77770074, 'Florida', 'Orlando', 'karenthompson@gmail.com', 8901234567),
+('Steven Harris', 77770075, 'California', 'San Diego', 'stevenharris@gmail.com', 9012345678),
+('Susan Martin', 77770076, 'New York', 'Rochester', 'susanmartin@gmail.com', 1234567890),
+('Michael Clark', 77770077, 'Texas', 'Dallas', 'michaelclark@gmail.com', 2345678901),
+('Lisa Lewis', 77770078, 'Florida', 'Jacksonville', 'lisalewis@gmail.com', 3456789012),
+('Daniel Rodriguez', 77770079, 'California', 'Sacramento', 'danielrodriguez@gmail.com', 4567890123),
+('Emily Hall', 77770080, 'New York', 'Syracuse', 'emilyhall@gmail.com', 5678901234),
+('Matthew Allen', 77770081, 'Texas', 'San Antonio', 'matthewallen@gmail.com', 6789012345),
+('Jennifer Wright', 77770082, 'Florida', 'Tampa', 'jenniferwright@gmail.com', 7890123456),
+('Christopher King', 77770083, 'California', 'San Jose', 'christopherking@gmail.com', 8901234567),
+('Amanda Green', 77770084, 'New York', 'Albany', 'amandagreen@gmail.com', 9012345678),
+('Eric Campbell', 77770085, 'Texas', 'Fort Worth', 'ericcampbell@gmail.com', 1234567890),
+('Ashley Baker', 77770086, 'Florida', 'Miami', 'ashleybaker@gmail.com', 2345678901),
+('Joshua Nelson', 77770087, 'California', 'Los Angeles', 'joshuanelson@gmail.com', 3456789012),
+('Melissa Carter', 77770088, 'New York', 'New York City', 'melissacarter@gmail.com', 4567890123),
+('Brian Adams' , 77770089 , 'New York' , 'New York City' , 'brianadams@gmail.acom' ,9786856542),
+('Stephanie Perez', 77770090, 'Florida', 'Orlando', 'stephanieperez@gmail.com', 6789012345),
+('Ryan Turner', 77770091, 'California', 'San Francisco', 'ryanturner@gmail.com', 7890123456),
+('Victoria Hall', 77770092, 'New York', 'Buffalo', 'victoriahall@gmail.com', 8901234567),
+('Nicholas Flores', 77770093, 'Texas', 'Austin', 'nicholasflores@gmail.com', 9012345678),
+('Christina Mitchell', 77770094, 'Florida', 'Jacksonville', 'christinamitchell@gmail.com', 1234567890),
+('Brandon Hill', 77770095, 'California', 'San Diego', 'brandonhill@gmail.com', 2345678901),
+('Rebecca Young', 77770096, 'New York', 'Rochester', 'rebeccayoung@gmail.com', 3456789012),
+('Justin Perez', 77770097, 'Texas', 'Dallas', 'justinperez@gmail.com', 4567890123),
+('Megan Edwards', 77770098, 'Florida', 'Tampa', 'meganedwards@gmail.com', 5678901234),
+('Jacob Collins', 77770099, 'California', 'San Jose', 'jacobcollins@gmail.com', 6789012345),
+('Lauren Scott', 77770100, 'New York', 'Albany', 'laurenscott@gmail.com', 7890123456),
+('Tyler Ramirez', 77770101, 'Texas', 'Fort Worth', 'tylerramirez@gmail.com', 8901234567),
+('Rachel Torres', 77770102, 'Florida', 'Miami', 'racheltorres@gmail.com', 9012345678),
+('Anthony Wood', 77770103, 'California', 'Los Angeles', 'anthonywood@gmail.com', 1234567890),
+('Samantha Barnes', 77770104, 'New York', 'New York City', 'samanthabarnes@gmail.com', 2345678901),
+('David Collins', 77770105, 'Texas', 'Houston', 'davidcollins@gmail.com', 3456789012),
+('Kayla Perez', 77770106, 'Florida', 'Orlando', 'kaylaperez@gmail.com', 4567890123),
+('Austin Flores', 77770107, 'California', 'San Francisco', 'austinflores@gmail.com', 5678901234),
+('Maria Mitchell', 77770108, 'New York', 'Buffalo', 'mariamitchell@gmail.com', 6789012345),
+('Steven Turner', 77770109, 'Texas', 'Austin', 'steventurner@gmail.com', 7890123456),
+('Sarah Hernandez', 77770110, 'Florida', 'Jacksonville', 'sarahhernandez@gmail.com', 8901234567),
+('Matthew Sanchez', 77770111, 'California', 'San Diego', 'matthewsanchez@gmail.com', 9012345678),
+('Jessica Martinez', 77770112, 'New York', 'Rochester', 'jessicamartinez@gmail.com', 1234567890),
+('Jason Ramirez', 77770113, 'Texas', 'Dallas', 'jasonramirez@gmail.com', 2345678901),
+('Elizabeth Scott', 77770114, 'Florida', 'Tampa', 'elizabethscott@gmail.com', 3456789012),
+('William Young', 77770115, 'California', 'San Jose', 'williamyoung@gmail.com', 4567890123),
+('Katherine Hall', 77770116, 'New York', 'Albany', 'katherinehall@gmail.com', 5678901234),
+('Thomas Perez', 77770117, 'Texas', 'Fort Worth', 'thomasperez@gmail.com', 6789012345),
+('Natalie Edwards', 77770118, 'Florida', 'Miami', 'natalieedwards@gmail.com', 7890123456),
+('Christopher Torres', 77770119, 'California', 'Los Angeles', 'christophertorres@gmail.com', 8901234567),
+('Emily Barnes', 77770120, 'New York', 'New York City', 'emilybarnes@gmail.com', 9012345678),
+('Daniel Collins', 77770121, 'Texas', 'Houston', 'danielcollins@gmail.com', 1234567890),
+('Alexis Perez', 77770122, 'Florida', 'Orlando', 'alexisperez@gmail.com', 2345678901),
+('Joshua Flores', 77770123, 'California', 'San Francisco', 'joshuaflores@gmail.com', 3456789012),
+('Alyssa Mitchell', 77770124, 'New York', 'Buffalo', 'alyssamitchell@gmail.com', 4567890123),
+('Andrew Turner', 77770125, 'Texas', 'Austin', 'andrewturner@gmail.com', 5678901234),
+('Olivia Hernandez', 77770126, 'Florida', 'Jacksonville', 'oliviahernandez@gmail.com', 6789012345),
+('Michael Sanchez', 77770127, 'California', 'San Diego', 'michaelsanchez@gmail.com', 7890123456),
+('Isabella Martinez', 77770128, 'New York', 'Rochester', 'isabellamartinez@gmail.com', 8901234567),
+('Jonathan Ramirez', 77770129, 'Texas', 'Dallas', 'jonathanramirez@gmail.com', 9012345678),
+('Madison Scott', 77770130, 'Florida', 'Tampa', 'madisonscott@gmail.com', 1234567890),
+('Nicholas Young', 77770131, 'California', 'San Jose', 'nicholasyoung@gmail.com', 2345678901),
+('Avery Hall', 77770132, 'New York', 'Albany', 'averyhall@gmail.com', 3456789012),
+('Ethan Perez', 77770133, 'Texas', 'Fort Worth', 'ethanperez@gmail.com', 4567890123),
+('Sophia Edwards', 77770134, 'Florida', 'Miami', 'sophiaedwards@gmail.com', 5678901234),
+('Benjamin Torres', 77770135, 'California', 'Los Angeles', 'benjamintorres@gmail.com', 6789012345),
+('Grace Barnes', 77770136, 'New York', 'New York City', 'gracebarnes@gmail.com', 7890123456),
+('Tyler Collins', 77770137, 'Texas', 'Houston', 'tylercollins@gmail.com', 8901234567),
+('Samantha Perez', 77770138, 'Florida', 'Orlando', 'samanthaperez@gmail.com', 9012345678),
+('Jacob Flores', 77770139, 'California', 'San Francisco', 'jacobjflores@gmail.com', 1234567890),
+('Hailey Mitchell', 77770140, 'New York', 'Buffalo', 'haileymitchell@gmail.com', 2345678901),
+('Ryan Turner', 77770141, 'Texas', 'Austin', 'ryantturner@gmail.com', 3456789012),
+('Chloe Hernandez', 77770142, 'Florida', 'Jacksonville', 'chloehernandez@gmail.com', 4567890123),
+('Gabriel Sanchez', 77770143, 'California', 'San Diego', 'gabrielsanchez@gmail.com', 5678901234),
+('Madeline Martinez', 77770144, 'New York', 'Rochester', 'madelinemartinez@gmail.com', 6789012345),
+('Anthony Ramirez', 77770145, 'Texas', 'Dallas', 'anthonyramirez@gmail.com', 7890123456),
+('Emma Scott', 77770146, 'Florida', 'Tampa', 'emmascott@gmail.com', 8901234567),
+('Jacob Young', 77770147, 'California', 'San Jose', 'jacobyoun@gmail.com', 9012345678),
+('Ella Hall', 77770148, 'New York', 'Albany', 'ellahall@gmail.com', 1234567890),
+('Caleb Perez', 77770149, 'Texas', 'Fort Worth', 'calebperez@gmail.com', 2345678901),
+('Sophie Edwards', 77770150, 'Florida', 'Miami', 'sophieedwards@gmail.com', 3456789012);
+
+
+-- invoice_detail 
+
+
+INSERT INTO invoice_details VALUES ('INV0001','2021-02-07');
+INSERT INTO invoice_details VALUES ('INV0002','2018-09-17');
+INSERT INTO invoice_details VALUES ('INV0003','2018-05-09');
+INSERT INTO invoice_details VALUES ('INV0004','2018-05-21');
+INSERT INTO invoice_details VALUES ('INV0005','2020-03-10');
+INSERT INTO invoice_details VALUES ('INV0006','2022-07-19');
+INSERT INTO invoice_details VALUES ('INV0007','2021-05-20');
+INSERT INTO invoice_details VALUES ('INV0008','2019-11-14');
+INSERT INTO invoice_details VALUES ('INV0009','2022-03-24');
+INSERT INTO invoice_details VALUES ('INV0010','2023-03-18');
+INSERT INTO invoice_details VALUES ('INV0011','2022-11-22');
+INSERT INTO invoice_details VALUES ('INV0012','2021-09-12');
+INSERT INTO invoice_details VALUES ('INV0013','2022-11-19');
+INSERT INTO invoice_details VALUES ('INV0014','2022-11-04');
+INSERT INTO invoice_details VALUES ('INV0015','2020-09-20');
+INSERT INTO invoice_details VALUES ('INV0016','2022-01-28');
+INSERT INTO invoice_details VALUES ('INV0017','2018-06-05');
+INSERT INTO invoice_details VALUES ('INV0018','2021-04-30');
+INSERT INTO invoice_details VALUES ('INV0019','2020-08-08');
+INSERT INTO invoice_details VALUES ('INV0020','2023-03-27');
+INSERT INTO invoice_details VALUES ('INV0021','2022-08-14');
+INSERT INTO invoice_details VALUES ('INV0022','2021-12-17');
+INSERT INTO invoice_details VALUES ('INV0023','2022-11-07');
+INSERT INTO invoice_details VALUES ('INV0024','2020-05-02');
+INSERT INTO invoice_details VALUES ('INV0025','2021-06-13');
+INSERT INTO invoice_details VALUES ('INV0026','2019-04-20');
+INSERT INTO invoice_details VALUES ('INV0027','2023-03-12');
+INSERT INTO invoice_details VALUES ('INV0028','2020-02-15');
+INSERT INTO invoice_details VALUES ('INV0029','2020-09-24');
+INSERT INTO invoice_details VALUES ('INV0030','2021-11-02');
+INSERT INTO invoice_details VALUES ('INV0031','2023-01-20');
+INSERT INTO invoice_details VALUES ('INV0032','2021-11-27');
+INSERT INTO invoice_details VALUES ('INV0033','2022-05-07');
+INSERT INTO invoice_details VALUES ('INV0034','2019-08-23');
+INSERT INTO invoice_details VALUES ('INV0035','2018-06-27');
+INSERT INTO invoice_details VALUES ('INV0036','2021-04-19');
+INSERT INTO invoice_details VALUES ('INV0037','2023-01-08');
+INSERT INTO invoice_details VALUES ('INV0038','2020-10-09');
+INSERT INTO invoice_details VALUES ('INV0039','2018-10-19');
+INSERT INTO invoice_details VALUES ('INV0040','2020-11-08');
+INSERT INTO invoice_details VALUES ('INV0041','2020-03-19');
+INSERT INTO invoice_details VALUES ('INV0042','2021-06-30');
+INSERT INTO invoice_details VALUES ('INV0043','2022-01-08');
+INSERT INTO invoice_details VALUES ('INV0044','2021-10-29');
+INSERT INTO invoice_details VALUES ('INV0045','2021-04-24');
+INSERT INTO invoice_details VALUES ('INV0046','2021-02-06');
+INSERT INTO invoice_details VALUES ('INV0047','2022-09-30');
+INSERT INTO invoice_details VALUES ('INV0048','2022-10-09');
+INSERT INTO invoice_details VALUES ('INV0049','2020-04-15');
+INSERT INTO invoice_details VALUES ('INV0050','2018-07-20');
+INSERT INTO invoice_details VALUES ('INV0051','2023-01-01');
+INSERT INTO invoice_details VALUES ('INV0052','2019-11-17');
+INSERT INTO invoice_details VALUES ('INV0053','2021-06-28');
+INSERT INTO invoice_details VALUES ('INV0054','2020-06-03');
+INSERT INTO invoice_details VALUES ('INV0055','2019-07-05');
+INSERT INTO invoice_details VALUES ('INV0056','2018-07-31');
+INSERT INTO invoice_details VALUES ('INV0057','2023-02-24');
+INSERT INTO invoice_details VALUES ('INV0058','2022-07-16');
+INSERT INTO invoice_details VALUES ('INV0059','2019-04-03');
+INSERT INTO invoice_details VALUES ('INV0060','2019-08-11');
+INSERT INTO invoice_details VALUES ('INV0061','2018-03-21');
+INSERT INTO invoice_details VALUES ('INV0062','2020-03-17');
+INSERT INTO invoice_details VALUES ('INV0063','2018-12-16');
+INSERT INTO invoice_details VALUES ('INV0064','2021-03-31');
+INSERT INTO invoice_details VALUES ('INV0065','2022-10-20');
+INSERT INTO invoice_details VALUES ('INV0066','2019-05-06');
+INSERT INTO invoice_details VALUES ('INV0067','2018-08-04');
+INSERT INTO invoice_details VALUES ('INV0068','2022-12-31');
+INSERT INTO invoice_details VALUES ('INV0069','2019-10-28');
+INSERT INTO invoice_details VALUES ('INV0070','2018-01-11');
+INSERT INTO invoice_details VALUES ('INV0071','2020-06-21');
+INSERT INTO invoice_details VALUES ('INV0072','2020-06-04');
+INSERT INTO invoice_details VALUES ('INV0073','2022-02-11');
+INSERT INTO invoice_details VALUES ('INV0074','2021-01-10');
+INSERT INTO invoice_details VALUES ('INV0075','2018-01-28');
+INSERT INTO invoice_details VALUES ('INV0076','2020-03-23');
+INSERT INTO invoice_details VALUES ('INV0077','2020-12-07');
+INSERT INTO invoice_details VALUES ('INV0078','2019-11-05');
+INSERT INTO invoice_details VALUES ('INV0079','2022-05-02');
+INSERT INTO invoice_details VALUES ('INV0080','2019-04-22');
+INSERT INTO invoice_details VALUES ('INV0081','2022-05-13');
+INSERT INTO invoice_details VALUES ('INV0082','2022-09-03');
+INSERT INTO invoice_details VALUES ('INV0083','2021-09-19');
+INSERT INTO invoice_details VALUES ('INV0084','2021-06-18');
+INSERT INTO invoice_details VALUES ('INV0085','2018-04-26');
+INSERT INTO invoice_details VALUES ('INV0086','2020-01-09');
+INSERT INTO invoice_details VALUES ('INV0087','2020-10-04');
+INSERT INTO invoice_details VALUES ('INV0088','2021-12-09');
+INSERT INTO invoice_details VALUES ('INV0089','2019-03-15');
+INSERT INTO invoice_details VALUES ('INV0090','2019-05-02');
+INSERT INTO invoice_details VALUES ('INV0091','2020-07-10');
+INSERT INTO invoice_details VALUES ('INV0092','2020-04-02');
+INSERT INTO invoice_details VALUES ('INV0093','2023-04-20');
+INSERT INTO invoice_details VALUES ('INV0094','2020-01-29');
+INSERT INTO invoice_details VALUES ('INV0095','2018-08-14');
+INSERT INTO invoice_details VALUES ('INV0096','2021-03-15');
+INSERT INTO invoice_details VALUES ('INV0097','2022-11-20');
+INSERT INTO invoice_details VALUES ('INV0098','2022-01-29');
+INSERT INTO invoice_details VALUES ('INV0099','2019-05-06');
+INSERT INTO invoice_details VALUES ('INV0100','2018-11-21');
+INSERT INTO invoice_details VALUES ('INV0101','2020-03-24');
+INSERT INTO invoice_details VALUES ('INV0102','2020-06-12');
+INSERT INTO invoice_details VALUES ('INV0103','2022-10-24');
+INSERT INTO invoice_details VALUES ('INV0104','2022-11-15');
+INSERT INTO invoice_details VALUES ('INV0105','2020-12-06');
+INSERT INTO invoice_details VALUES ('INV0106','2018-09-22');
+INSERT INTO invoice_details VALUES ('INV0107','2021-01-29');
+INSERT INTO invoice_details VALUES ('INV0108','2019-04-14');
+INSERT INTO invoice_details VALUES ('INV0109','2018-02-02');
+INSERT INTO invoice_details VALUES ('INV0110','2021-11-07');
+INSERT INTO invoice_details VALUES ('INV0111','2021-03-21');
+INSERT INTO invoice_details VALUES ('INV0112','2020-08-10');
+INSERT INTO invoice_details VALUES ('INV0113','2020-06-22');
+INSERT INTO invoice_details VALUES ('INV0114','2022-08-09');
+INSERT INTO invoice_details VALUES ('INV0115','2018-04-14');
+INSERT INTO invoice_details VALUES ('INV0116','2022-02-12');
+INSERT INTO invoice_details VALUES ('INV0117','2020-01-02');
+INSERT INTO invoice_details VALUES ('INV0118','2020-12-16');
+INSERT INTO invoice_details VALUES ('INV0119','2021-08-22');
+INSERT INTO invoice_details VALUES ('INV0120','2018-05-19');
+INSERT INTO invoice_details VALUES ('INV0121','2022-03-01');
+INSERT INTO invoice_details VALUES ('INV0122','2019-08-23');
+INSERT INTO invoice_details VALUES ('INV0123','2022-02-23');
+INSERT INTO invoice_details VALUES ('INV0124','2020-01-20');
+INSERT INTO invoice_details VALUES ('INV0125','2023-03-28');
+INSERT INTO invoice_details VALUES ('INV0126','2018-05-05');
+INSERT INTO invoice_details VALUES ('INV0127','2018-12-12');
+INSERT INTO invoice_details VALUES ('INV0128','2023-01-29');
+INSERT INTO invoice_details VALUES ('INV0129','2023-01-06');
+INSERT INTO invoice_details VALUES ('INV0130','2018-02-05');
+INSERT INTO invoice_details VALUES ('INV0131','2022-03-20');
+INSERT INTO invoice_details VALUES ('INV0132','2019-11-09');
+INSERT INTO invoice_details VALUES ('INV0133','2020-05-18');
+INSERT INTO invoice_details VALUES ('INV0134','2020-10-11');
+INSERT INTO invoice_details VALUES ('INV0135','2023-04-02');
+INSERT INTO invoice_details VALUES ('INV0136','2021-08-01');
+INSERT INTO invoice_details VALUES ('INV0137','2019-07-21');
+INSERT INTO invoice_details VALUES ('INV0138','2019-03-13');
+INSERT INTO invoice_details VALUES ('INV0139','2021-01-25');
+INSERT INTO invoice_details VALUES ('INV0140','2018-02-15');
+INSERT INTO invoice_details VALUES ('INV0141','2021-06-25');
+INSERT INTO invoice_details VALUES ('INV0142','2021-05-12');
+INSERT INTO invoice_details VALUES ('INV0143','2023-04-22');
+INSERT INTO invoice_details VALUES ('INV0144','2021-08-09');
+INSERT INTO invoice_details VALUES ('INV0145','2021-01-04');
+INSERT INTO invoice_details VALUES ('INV0146','2020-02-27');
+INSERT INTO invoice_details VALUES ('INV0147','2018-09-04');
+INSERT INTO invoice_details VALUES ('INV0148','2021-03-29');
+INSERT INTO invoice_details VALUES ('INV0149','2022-08-23');
+INSERT INTO invoice_details VALUES ('INV0150','2021-10-18');
+INSERT INTO invoice_details VALUES ('INV0151','2020-08-06');
+INSERT INTO invoice_details VALUES ('INV0152','2019-04-24');
+INSERT INTO invoice_details VALUES ('INV0153','2020-01-27');
+INSERT INTO invoice_details VALUES ('INV0154','2019-02-07');
+INSERT INTO invoice_details VALUES ('INV0155','2019-01-01');
+INSERT INTO invoice_details VALUES ('INV0156','2020-12-18');
+INSERT INTO invoice_details VALUES ('INV0157','2023-02-20');
+INSERT INTO invoice_details VALUES ('INV0158','2019-04-04');
+INSERT INTO invoice_details VALUES ('INV0159','2021-07-30');
+INSERT INTO invoice_details VALUES ('INV0160','2018-02-22');
+INSERT INTO invoice_details VALUES ('INV0161','2018-07-05');
+INSERT INTO invoice_details VALUES ('INV0162','2019-03-21');
+INSERT INTO invoice_details VALUES ('INV0163','2021-02-27');
+INSERT INTO invoice_details VALUES ('INV0164','2018-12-04');
+INSERT INTO invoice_details VALUES ('INV0165','2019-03-27');
+INSERT INTO invoice_details VALUES ('INV0166','2019-07-25');
+INSERT INTO invoice_details VALUES ('INV0167','2020-01-11');
+INSERT INTO invoice_details VALUES ('INV0168','2022-12-02');
+INSERT INTO invoice_details VALUES ('INV0169','2020-09-01');
+INSERT INTO invoice_details VALUES ('INV0170','2020-03-28');
+INSERT INTO invoice_details VALUES ('INV0171','2022-07-26');
+INSERT INTO invoice_details VALUES ('INV0172','2019-06-02');
+INSERT INTO invoice_details VALUES ('INV0173','2021-01-14');
+INSERT INTO invoice_details VALUES ('INV0174','2022-11-30');
+INSERT INTO invoice_details VALUES ('INV0175','2018-11-12');
+INSERT INTO invoice_details VALUES ('INV0176','2019-06-15');
+INSERT INTO invoice_details VALUES ('INV0177','2020-07-21');
+INSERT INTO invoice_details VALUES ('INV0178','2018-07-08');
+INSERT INTO invoice_details VALUES ('INV0179','2020-04-26');
+INSERT INTO invoice_details VALUES ('INV0180','2022-09-12');
+INSERT INTO invoice_details VALUES ('INV0181','2023-03-09');
+INSERT INTO invoice_details VALUES ('INV0182','2020-01-18');
+INSERT INTO invoice_details VALUES ('INV0183','2019-12-06');
+INSERT INTO invoice_details VALUES ('INV0184','2020-06-02');
+INSERT INTO invoice_details VALUES ('INV0185','2020-02-17');
+INSERT INTO invoice_details VALUES ('INV0186','2022-05-03');
+INSERT INTO invoice_details VALUES ('INV0187','2019-08-09');
+INSERT INTO invoice_details VALUES ('INV0188','2020-06-08');
+INSERT INTO invoice_details VALUES ('INV0189','2020-10-26');
+INSERT INTO invoice_details VALUES ('INV0190','2022-01-22');
+INSERT INTO invoice_details VALUES ('INV0191','2023-01-17');
+INSERT INTO invoice_details VALUES ('INV0192','2020-06-28');
+INSERT INTO invoice_details VALUES ('INV0193','2022-05-12');
+INSERT INTO invoice_details VALUES ('INV0194','2021-06-05');
+INSERT INTO invoice_details VALUES ('INV0195','2022-02-17');
+INSERT INTO invoice_details VALUES ('INV0196','2022-12-13');
+INSERT INTO invoice_details VALUES ('INV0197','2020-04-13');
+INSERT INTO invoice_details VALUES ('INV0198','2021-01-21');
+INSERT INTO invoice_details VALUES ('INV0199','2018-08-19');
+INSERT INTO invoice_details VALUES ('INV0200','2018-05-17');
+INSERT INTO invoice_details VALUES ('INV0201','2018-01-14');
+INSERT INTO invoice_details VALUES ('INV0202','2020-11-19');
+INSERT INTO invoice_details VALUES ('INV0203','2021-12-26');
+INSERT INTO invoice_details VALUES ('INV0204','2021-07-31');
+INSERT INTO invoice_details VALUES ('INV0205','2021-10-19');
+INSERT INTO invoice_details VALUES ('INV0206','2019-01-09');
+INSERT INTO invoice_details VALUES ('INV0207','2023-03-01');
+INSERT INTO invoice_details VALUES ('INV0208','2020-07-15');
+INSERT INTO invoice_details VALUES ('INV0209','2018-09-15');
+INSERT INTO invoice_details VALUES ('INV0210','2022-09-02');
+INSERT INTO invoice_details VALUES ('INV0211','2021-09-08');
+INSERT INTO invoice_details VALUES ('INV0212','2019-05-16');
+INSERT INTO invoice_details VALUES ('INV0213','2021-10-16');
+INSERT INTO invoice_details VALUES ('INV0214','2019-05-27');
+INSERT INTO invoice_details VALUES ('INV0215','2022-04-16');
+INSERT INTO invoice_details VALUES ('INV0216','2022-04-08');
+INSERT INTO invoice_details VALUES ('INV0217','2019-05-18');
+INSERT INTO invoice_details VALUES ('INV0218','2019-10-26');
+INSERT INTO invoice_details VALUES ('INV0219','2018-11-12');
+INSERT INTO invoice_details VALUES ('INV0220','2020-03-20');
+INSERT INTO invoice_details VALUES ('INV0221','2020-02-05');
+INSERT INTO invoice_details VALUES ('INV0222','2020-07-29');
+INSERT INTO invoice_details VALUES ('INV0223','2022-03-17');
+INSERT INTO invoice_details VALUES ('INV0224','2021-07-28');
+INSERT INTO invoice_details VALUES ('INV0225','2020-05-02');
+INSERT INTO invoice_details VALUES ('INV0226','2021-11-23');
+INSERT INTO invoice_details VALUES ('INV0227','2021-06-30');
+INSERT INTO invoice_details VALUES ('INV0228','2021-12-06');
+INSERT INTO invoice_details VALUES ('INV0229','2018-08-22');
+INSERT INTO invoice_details VALUES ('INV0230','2019-11-24');
+INSERT INTO invoice_details VALUES ('INV0231','2018-04-29');
+INSERT INTO invoice_details VALUES ('INV0232','2021-09-20');
+INSERT INTO invoice_details VALUES ('INV0233','2020-11-28');
+INSERT INTO invoice_details VALUES ('INV0234','2020-02-29');
+INSERT INTO invoice_details VALUES ('INV0235','2018-03-15');
+INSERT INTO invoice_details VALUES ('INV0236','2022-12-03');
+INSERT INTO invoice_details VALUES ('INV0237','2020-09-26');
+INSERT INTO invoice_details VALUES ('INV0238','2022-04-21');
+INSERT INTO invoice_details VALUES ('INV0239','2020-11-03');
+INSERT INTO invoice_details VALUES ('INV0240','2022-03-17');
+INSERT INTO invoice_details VALUES ('INV0241','2021-08-11');
+INSERT INTO invoice_details VALUES ('INV0242','2019-11-29');
+INSERT INTO invoice_details VALUES ('INV0243','2022-08-03');
+INSERT INTO invoice_details VALUES ('INV0244','2021-07-23');
+INSERT INTO invoice_details VALUES ('INV0245','2020-03-30');
+INSERT INTO invoice_details VALUES ('INV0246','2022-05-05');
+INSERT INTO invoice_details VALUES ('INV0247','2023-03-04');
+INSERT INTO invoice_details VALUES ('INV0248','2020-04-30');
+INSERT INTO invoice_details VALUES ('INV0249','2019-03-03');
+INSERT INTO invoice_details VALUES ('INV0250','2019-02-27');
+INSERT INTO invoice_details VALUES ('INV0251','2019-12-15');
+INSERT INTO invoice_details VALUES ('INV0252','2020-07-16');
+INSERT INTO invoice_details VALUES ('INV0253','2018-11-29');
+INSERT INTO invoice_details VALUES ('INV0254','2020-01-21');
+INSERT INTO invoice_details VALUES ('INV0255','2018-05-20');
+INSERT INTO invoice_details VALUES ('INV0256','2020-06-01');
+INSERT INTO invoice_details VALUES ('INV0257','2022-12-05');
+INSERT INTO invoice_details VALUES ('INV0258','2021-05-16');
+INSERT INTO invoice_details VALUES ('INV0259','2022-12-02');
+INSERT INTO invoice_details VALUES ('INV0260','2018-01-18');
+INSERT INTO invoice_details VALUES ('INV0261','2021-05-07');
+INSERT INTO invoice_details VALUES ('INV0262','2020-12-04');
+INSERT INTO invoice_details VALUES ('INV0263','2021-03-27');
+INSERT INTO invoice_details VALUES ('INV0264','2022-07-29');
+INSERT INTO invoice_details VALUES ('INV0265','2021-05-26');
+INSERT INTO invoice_details VALUES ('INV0266','2022-07-02');
+INSERT INTO invoice_details VALUES ('INV0267','2019-03-01');
+INSERT INTO invoice_details VALUES ('INV0268','2021-11-02');
+INSERT INTO invoice_details VALUES ('INV0269','2022-01-27');
+INSERT INTO invoice_details VALUES ('INV0270','2019-04-05');
+INSERT INTO invoice_details VALUES ('INV0271','2023-02-11');
+INSERT INTO invoice_details VALUES ('INV0272','2022-06-06');
+INSERT INTO invoice_details VALUES ('INV0273','2020-04-15');
+INSERT INTO invoice_details VALUES ('INV0274','2020-01-30');
+INSERT INTO invoice_details VALUES ('INV0275','2020-06-27');
+INSERT INTO invoice_details VALUES ('INV0276','2022-12-15');
+INSERT INTO invoice_details VALUES ('INV0277','2021-08-23');
+INSERT INTO invoice_details VALUES ('INV0278','2018-10-16');
+INSERT INTO invoice_details VALUES ('INV0279','2020-08-29');
+INSERT INTO invoice_details VALUES ('INV0280','2022-11-29');
+INSERT INTO invoice_details VALUES ('INV0281','2019-10-06');
+INSERT INTO invoice_details VALUES ('INV0282','2019-04-17');
+INSERT INTO invoice_details VALUES ('INV0283','2020-04-28');
+INSERT INTO invoice_details VALUES ('INV0284','2020-12-23');
+INSERT INTO invoice_details VALUES ('INV0285','2019-12-22');
+INSERT INTO invoice_details VALUES ('INV0286','2018-03-10');
+INSERT INTO invoice_details VALUES ('INV0287','2021-06-12');
+INSERT INTO invoice_details VALUES ('INV0288','2023-04-15');
+INSERT INTO invoice_details VALUES ('INV0289','2023-02-14');
+INSERT INTO invoice_details VALUES ('INV0290','2022-08-19');
+INSERT INTO invoice_details VALUES ('INV0291','2018-05-28');
+INSERT INTO invoice_details VALUES ('INV0292','2018-11-13');
+INSERT INTO invoice_details VALUES ('INV0293','2021-03-12');
+INSERT INTO invoice_details VALUES ('INV0294','2023-03-06');
+INSERT INTO invoice_details VALUES ('INV0295','2021-07-10');
+INSERT INTO invoice_details VALUES ('INV0296','2020-11-26');
+INSERT INTO invoice_details VALUES ('INV0297','2021-07-26');
+INSERT INTO invoice_details VALUES ('INV0298','2023-03-13');
+INSERT INTO invoice_details VALUES ('INV0299','2023-04-06');
+INSERT INTO invoice_details VALUES ('INV0300','2018-04-14');
+INSERT INTO invoice_details VALUES ('INV0301','2022-01-19');
+INSERT INTO invoice_details VALUES ('INV0302','2020-12-23');
+INSERT INTO invoice_details VALUES ('INV0303','2020-02-15');
+INSERT INTO invoice_details VALUES ('INV0304','2020-02-03');
+INSERT INTO invoice_details VALUES ('INV0305','2018-01-11');
+INSERT INTO invoice_details VALUES ('INV0306','2022-10-20');
+INSERT INTO invoice_details VALUES ('INV0307','2018-10-05');
+INSERT INTO invoice_details VALUES ('INV0308','2021-01-24');
+INSERT INTO invoice_details VALUES ('INV0309','2020-11-03');
+INSERT INTO invoice_details VALUES ('INV0310','2018-07-18');
+INSERT INTO invoice_details VALUES ('INV0311','2021-03-17');
+INSERT INTO invoice_details VALUES ('INV0312','2022-08-21');
+INSERT INTO invoice_details VALUES ('INV0313','2021-07-06');
+INSERT INTO invoice_details VALUES ('INV0314','2023-03-13');
+INSERT INTO invoice_details VALUES ('INV0315','2020-04-19');
+INSERT INTO invoice_details VALUES ('INV0316','2022-08-03');
+INSERT INTO invoice_details VALUES ('INV0317','2021-07-13');
+INSERT INTO invoice_details VALUES ('INV0318','2019-04-13');
+INSERT INTO invoice_details VALUES ('INV0319','2020-10-02');
+INSERT INTO invoice_details VALUES ('INV0320','2018-02-22');
+INSERT INTO invoice_details VALUES ('INV0321','2019-02-25');
+INSERT INTO invoice_details VALUES ('INV0322','2019-08-08');
+INSERT INTO invoice_details VALUES ('INV0323','2018-06-17');
+INSERT INTO invoice_details VALUES ('INV0324','2021-04-02');
+INSERT INTO invoice_details VALUES ('INV0325','2019-08-30');
+INSERT INTO invoice_details VALUES ('INV0326','2021-02-22');
+INSERT INTO invoice_details VALUES ('INV0327','2022-06-14');
+INSERT INTO invoice_details VALUES ('INV0328','2020-05-25');
+INSERT INTO invoice_details VALUES ('INV0329','2019-05-15');
+INSERT INTO invoice_details VALUES ('INV0330','2021-10-21');
+INSERT INTO invoice_details VALUES ('INV0331','2023-04-19');
+INSERT INTO invoice_details VALUES ('INV0332','2021-12-04');
+INSERT INTO invoice_details VALUES ('INV0333','2021-08-05');
+INSERT INTO invoice_details VALUES ('INV0334','2019-08-02');
+INSERT INTO invoice_details VALUES ('INV0335','2019-07-25');
+INSERT INTO invoice_details VALUES ('INV0336','2022-01-03');
+INSERT INTO invoice_details VALUES ('INV0337','2022-01-01');
+INSERT INTO invoice_details VALUES ('INV0338','2023-03-20');
+INSERT INTO invoice_details VALUES ('INV0339','2020-05-10');
+INSERT INTO invoice_details VALUES ('INV0340','2023-01-09');
+INSERT INTO invoice_details VALUES ('INV0341','2022-09-22');
+INSERT INTO invoice_details VALUES ('INV0342','2021-05-03');
+INSERT INTO invoice_details VALUES ('INV0343','2020-03-08');
+INSERT INTO invoice_details VALUES ('INV0344','2022-04-27');
+INSERT INTO invoice_details VALUES ('INV0345','2022-02-07');
+INSERT INTO invoice_details VALUES ('INV0346','2020-01-19');
+INSERT INTO invoice_details VALUES ('INV0347','2022-05-21');
+INSERT INTO invoice_details VALUES ('INV0348','2020-10-14');
+INSERT INTO invoice_details VALUES ('INV0349','2020-01-26');
+INSERT INTO invoice_details VALUES ('INV0350','2023-04-02');
+INSERT INTO invoice_details VALUES ('INV0351','2019-02-18');
+INSERT INTO invoice_details VALUES ('INV0352','2019-06-14');
+INSERT INTO invoice_details VALUES ('INV0353','2022-09-08');
+INSERT INTO invoice_details VALUES ('INV0354','2019-09-07');
+INSERT INTO invoice_details VALUES ('INV0355','2019-11-14');
+INSERT INTO invoice_details VALUES ('INV0356','2023-02-23');
+INSERT INTO invoice_details VALUES ('INV0357','2019-05-05');
+INSERT INTO invoice_details VALUES ('INV0358','2023-04-08');
+INSERT INTO invoice_details VALUES ('INV0359','2022-11-23');
+INSERT INTO invoice_details VALUES ('INV0360','2023-03-01');
+INSERT INTO invoice_details VALUES ('INV0361','2022-06-20');
+INSERT INTO invoice_details VALUES ('INV0362','2020-11-17');
+INSERT INTO invoice_details VALUES ('INV0363','2022-05-05');
+INSERT INTO invoice_details VALUES ('INV0364','2019-02-15');
+INSERT INTO invoice_details VALUES ('INV0365','2019-01-23');
+INSERT INTO invoice_details VALUES ('INV0366','2020-05-10');
+INSERT INTO invoice_details VALUES ('INV0367','2022-11-26');
+INSERT INTO invoice_details VALUES ('INV0368','2019-05-05');
+INSERT INTO invoice_details VALUES ('INV0369','2020-03-23');
+INSERT INTO invoice_details VALUES ('INV0370','2019-01-10');
+INSERT INTO invoice_details VALUES ('INV0371','2022-10-11');
+INSERT INTO invoice_details VALUES ('INV0372','2020-11-12');
+INSERT INTO invoice_details VALUES ('INV0373','2019-05-23');
+INSERT INTO invoice_details VALUES ('INV0374','2020-01-28');
+INSERT INTO invoice_details VALUES ('INV0375','2020-12-02');
+INSERT INTO invoice_details VALUES ('INV0376','2019-09-19');
+INSERT INTO invoice_details VALUES ('INV0377','2020-05-27');
+INSERT INTO invoice_details VALUES ('INV0378','2021-10-26');
+INSERT INTO invoice_details VALUES ('INV0379','2021-04-08');
+INSERT INTO invoice_details VALUES ('INV0380','2020-10-16');
+INSERT INTO invoice_details VALUES ('INV0381','2019-08-24');
+INSERT INTO invoice_details VALUES ('INV0382','2021-03-19');
+INSERT INTO invoice_details VALUES ('INV0383','2020-05-22');
+INSERT INTO invoice_details VALUES ('INV0384','2018-09-20');
+INSERT INTO invoice_details VALUES ('INV0385','2020-07-19');
+INSERT INTO invoice_details VALUES ('INV0386','2019-08-16');
+INSERT INTO invoice_details VALUES ('INV0387','2022-08-04');
+INSERT INTO invoice_details VALUES ('INV0388','2020-10-08');
+INSERT INTO invoice_details VALUES ('INV0389','2022-12-27');
+INSERT INTO invoice_details VALUES ('INV0390','2018-09-07');
+INSERT INTO invoice_details VALUES ('INV0391','2021-02-16');
+INSERT INTO invoice_details VALUES ('INV0392','2020-06-09');
+INSERT INTO invoice_details VALUES ('INV0393','2020-11-30');
+INSERT INTO invoice_details VALUES ('INV0394','2020-10-01');
+INSERT INTO invoice_details VALUES ('INV0395','2019-02-17');
+INSERT INTO invoice_details VALUES ('INV0396','2020-11-20');
+INSERT INTO invoice_details VALUES ('INV0397','2020-03-28');
+INSERT INTO invoice_details VALUES ('INV0398','2022-01-19');
+INSERT INTO invoice_details VALUES ('INV0399','2018-11-23');
+INSERT INTO invoice_details VALUES ('INV0400','2018-06-27');
+INSERT INTO invoice_details VALUES ('INV0401','2018-04-15');
+INSERT INTO invoice_details VALUES ('INV0402','2018-11-24');
+INSERT INTO invoice_details VALUES ('INV0403','2019-09-18');
+INSERT INTO invoice_details VALUES ('INV0404','2021-03-30');
+INSERT INTO invoice_details VALUES ('INV0405','2021-09-09');
+INSERT INTO invoice_details VALUES ('INV0406','2021-05-05');
+INSERT INTO invoice_details VALUES ('INV0407','2023-03-23');
+INSERT INTO invoice_details VALUES ('INV0408','2020-02-13');
+INSERT INTO invoice_details VALUES ('INV0409','2021-09-01');
+INSERT INTO invoice_details VALUES ('INV0410','2021-07-1');
+
+-- Wholesaler
+INSERT INTO Wholesaler VALUES (66660001,' Nathanial Mason','Prime Wholesale Depot','1. jdsmith@email.com',2145661998,'Texas','Austin');
+INSERT INTO Wholesaler VALUES (66660002,'Kaylee Riley','Oceanic Distributors','2. kathleenlee123@gmail.com',7407347186,'California','Fresno');
+INSERT INTO Wholesaler VALUES (66660003,' Tucker Bennett','Liberty Wholesale Co.','3. johndoe456@hotmail.com',1624925368,'Illinois','Peoria');
+INSERT INTO Wholesaler VALUES (66660004,' Jocelyn Cooper','Skyline Traders','4. sarahmiller@yahoo.com',6663428031,'New York','Syracuse');
+INSERT INTO Wholesaler VALUES (66660005,'Maximilian Edwards','Summit Merchandising','5. chrisjones789@gmail.com',5183792096,'Utah','Provo');
+INSERT INTO Wholesaler VALUES (66660006,' Adrianna Davis','Bold Commerce Co.','6. janetbrown222@hotmail.com',3549348487,'Kentucky','Frankfort');
+INSERT INTO Wholesaler VALUES (66660007,' Blake Robinson','Vista Wholesale Supplies','7. davidwright987@yahoo.com',3590647358,'New Mexico','Santa Fe');
+INSERT INTO Wholesaler VALUES (66660008,'Amelia Powell',' Majestic Wholesale Inc.','8. sandramurphy99@gmail.com',5729418771,'Alabama','Montgomery');
+INSERT INTO Wholesaler VALUES (66660009,' Jonah Young',' Horizon Trading Company','9. mikelawson111@hotmail.com',9015894138,'Maine','Portland');
+INSERT INTO Wholesaler VALUES (66660010,' Raquel Stewart',' Liberty Star Enterprises','10. lisajohnson222@yahoo.com',8406452267,'Iowa','Cedar Rapids');
+INSERT INTO Wholesaler VALUES (66660011,' Clayton Bailey','Pacific Coast Wholesale','11. aaronbaker444@gmail.com',6111138448,'Maryland','Hagerstown');
+INSERT INTO Wholesaler VALUES (66660012,' Alayna Foster',' Elite Wholesalers LLC','12. jennyhill777@hotmail.com',8644787787,'Mississippi','Meridian');
+INSERT INTO Wholesaler VALUES (66660013,'Finnegan Peterson','Global Trade Connection','13. justinmarshall999@yahoo.com',7381098207,'Oregon','Salem');
+INSERT INTO Wholesaler VALUES (66660014,' Amira Myers','Anchor Wholesale Group','14. susansmith333@gmail.com',6304232627,'Nebraska','Lincoln');
+INSERT INTO Wholesaler VALUES (66660015,'Marcos Alvarez',' Diamond Distributors Inc.','15. paulwilson111@hotmail.com',9714985057,'Arizona','Flagstaff');
+INSERT INTO Wholesaler VALUES (66660016,' Gia Nguyen','Blue Ridge Trading Co.','16. sallydavis888@yahoo.com',1723446444,'North Dakota','Grand Forks');
+INSERT INTO Wholesaler VALUES (66660017,' Kellen Sullivan',' Alpha Wholesale Distributors','17. kevinjones123@gmail.com',7664479627,'West Virginia','Wheeling');
+INSERT INTO Wholesaler VALUES (66660018,' Eliana Vega',' Horizon Distributing Inc.','18. juliebrown777@hotmail.com',4220480677,'South Dakota','Aberdeen');
+INSERT INTO Wholesaler VALUES (66660019,' Sullivan Hernandez','Sunburst Wholesale Inc.','19. mollywilson111@yahoo.com',3033279888,'Florida','Orlando');
+INSERT INTO Wholesaler VALUES (66660020,'Alexandria Patel',' Summit Trading Co.','20. tommywright555@gmail.com',8573855777,'Indiana','Bloomington');
+INSERT INTO Wholesaler VALUES (66660021,'Augustus Crawford','Apex Wholesale Group','21. kellyjackson222@hotmail.com',6550344248,'Vermont','Burlington');
+INSERT INTO Wholesaler VALUES (66660022,' Pearl Henry','Green Leaf Wholesale Supply','22. nathanmiller333@yahoo.com',8869045848,'Michigan','Lansing');
+INSERT INTO Wholesaler VALUES (66660023,' Matthias Scott',' Panorama Wholesale Inc.','23. emilywilson444@gmail.com',4857533146,'Rhode Island','Providence');
+INSERT INTO Wholesaler VALUES (66660024,' Cecilia Campbell','Sky High Trading Co.','24. georgebaker777@hotmail.com',9799528748,'Colorado','Grand Junction');
+INSERT INTO Wholesaler VALUES (66660025,' Orlando Ross','Redwood Wholesalers LLC','25. amandasmith123@yahoo.com',2842172302,'Montana','Missoula');
+INSERT INTO Wholesaler VALUES (66660026,' Piper Ortiz','Bold Horizon Enterprises','26. stevewilson999@gmail.com',1627519922,'Arkansas','Jonesboro');
+INSERT INTO Wholesaler VALUES (66660027,' Justice Kim','Coastal Wholesale Inc.','27. sarahjones222@hotmail.com',3710382323,'Louisiana','Baton Rouge');
+INSERT INTO Wholesaler VALUES (66660028,' Skyler Chavez',' Starlight Wholesale Co.','28. jasonwilliams555@yahoo.com',5082516308,'Massachusetts','Springfield');
+INSERT INTO Wholesaler VALUES (66660029,' Greyson Wood',' Elite Horizon Distributors','29. emilymiller666@gmail.com',2127323466,'Oklahoma','Tulsa');
+INSERT INTO Wholesaler VALUES (66660030,' Juliette Malone','Sunrise Wholesale Trading','30. mikedavis444@hotmail.com',9116341184,'Georgia','Athens');
+INSERT INTO Wholesaler VALUES (66660031,'Maddox Perez','Atlas Wholesale Group','31. janetwilson777@yahoo.com',2343131394,'Tennessee','Jackson');
+INSERT INTO Wholesaler VALUES (66660032,' Leilani Cohen','Brightway Trading Co.','32. chrisjackson999@gmail.com',3540722882,'Washington','Yakima');
+INSERT INTO Wholesaler VALUES (66660033,' Elisha Mitchell','Cascade Wholesale Inc.','33. lisabrown222@hotmail.com',3594911023,'New Hampshire','Manchester');
+INSERT INTO Wholesaler VALUES (66660034,' Hugo Ramirez',' Crown Distributors LLC','34. samuelwright111@yahoo.com',3507442726,'Wyoming','Cheyenne');
+INSERT INTO Wholesaler VALUES (66660035,'Roselyn Johnson',' Diamondback Wholesale Supply','35. jessicamiller777@gmail.com',1549054775,'Virginia','Lynchburg');
+INSERT INTO Wholesaler VALUES (66660036,' Asher Kim','Dynamic Wholesale Trading','36. brianjohnson555@hotmail.com',9980417046,'Ohio','Akron');
+INSERT INTO Wholesaler VALUES (66660037,' Francesca Wright','Evergreen Wholesale Co.','37. kellywilson333@yahoo.com',5755487426,'Kansas','Hutchinson');
+INSERT INTO Wholesaler VALUES (66660038,' Jaxon Riley',' Fairway Wholesale Distributors','38. joshuajones444@gmail.com',7655791388,'Pennsylvania','Altoona');
+INSERT INTO Wholesaler VALUES (66660039,' Lorelei Martinez','Gateway Trading Group','39. sandrabrown777@hotmail.com',4697143852,'South Carolina','Columbia');
+INSERT INTO Wholesaler VALUES (66660040,'Rowan Harper','Highpoint Wholesale Inc.','40. tomwilson111@yahoo.com',7717415188,'North Carolina','Wilmington');
+INSERT INTO Wholesaler VALUES (66660041,'Adalyn Castro','Inland Wholesale Supply','41. jenniferdavis555@gmail.com',7478371207,'Minnesota','Duluth');
+INSERT INTO Wholesaler VALUES (66660042,' Rylan Nguyen',' Keystone Wholesale LLC','42. petermiller888@hotmail.com',5635616787,'Nevada','Carson City');
+INSERT INTO Wholesaler VALUES (66660043,' Annabelle Saunders','Lakewood Trading Co.','43. annawright777@yahoo.com',1500229787,'Wisconsin','Appleton');
+INSERT INTO Wholesaler VALUES (66660044,' Koda Johnston','Midtown Wholesale Group','44. davidjones111@gmail.com',3311734482,'Idaho','Boise');
+INSERT INTO Wholesaler VALUES (66660045,'Lena Kim','North Star Wholesale Inc.','45. katemurphy222@hotmail.com',3016970107,'Connecticut','Bridgeport');
+INSERT INTO Wholesaler VALUES (66660046,' Everett Peters',' Trinity Wholesale Co.','46. williamhill555@yahoo.com',3064072008,'Missouri','Joplin');
+INSERT INTO Wholesaler VALUES (66660047,'Nevaeh Woods','Unity Trading Group','47. elizabethsmith777@gmail.com',9219047457,'New Jersey','Newark');
+INSERT INTO Wholesaler VALUES (66660048,'Alvin Carter','Vanguard Wholesale Inc.','48. johnmiller444@hotmail.com',7899861911,'Alaska','Anchorage');
+INSERT INTO Wholesaler VALUES (66660049,'Katalina Williams','Western Frontier Distributors','49. laurajones111@yahoo.com',1747570217,'Utah','Salt Lake City');
+INSERT INTO Wholesaler VALUES (66660050,' Raylan Franklin',' Zenith Wholesale Supply','50. jacobwilson666@gmail.com',2846897198,'Kentucky','Louisville');
+INSERT INTO Wholesaler VALUES (66660051,'Aniyah Price','Apex Trade Co.','51. heatherdavis555@hotmail.com',1591673243,'California','San Diego');
+INSERT INTO Wholesaler VALUES (66660052,'Lennox Adams','Bright Horizon Distributors','52. charleswright777@yahoo.com',4213020338,'Massachusetts','Boston');
+INSERT INTO Wholesaler VALUES (66660053,' Gwen Cooper','Cascade Trading Group','53. megansmith111@gmail.com',9345655111,'Arizona','Tempe');
+INSERT INTO Wholesaler VALUES (66660054,'Julius Ross',' Diamondstone Wholesale Inc.','54. jerryjones444@hotmail.com',3001581948,'Colorado','Boulder');
+INSERT INTO Wholesaler VALUES (66660055,'Gwendolyn Turner',' Dynamic Horizon Trading','55. victoriawilson777@yahoo.com',5755327061,'Illinois','Champaign');
+INSERT INTO Wholesaler VALUES (66660056,'Brock Foster',' Everlast Wholesale Supply','56. robertmiller888@gmail.com',3087348027,'Washington','Seattle');
+INSERT INTO Wholesaler VALUES (66660057,' Jaylah Patel',' Fairview Wholesale Co.','57. jennifermurphy555@hotmail.com',7941079693,'Nebraska','Omaha');
+INSERT INTO Wholesaler VALUES (66660058,'Darian Sanders','Gateway Wholesale Inc.','58. andrewbrown222@yahoo.com',9458080717,'Maryland','Annapolis');
+INSERT INTO Wholesaler VALUES (66660059,'Selena Ramirez',' Hillside Trading Co.','59. stacysmith444@gmail.com',9772427767,'Tennessee','Memphis');
+INSERT INTO Wholesaler VALUES (66660060,'Titus Torres',' Inland Wholesale Group','60. keithwilson777@hotmail.com',7575109468,'Maine','Augusta');
+INSERT INTO Wholesaler VALUES (66660061,' Lillian Brown',' Trinity Trading Group','61. lindajones111@yahoo.com',5082937987,'Virginia','Richmond');
+INSERT INTO Wholesaler VALUES (66660062,' Ayaan Khan',' Unity Wholesale Co.','62. joshuasmith666@gmail.com',9073228421,'Mississippi','Hattiesburg');
+INSERT INTO Wholesaler VALUES (66660063,' Liliana Davis','Vanguard Trading Co.','63. cherylwright555@hotmail.com',5152645588,'Indiana','Fort Wayne');
+INSERT INTO Wholesaler VALUES (66660064,' Heath Jordan','Western Trade Distributors','64. tonymiller777@yahoo.com',7551192047,'Montana','Billings');
+INSERT INTO Wholesaler VALUES (66660065,' Greta Wright','Zenith Wholesale Inc.','65. lindsayjohnson111@gmail.com',1804783288,'Alabama','Birmingham');
+INSERT INTO Wholesaler VALUES (66660066,' Duke Palmer',' Apex Ridge Wholesale','66. mikejones444@hotmail.com',5902985157,'Louisiana','Shreveport');
+INSERT INTO Wholesaler VALUES (66660067,' Elena Powell',' Brightstone Trading Co.','67. brookewilson777@yahoo.com',6431601198,'North Dakota','Bismarck');
+INSERT INTO Wholesaler VALUES (66660068,' Phoenix Lee','Cascade Ridge Distributors','68. matthewdavis888@gmail.com',3841972837,'Oregon','Medford');
+INSERT INTO Wholesaler VALUES (66660069,'Arabella Flores',' Diamondview Wholesale Group','69. rebeccawright555@hotmail.com',2865836708,'West Virginia','Charleston');
+INSERT INTO Wholesaler VALUES (66660070,'Reid Collins','Dynamic View Trading','70. jacobsmith111@yahoo.com',1885636177,'Iowa','Des Moines');
+INSERT INTO Wholesaler VALUES (66660071,' Rosalind Henderson',' Evergreen Wholesale Co.','71. carolmiller444@gmail.com',6690738127,'Pennsylvania','Harrisburg');
+INSERT INTO Wholesaler VALUES (66660072,' Greyson Wong',' Fairway Ridge Trading','72. dannyjones777@hotmail.com',2593617197,'Florida','Gainesville');
+INSERT INTO Wholesaler VALUES (66660073,'Amalia Rodriguez',' Gateway Wholesale Supply','73. laurawilson777@yahoo.com',6213608907,'New York','Albany');
+INSERT INTO Wholesaler VALUES (66660074,' Bodhi Bailey','Hillcrest Wholesale Inc.','74. amymurphy888@gmail.com',9315612497,'Arkansas','Little Rock');
+INSERT INTO Wholesaler VALUES (66660075,' Estelle Cook','Inland Wholesale Trading','75. charliewright555@hotmail.com',2441424917,'Vermont','Montpelier');
+INSERT INTO Wholesaler VALUES (66660076,' Kian Nguyen',' Keystone Ridge Distributors','76. brianmiller111@yahoo.com',9332766027,'Gujarat','Ahmedabad');
+INSERT INTO Wholesaler VALUES (66660077,' Mackenzie Wright','Lakeland Wholesale Co.','77. ashleyjohnson444@gmail.com',3729177067,'Gujarat','Gandhinagar');
+INSERT INTO Wholesaler VALUES (66660078,'Jayden Sandoval',' Midway Wholesale Supply',' georgewilson777@hotmail.com',2714987187,'Gujarat','gandhidham');
+INSERT INTO Wholesaler VALUES (66660079,' Emilee Kim',' Northview Trading Group','katyperry@gmail.com',8610308648,'rajasthan','bhilwada');
+INSERT INTO Wholesaler VALUES (66660080,' Sterling Parker',' Oceanic Wholesale Trading','yashodummy@gmail.com',5987775727,'Delhi','New Delhi');
+
+-- w_Contains 
+
+INSERT INTO w_contains (model_no, W_GST_Num, quantity)
+VALUES
+('MN0001', 66660001, 250),
+('MN0002', 66660002, 120),
+('MN0003', 66660003, 300),
+('MN0004', 66660004, 50),
+('MN0005', 66660005, 80),
+('MN0006', 66660006, 180),
+('MN0007', 66660007, 70),
+('MN0008', 66660008, 90),
+('MN0009', 66660009, 400),
+('MN0010', 66660010, 220),
+('MN0011', 66660011, 70),
+('MN0012', 66660012, 130),
+('MN0013', 66660013, 450),
+('MN0014', 66660014, 300),
+('MN0015', 66660015, 70),
+('MN0016', 66660016, 150),
+('MN0017', 66660017, 250),
+('MN0018', 66660018, 160),
+('MN0019', 66660019, 90),
+('MN0020', 66660020, 430),
+('MN0021', 66660021, 240),
+('MN0022', 66660022, 350),
+('MN0023', 66660023, 290),
+('MN0024', 66660024, 180),
+('MN0025', 66660025, 270),
+('MN0026', 66660026, 380),
+('MN0027', 66660027, 110),
+('MN0028', 66660028, 90),
+('MN0029', 66660029, 240),
+('MN0030', 66660030, 380),
+('MN0031', 66660031, 80),
+('MN0032', 66660032, 250),
+('MN0033', 66660033, 150),
+('MN0034', 66660034, 100),
+('MN0035', 66660035, 30),
+('MN0036', 66660036, 120),
+('MN0037', 66660037, 210),
+('MN0038', 66660038, 280),
+('MN0039', 66660039, 90),
+('MN0040', 66660040, 400),
+('MN0041', 66660041, 80),
+('MN0042', 66660042, 70),
+('MN0043', 66660043, 140),
+('MN0044', 66660044, 200),
+('MN0045', 66660045, 50),
+('MN0046', 66660046, 130),
+('MN0047', 66660047, 170),
+('MN0048', 66660048, 350),
+('MN0049', 66660049, 200),
+('MN0050', 66660050, 300),
+('MN0011', 66660051, 120),
+('MN0055', 66660052, 200),
+('MN0039', 66660053, 50),
+('MN0042', 66660054, 90),
+('MN0006', 66660055, 70),
+('MN0017', 66660056, 100),
+('MN0033', 66660057, 80),
+('MN0048', 66660058, 150),
+('MN0012', 66660059, 70),
+('MN0036', 66660060, 110),
+('MN0021', 66660061, 180),
+('MN0059', 66660062, 220),
+('MN0029', 66660063, 200),
+('MN0008', 66660064, 130),
+('MN0031', 66660065, 50),
+('MN0043', 66660066, 180),
+('MN0024', 66660067, 160),
+('MN0014', 66660068, 250),
+('MN0028', 66660069, 70),
+('MN0049', 66660070, 180),
+('MN0007', 66660071, 80),
+('MN0057', 66660072, 300),
+('MN0010', 66660073, 170),
+('MN0047', 66660074, 220),
+('MN0019', 66660075, 50),
+('MN0058', 66660076, 70),
+('MN0053', 66660077, 300),
+('MN0052', 66660078, 90),
+('MN0023', 66660079, 130),
+('MN0060', 66660080, 120);
+
+-- R_contains
+
+INSERT INTO R_contains (model_no, R_GST_Num, quantity) 
+VALUES 
+('MN0001', 55550001, 50),
+('MN0002', 55550002, 100),
+('MN0003', 55550003, 150),
+('MN0004', 55550004, 200),
+('MN0005', 55550005, 250),
+('MN0006', 55550006, 50),
+('MN0007', 55550007, 100),
+('MN0008', 55550008, 150),
+('MN0009', 55550009, 200),
+('MN0010', 55550010, 250),
+('MN0011', 55550011, 50),
+('MN0012', 55550012, 100),
+('MN0013', 55550013, 150),
+('MN0014', 55550014, 200),
+('MN0015', 55550015, 250),
+('MN0016', 55550016, 50),
+('MN0017', 55550017, 100),
+('MN0018', 55550018, 150),
+('MN0019', 55550019, 200),
+('MN0020', 55550020, 250),
+('MN0021', 55550021, 50),
+('MN0022', 55550022, 100),
+('MN0023', 55550023, 150),
+('MN0024', 55550024, 200),
+('MN0025', 55550025, 250),
+('MN0026', 55550026, 50),
+('MN0027', 55550027, 100),
+('MN0028', 55550028, 150),
+('MN0029', 55550029, 200),
+('MN0030', 55550030, 250),
+('MN0031', 55550031, 50),
+('MN0032', 55550032, 100),
+('MN0033', 55550033, 150),
+('MN0034', 55550034, 200),
+('MN0035', 55550035, 250),
+('MN0036', 55550036, 50),
+('MN0037', 55550037, 100),
+('MN0038', 55550038, 150),
+('MN0039', 55550039, 200),
+('MN0040', 55550040, 250),
+('MN0041', 55550041, 50),
+('MN0042', 55550042, 100),
+('MN0043', 55550043, 150),
+('MN0044', 55550044, 200),
+('MN0045', 55550045, 250),
+('MN0046', 55550046, 50),
+('MN0047', 55550047, 100),
+('MN0048', 55550048, 150),
+('MN0049', 55550049, 200),
+('MN0050', 55550050, 250),
+('MN0001', 55550051, 50),
+('MN0002', 55550052, 100),
+('MN0003', 55550053, 150),
+('MN0004', 55550054, 200),
+('MN0005', 55550055, 250),
+('MN0006', 55550056, 50),
+('MN0007', 55550057, 100),
+('MN0008', 55550058, 150),
+('MN0009', 55550059, 200),
+('MN0010', 55550060, 250),
+('MN0011', 55550061, 50),
+('MN0012', 55550062, 100),
+('MN0013', 55550063, 150),
+('MN0014', 55550064, 200),
+('MN0015', 55550065, 250),
+('MN0016', 55550066, 50),
+('MN0017', 55550067, 100),
+('MN0018', 55550068, 150),
+('MN0019', 55550069, 200),
+('MN0020', 55550070, 250),
+('MN0021', 55550071, 50),
+('MN0022', 55550072, 100),
+('MN0023', 55550073, 150),
+('MN0024', 55550074, 200),
+('MN0025', 55550075, 250),
+('MN0026', 55550076, 50),
+('MN0027', 55550077, 100),
+('MN0028', 55550078, 150),
+('MN0029', 55550079, 200),
+('MN0030', 55550080, 250),
+('MN0031', 55550081, 50),
+('MN0032', 55550082, 100),
+('MN0033', 55550083, 150),
+('MN0034', 55550084, 200),
+('MN0035', 55550085, 250),
+('MN0036', 55550086, 50),
+('MN0037', 55550087, 100),
+('MN0038', 55550088, 150),
+('MN0039', 55550089, 200),
+('MN0040', 55550090, 250),
+('MN0041', 55550091, 50),
+('MN0042', 55550092, 100),
+('MN0043', 55550093, 150),
+('MN0044', 55550094, 200),
+('MN0045', 55550095, 250),
+('MN0046', 55550096, 50),
+('MN0047', 55550097, 100),
+('MN0048', 55550098, 150),
+('MN0049', 55550099, 200),
+('MN0050', 55550100, 250),
+('MN0001', 55550101, 50),
+('MN0002', 55550102, 100),
+('MN0003', 55550103, 150),
+('MN0004', 55550104, 200),
+('MN0005', 55550105, 250),
+('MN0006', 55550106, 50),
+('MN0007', 55550107, 100),
+('MN0008', 55550108, 150),
+('MN0009', 55550109, 200),
+('MN0010', 55550110, 250),
+('MN0011', 55550111, 50),
+('MN0012', 55550112, 100),
+('MN0013', 55550113, 150),
+('MN0014', 55550114, 200),
+('MN0015', 55550115, 250),
+('MN0016', 55550116, 50),
+('MN0017', 55550117, 100),
+('MN0018', 55550118, 150),
+('MN0019', 55550119, 200),
+('MN0020', 55550120, 250);
+-- billing 
+INSERT INTO Billing VALUES ('INV0001','MN0001','Cash');
+INSERT INTO Billing VALUES ('INV0002','MN0002','UPI');
+INSERT INTO Billing VALUES ('INV0003','MN0003','Debti Card');
+INSERT INTO Billing VALUES ('INV0004','MN0004','Credit Card');
+INSERT INTO Billing VALUES ('INV0005','MN0005','Cash');
+INSERT INTO Billing VALUES ('INV0006','MN0006','UPI');
+INSERT INTO Billing VALUES ('INV0007','MN0007','Debti Card');
+INSERT INTO Billing VALUES ('INV0008','MN0008','Credit Card');
+INSERT INTO Billing VALUES ('INV0009','MN0009','Cash');
+INSERT INTO Billing VALUES ('INV0010','MN0010','UPI');
+INSERT INTO Billing VALUES ('INV0011','MN0011','Debti Card');
+INSERT INTO Billing VALUES ('INV0012','MN0012','Credit Card');
+INSERT INTO Billing VALUES ('INV0013','MN0013','Cash');
+INSERT INTO Billing VALUES ('INV0014','MN0014','Net banking');
+INSERT INTO Billing VALUES ('INV0015','MN0015','Debti Card');
+INSERT INTO Billing VALUES ('INV0016','MN0016','Credit Card');
+INSERT INTO Billing VALUES ('INV0017','MN0017','Cash');
+INSERT INTO Billing VALUES ('INV0018','MN0018','Net banking');
+INSERT INTO Billing VALUES ('INV0019','MN0019','Debti Card');
+INSERT INTO Billing VALUES ('INV0020','MN0020','Debti Card');
+INSERT INTO Billing VALUES ('INV0021','MN0021','Credit Card');
+INSERT INTO Billing VALUES ('INV0022','MN0022','Cash');
+INSERT INTO Billing VALUES ('INV0023','MN0023','Net banking');
+INSERT INTO Billing VALUES ('INV0024','MN0024','Cash');
+INSERT INTO Billing VALUES ('INV0025','MN0025','Cash');
+INSERT INTO Billing VALUES ('INV0026','MN0026','Cash');
+INSERT INTO Billing VALUES ('INV0027','MN0027','Cash');
+INSERT INTO Billing VALUES ('INV0028','MN0028','Cash');
+INSERT INTO Billing VALUES ('INV0029','MN0029','Cash');
+INSERT INTO Billing VALUES ('INV0030','MN0030','Cash');
+INSERT INTO Billing VALUES ('INV0031','MN0031','Cash');
+INSERT INTO Billing VALUES ('INV0032','MN0032','Cash');
+INSERT INTO Billing VALUES ('INV0033','MN0033','Cash');
+INSERT INTO Billing VALUES ('INV0034','MN0034','Net banking');
+INSERT INTO Billing VALUES ('INV0035','MN0035','Net banking');
+INSERT INTO Billing VALUES ('INV0036','MN0036','Net banking');
+INSERT INTO Billing VALUES ('INV0037','MN0037','Net banking');
+INSERT INTO Billing VALUES ('INV0038','MN0038','Net banking');
+INSERT INTO Billing VALUES ('INV0039','MN0039','Net banking');
+INSERT INTO Billing VALUES ('INV0040','MN0040','UPI');
+INSERT INTO Billing VALUES ('INV0041','MN0041','Net banking');
+INSERT INTO Billing VALUES ('INV0042','MN0042','UPI');
+INSERT INTO Billing VALUES ('INV0043','MN0043','Net banking');
+INSERT INTO Billing VALUES ('INV0044','MN0044','UPI');
+INSERT INTO Billing VALUES ('INV0045','MN0045','Net banking');
+INSERT INTO Billing VALUES ('INV0046','MN0046','UPI');
+INSERT INTO Billing VALUES ('INV0047','MN0047','UPI');
+INSERT INTO Billing VALUES ('INV0048','MN0048','UPI');
+INSERT INTO Billing VALUES ('INV0049','MN0049','UPI');
+INSERT INTO Billing VALUES ('INV0050','MN0050','UPI');
+INSERT INTO Billing VALUES ('INV0051','MN0051','UPI');
+INSERT INTO Billing VALUES ('INV0052','MN0052','UPI');
+INSERT INTO Billing VALUES ('INV0053','MN0053','UPI');
+INSERT INTO Billing VALUES ('INV0054','MN0054','UPI');
+INSERT INTO Billing VALUES ('INV0055','MN0055','UPI');
+INSERT INTO Billing VALUES ('INV0056','MN0056','UPI');
+INSERT INTO Billing VALUES ('INV0057','MN0057','UPI');
+INSERT INTO Billing VALUES ('INV0058','MN0058','Debti Card');
+INSERT INTO Billing VALUES ('INV0059','MN0059','Debti Card');
+INSERT INTO Billing VALUES ('INV0060','MN0060','Debti Card');
+INSERT INTO Billing VALUES ('INV0061','MN0001','UPI');
+INSERT INTO Billing VALUES ('INV0062','MN0002','Debti Card');
+INSERT INTO Billing VALUES ('INV0063','MN0003','UPI');
+INSERT INTO Billing VALUES ('INV0064','MN0004','Debti Card');
+INSERT INTO Billing VALUES ('INV0065','MN0005','Debti Card');
+INSERT INTO Billing VALUES ('INV0066','MN0006','Debti Card');
+INSERT INTO Billing VALUES ('INV0067','MN0007','Debti Card');
+INSERT INTO Billing VALUES ('INV0068','MN0008','Debti Card');
+INSERT INTO Billing VALUES ('INV0069','MN0009','Debti Card');
+INSERT INTO Billing VALUES ('INV0070','MN0010','Credit Card');
+INSERT INTO Billing VALUES ('INV0071','MN0011','Debti Card');
+INSERT INTO Billing VALUES ('INV0072','MN0012','Credit Card');
+INSERT INTO Billing VALUES ('INV0073','MN0013','Debti Card');
+INSERT INTO Billing VALUES ('INV0074','MN0014','Credit Card');
+INSERT INTO Billing VALUES ('INV0075','MN0015','Debti Card');
+INSERT INTO Billing VALUES ('INV0076','MN0016','Debti Card');
+INSERT INTO Billing VALUES ('INV0077','MN0017','Debti Card');
+INSERT INTO Billing VALUES ('INV0078','MN0018','Debti Card');
+INSERT INTO Billing VALUES ('INV0079','MN0019','Debti Card');
+INSERT INTO Billing VALUES ('INV0080','MN0020','UPI');
+INSERT INTO Billing VALUES ('INV0081','MN0021','UPI');
+INSERT INTO Billing VALUES ('INV0082','MN0022','UPI');
+INSERT INTO Billing VALUES ('INV0083','MN0023','UPI');
+INSERT INTO Billing VALUES ('INV0084','MN0024','UPI');
+INSERT INTO Billing VALUES ('INV0085','MN0025','UPI');
+INSERT INTO Billing VALUES ('INV0086','MN0026','UPI');
+INSERT INTO Billing VALUES ('INV0087','MN0027','UPI');
+INSERT INTO Billing VALUES ('INV0088','MN0028','UPI');
+INSERT INTO Billing VALUES ('INV0089','MN0029','UPI');
+INSERT INTO Billing VALUES ('INV0090','MN0030','UPI');
+INSERT INTO Billing VALUES ('INV0091','MN0031','Cash');
+INSERT INTO Billing VALUES ('INV0092','MN0032','Cash');
+INSERT INTO Billing VALUES ('INV0093','MN0033','Cash');
+INSERT INTO Billing VALUES ('INV0094','MN0034','Cash');
+INSERT INTO Billing VALUES ('INV0095','MN0035','Cash');
+INSERT INTO Billing VALUES ('INV0096','MN0036','Cash');
+INSERT INTO Billing VALUES ('INV0097','MN0037','Cash');
+INSERT INTO Billing VALUES ('INV0098','MN0038','Cash');
+INSERT INTO Billing VALUES ('INV0099','MN0039','Cash');
+INSERT INTO Billing VALUES ('INV0100','MN0040','Cash');
+INSERT INTO Billing VALUES ('INV0101','MN0041','UPI');
+INSERT INTO Billing VALUES ('INV0102','MN0042','UPI');
+INSERT INTO Billing VALUES ('INV0103','MN0043','Cash');
+INSERT INTO Billing VALUES ('INV0104','MN0044','UPI');
+INSERT INTO Billing VALUES ('INV0105','MN0045','UPI');
+INSERT INTO Billing VALUES ('INV0106','MN0046','Cash');
+INSERT INTO Billing VALUES ('INV0107','MN0047','UPI');
+INSERT INTO Billing VALUES ('INV0108','MN0048','UPI');
+INSERT INTO Billing VALUES ('INV0109','MN0049','UPI');
+INSERT INTO Billing VALUES ('INV0110','MN0050','Cash');
+INSERT INTO Billing VALUES ('INV0111','MN0051','Debit card');
+INSERT INTO Billing VALUES ('INV0112','MN0052','UPI');
+INSERT INTO Billing VALUES ('INV0113','MN0053','Credit Card');
+INSERT INTO Billing VALUES ('INV0114','MN0054','Cash');
+INSERT INTO Billing VALUES ('INV0115','MN0055','UPI');
+INSERT INTO Billing VALUES ('INV0116','MN0056','UPI');
+INSERT INTO Billing VALUES ('INV0117','MN0057','Cash');
+INSERT INTO Billing VALUES ('INV0118','MN0058','Debit card');
+INSERT INTO Billing VALUES ('INV0119','MN0059','UPI');
+INSERT INTO Billing VALUES ('INV0120','MN0060','Credit Card');
+INSERT INTO Billing VALUES ('INV0121','MN0050','Cash');
+INSERT INTO Billing VALUES ('INV0122','MN0051','UPI');
+INSERT INTO Billing VALUES ('INV0123','MN0052','UPI');
+INSERT INTO Billing VALUES ('INV0124','MN0053','Cash');
+INSERT INTO Billing VALUES ('INV0125','MN0054','Debit card');
+INSERT INTO Billing VALUES ('INV0126','MN0055','UPI');
+INSERT INTO Billing VALUES ('INV0127','MN0056','Credit Card');
+INSERT INTO Billing VALUES ('INV0128','MN0057','Cash');
+INSERT INTO Billing VALUES ('INV0129','MN0058','UPI');
+INSERT INTO Billing VALUES ('INV0130','MN0059','UPI');
+INSERT INTO Billing VALUES ('INV0131','MN0060','Cash');
+INSERT INTO Billing VALUES ('INV0132','MN0027','Debit card');
+INSERT INTO Billing VALUES ('INV0133','MN0028','UPI');
+INSERT INTO Billing VALUES ('INV0134','MN0029','Credit Card');
+INSERT INTO Billing VALUES ('INV0135','MN0030','Cash');
+INSERT INTO Billing VALUES ('INV0136','MN0031','UPI');
+INSERT INTO Billing VALUES ('INV0137','MN0032','UPI');
+INSERT INTO Billing VALUES ('INV0138','MN0033','Cash');
+INSERT INTO Billing VALUES ('INV0139','MN0034','Debit card');
+INSERT INTO Billing VALUES ('INV0140','MN0035','UPI');
+INSERT INTO Billing VALUES ('INV0141','MN0036','Credit Card');
+INSERT INTO Billing VALUES ('INV0142','MN0037','Cash');
+INSERT INTO Billing VALUES ('INV0143','MN0038','UPI');
+INSERT INTO Billing VALUES ('INV0144','MN0039','UPI');
+INSERT INTO Billing VALUES ('INV0145','MN0040','Cash');
+INSERT INTO Billing VALUES ('INV0146','MN0010','Debit card');
+INSERT INTO Billing VALUES ('INV0147','MN0011','UPI');
+INSERT INTO Billing VALUES ('INV0148','MN0012','Credit Card');
+INSERT INTO Billing VALUES ('INV0149','MN0013','Cash');
+INSERT INTO Billing VALUES ('INV0150','MN0014','UPI');
+INSERT INTO Billing VALUES ('INV0151','MN0015','UPI');
+INSERT INTO Billing VALUES ('INV0152','MN0016','Cash');
+INSERT INTO Billing VALUES ('INV0153','MN0017','Debit card');
+INSERT INTO Billing VALUES ('INV0154','MN0018','UPI');
+INSERT INTO Billing VALUES ('INV0155','MN0019','Credit Card');
+INSERT INTO Billing VALUES ('INV0156','MN0020','Cash');
+INSERT INTO Billing VALUES ('INV0157','MN0021','UPI');
+INSERT INTO Billing VALUES ('INV0158','MN0001','UPI');
+INSERT INTO Billing VALUES ('INV0159','MN0002','Cash');
+INSERT INTO Billing VALUES ('INV0160','MN0003','Debit card');
+INSERT INTO Billing VALUES ('INV0161','MN0004','UPI');
+INSERT INTO Billing VALUES ('INV0162','MN0005','Credit Card');
+INSERT INTO Billing VALUES ('INV0163','MN0006','Cash');
+INSERT INTO Billing VALUES ('INV0164','MN0007','UPI');
+INSERT INTO Billing VALUES ('INV0165','MN0008','UPI');
+INSERT INTO Billing VALUES ('INV0166','MN0009','Cash');
+INSERT INTO Billing VALUES ('INV0167','MN0010','Debit card');
+INSERT INTO Billing VALUES ('INV0168','MN0011','UPI');
+INSERT INTO Billing VALUES ('INV0169','MN0012','Credit Card');
+INSERT INTO Billing VALUES ('INV0170','MN0013','Cash');
+INSERT INTO Billing VALUES ('INV0171','MN0014','UPI');
+INSERT INTO Billing VALUES ('INV0172','MN0015','UPI');
+INSERT INTO Billing VALUES ('INV0173','MN0016','Cash');
+INSERT INTO Billing VALUES ('INV0174','MN0017','Debit card');
+INSERT INTO Billing VALUES ('INV0175','MN0018','UPI');
+INSERT INTO Billing VALUES ('INV0176','MN0019','Credit Card');
+INSERT INTO Billing VALUES ('INV0177','MN0020','Cash');
+INSERT INTO Billing VALUES ('INV0178','MN0050','UPI');
+INSERT INTO Billing VALUES ('INV0179','MN0051','UPI');
+INSERT INTO Billing VALUES ('INV0180','MN0052','Cash');
+INSERT INTO Billing VALUES ('INV0181','MN0053','Debit card');
+INSERT INTO Billing VALUES ('INV0182','MN0054','UPI');
+INSERT INTO Billing VALUES ('INV0183','MN0055','Credit Card');
+INSERT INTO Billing VALUES ('INV0184','MN0056','Cash');
+INSERT INTO Billing VALUES ('INV0185','MN0057','UPI');
+INSERT INTO Billing VALUES ('INV0186','MN0058','UPI');
+INSERT INTO Billing VALUES ('INV0187','MN0059','Cash');
+INSERT INTO Billing VALUES ('INV0188','MN0060','Debit card');
+INSERT INTO Billing VALUES ('INV0189','MN0027','UPI');
+INSERT INTO Billing VALUES ('INV0190','MN0028','Credit Card');
+INSERT INTO Billing VALUES ('INV0191','MN0029','Cash');
+INSERT INTO Billing VALUES ('INV0192','MN0030','UPI');
+INSERT INTO Billing VALUES ('INV0193','MN0031','UPI');
+INSERT INTO Billing VALUES ('INV0194','MN0032','Cash');
+INSERT INTO Billing VALUES ('INV0195','MN0033','Debit card');
+INSERT INTO Billing VALUES ('INV0196','MN0034','UPI');
+INSERT INTO Billing VALUES ('INV0197','MN0035','Credit Card');
+INSERT INTO Billing VALUES ('INV0198','MN0036','Cash');
+INSERT INTO Billing VALUES ('INV0199','MN0037','UPI');
+INSERT INTO Billing VALUES ('INV0200','MN0038','UPI');
+INSERT INTO Billing VALUES ('INV0201','MN0039','Cash');
+INSERT INTO Billing VALUES ('INV0202','MN0040','Debit card');
+INSERT INTO Billing VALUES ('INV0203','MN0010','UPI');
+INSERT INTO Billing VALUES ('INV0204','MN0011','Credit Card');
+INSERT INTO Billing VALUES ('INV0205','MN0012','Cash');
+INSERT INTO Billing VALUES ('INV0206','MN0013','UPI');
+INSERT INTO Billing VALUES ('INV0207','MN0014','UPI');
+INSERT INTO Billing VALUES ('INV0208','MN0059','Cash');
+INSERT INTO Billing VALUES ('INV0209','MN0060','Debit card');
+INSERT INTO Billing VALUES ('INV0210','MN0027','UPI');
+INSERT INTO Billing VALUES ('INV0211','MN0028','Credit Card');
+INSERT INTO Billing VALUES ('INV0212','MN0029','Cash');
+INSERT INTO Billing VALUES ('INV0213','MN0030','UPI');
+INSERT INTO Billing VALUES ('INV0214','MN0031','UPI');
+INSERT INTO Billing VALUES ('INV0215','MN0032','Cash');
+INSERT INTO Billing VALUES ('INV0216','MN0033','Debit card');
+INSERT INTO Billing VALUES ('INV0217','MN0034','UPI');
+INSERT INTO Billing VALUES ('INV0218','MN0035','Credit Card');
+INSERT INTO Billing VALUES ('INV0219','MN0036','Cash');
+INSERT INTO Billing VALUES ('INV0220','MN0037','UPI');
+INSERT INTO Billing VALUES ('INV0221','MN0038','UPI');
+INSERT INTO Billing VALUES ('INV0222','MN0039','Cash');
+INSERT INTO Billing VALUES ('INV0223','MN0040','Debit card');
+INSERT INTO Billing VALUES ('INV0224','MN0010','UPI');
+INSERT INTO Billing VALUES ('INV0225','MN0011','Credit Card');
+INSERT INTO Billing VALUES ('INV0226','MN0012','Cash');
+INSERT INTO Billing VALUES ('INV0227','MN0013','UPI');
+INSERT INTO Billing VALUES ('INV0228','MN0014','UPI');
+INSERT INTO Billing VALUES ('INV0229','MN0015','Cash');
+INSERT INTO Billing VALUES ('INV0230','MN0016','Debit card');
+INSERT INTO Billing VALUES ('INV0231','MN0017','UPI');
+INSERT INTO Billing VALUES ('INV0232','MN0018','Credit Card');
+INSERT INTO Billing VALUES ('INV0233','MN0019','Cash');
+INSERT INTO Billing VALUES ('INV0234','MN0020','UPI');
+INSERT INTO Billing VALUES ('INV0235','MN0021','UPI');
+INSERT INTO Billing VALUES ('INV0236','MN0001','Cash');
+INSERT INTO Billing VALUES ('INV0237','MN0002','Debit card');
+INSERT INTO Billing VALUES ('INV0238','MN0003','UPI');
+INSERT INTO Billing VALUES ('INV0239','MN0004','Credit Card');
+INSERT INTO Billing VALUES ('INV0240','MN0005','Cash');
+INSERT INTO Billing VALUES ('INV0241','MN0006','UPI');
+INSERT INTO Billing VALUES ('INV0242','MN0007','UPI');
+INSERT INTO Billing VALUES ('INV0243','MN0008','Cash');
+INSERT INTO Billing VALUES ('INV0244','MN0009','Debit card');
+INSERT INTO Billing VALUES ('INV0245','MN0010','UPI');
+INSERT INTO Billing VALUES ('INV0246','MN0011','Credit Card');
+INSERT INTO Billing VALUES ('INV0247','MN0012','Cash');
+INSERT INTO Billing VALUES ('INV0248','MN0013','UPI');
+INSERT INTO Billing VALUES ('INV0249','MN0014','UPI');
+INSERT INTO Billing VALUES ('INV0250','MN0015','Cash');
+INSERT INTO Billing VALUES ('INV0251','MN0016','Debit card');
+INSERT INTO Billing VALUES ('INV0252','MN0017','UPI');
+INSERT INTO Billing VALUES ('INV0253','MN0001','Credit Card');
+INSERT INTO Billing VALUES ('INV0254','MN0002','Cash');
+INSERT INTO Billing VALUES ('INV0255','MN0003','UPI');
+INSERT INTO Billing VALUES ('INV0256','MN0004','Credit Card');
+INSERT INTO Billing VALUES ('INV0257','MN0005','Cash');
+INSERT INTO Billing VALUES ('INV0258','MN0006','UPI');
+INSERT INTO Billing VALUES ('INV0259','MN0007','Credit Card');
+INSERT INTO Billing VALUES ('INV0260','MN0008','Cash');
+INSERT INTO Billing VALUES ('INV0261','MN0009','UPI');
+INSERT INTO Billing VALUES ('INV0262','MN0010','Debit card');
+INSERT INTO Billing VALUES ('INV0263','MN0011','UPI');
+INSERT INTO Billing VALUES ('INV0264','MN0012','Cash');
+INSERT INTO Billing VALUES ('INV0265','MN0013','UPI');
+INSERT INTO Billing VALUES ('INV0266','MN0014','Debit card');
+INSERT INTO Billing VALUES ('INV0267','MN0015','UPI');
+INSERT INTO Billing VALUES ('INV0268','MN0016','Cash');
+INSERT INTO Billing VALUES ('INV0269','MN0017','UPI');
+INSERT INTO Billing VALUES ('INV0270','MN0018','Debit card');
+INSERT INTO Billing VALUES ('INV0271','MN0019','UPI');
+INSERT INTO Billing VALUES ('INV0272','MN0020','Cash');
+INSERT INTO Billing VALUES ('INV0273','MN0021','UPI');
+INSERT INTO Billing VALUES ('INV0274','MN0022','Debit card');
+INSERT INTO Billing VALUES ('INV0275','MN0023','UPI');
+INSERT INTO Billing VALUES ('INV0276','MN0024','Cash');
+INSERT INTO Billing VALUES ('INV0277','MN0025','UPI');
+INSERT INTO Billing VALUES ('INV0278','MN0026','Debit card');
+INSERT INTO Billing VALUES ('INV0279','MN0027','UPI');
+INSERT INTO Billing VALUES ('INV0280','MN0028','Cash');
+INSERT INTO Billing VALUES ('INV0281','MN0029','UPI');
+INSERT INTO Billing VALUES ('INV0282','MN0030','Debit card');
+INSERT INTO Billing VALUES ('INV0283','MN0031','UPI');
+INSERT INTO Billing VALUES ('INV0284','MN0032','Cash');
+INSERT INTO Billing VALUES ('INV0285','MN0033','UPI');
+INSERT INTO Billing VALUES ('INV0286','MN0034','Debit card');
+INSERT INTO Billing VALUES ('INV0287','MN0035','UPI');
+INSERT INTO Billing VALUES ('INV0288','MN0036','Cash');
+INSERT INTO Billing VALUES ('INV0289','MN0037','UPI');
+INSERT INTO Billing VALUES ('INV0290','MN0038','Debit card');
+INSERT INTO Billing VALUES ('INV0291','MN0039','UPI');
+INSERT INTO Billing VALUES ('INV0292','MN0040','Cash');
+INSERT INTO Billing VALUES ('INV0293','MN0041','UPI');
+INSERT INTO Billing VALUES ('INV0294','MN0042','Debit card');
+INSERT INTO Billing VALUES ('INV0295','MN0043','UPI');
+INSERT INTO Billing VALUES ('INV0296','MN0044','Cash');
+INSERT INTO Billing VALUES ('INV0297','MN0045','UPI');
+INSERT INTO Billing VALUES ('INV0298','MN0046','Debit card');
+INSERT INTO Billing VALUES ('INV0299','MN0047','UPI');
+INSERT INTO Billing VALUES ('INV0300','MN0048','Cash');
+INSERT INTO Billing VALUES ('INV0301','MN0049','UPI');
+INSERT INTO Billing VALUES ('INV0302','MN0050','Debit card');
+INSERT INTO Billing VALUES ('INV0303','MN0051','UPI');
+INSERT INTO Billing VALUES ('INV0304','MN0052','Cash');
+INSERT INTO Billing VALUES ('INV0305','MN0053','UPI');
+INSERT INTO Billing VALUES ('INV0306','MN0054','Debit card');
+INSERT INTO Billing VALUES ('INV0307','MN0055','UPI');
+INSERT INTO Billing VALUES ('INV0308','MN0056','Cash');
+INSERT INTO Billing VALUES ('INV0309','MN0057','UPI');
+INSERT INTO Billing VALUES ('INV0310','MN0058','Debit card');
+INSERT INTO Billing VALUES ('INV0311','MN0059','UPI');
+INSERT INTO Billing VALUES ('INV0312','MN0060','Cash');
+INSERT INTO Billing VALUES ('INV0313','MN0001','UPI');
+INSERT INTO Billing VALUES ('INV0314','MN0002','UPI');
+INSERT INTO Billing VALUES ('INV0315','MN0003','UPI');
+INSERT INTO Billing VALUES ('INV0316','MN0004','UPI');
+INSERT INTO Billing VALUES ('INV0317','MN0005','UPI');
+INSERT INTO Billing VALUES ('INV0318','MN0006','UPI');
+INSERT INTO Billing VALUES ('INV0319','MN0007','UPI');
+INSERT INTO Billing VALUES ('INV0320','MN0008','UPI');
+INSERT INTO Billing VALUES ('INV0321','MN0009','UPI');
+INSERT INTO Billing VALUES ('INV0322','MN0010','UPI');
+INSERT INTO Billing VALUES ('INV0323','MN0011','UPI');
+INSERT INTO Billing VALUES ('INV0324','MN0012','UPI');
+INSERT INTO Billing VALUES ('INV0325','MN0013','UPI');
+INSERT INTO Billing VALUES ('INV0326','MN0014','UPI');
+INSERT INTO Billing VALUES ('INV0327','MN0015','UPI');
+INSERT INTO Billing VALUES ('INV0328','MN0016','Cash');
+INSERT INTO Billing VALUES ('INV0329','MN0037','Cash');
+INSERT INTO Billing VALUES ('INV0330','MN0038','Cash');
+INSERT INTO Billing VALUES ('INV0331','MN0039','Cash');
+INSERT INTO Billing VALUES ('INV0332','MN0040','Cash');
+INSERT INTO Billing VALUES ('INV0333','MN0010','Cash');
+INSERT INTO Billing VALUES ('INV0334','MN0011','UPI');
+INSERT INTO Billing VALUES ('INV0335','MN0012','UPI');
+INSERT INTO Billing VALUES ('INV0336','MN0013','Cash');
+INSERT INTO Billing VALUES ('INV0337','MN0014','UPI');
+INSERT INTO Billing VALUES ('INV0338','MN0015','UPI');
+INSERT INTO Billing VALUES ('INV0339','MN0016','Cash');
+INSERT INTO Billing VALUES ('INV0340','MN0017','UPI');
+INSERT INTO Billing VALUES ('INV0341','MN0018','UPI');
+INSERT INTO Billing VALUES ('INV0342','MN0019','Cash');
+INSERT INTO Billing VALUES ('INV0343','MN0020','UPI');
+INSERT INTO Billing VALUES ('INV0344','MN0021','UPI');
+INSERT INTO Billing VALUES ('INV0345','MN0001','Cash');
+INSERT INTO Billing VALUES ('INV0346','MN0002','UPI');
+INSERT INTO Billing VALUES ('INV0347','MN0003','UPI');
+INSERT INTO Billing VALUES ('INV0348','MN0004','Cash');
+INSERT INTO Billing VALUES ('INV0349','MN0005','UPI');
+INSERT INTO Billing VALUES ('INV0350','MN0006','UPI');
+INSERT INTO Billing VALUES ('INV0351','MN0007','Cash');
+INSERT INTO Billing VALUES ('INV0352','MN0008','UPI');
+INSERT INTO Billing VALUES ('INV0353','MN0009','UPI');
+INSERT INTO Billing VALUES ('INV0354','MN0010','Debit card');
+INSERT INTO Billing VALUES ('INV0355','MN0011','Debit card');
+INSERT INTO Billing VALUES ('INV0356','MN0012','Net banking');
+INSERT INTO Billing VALUES ('INV0357','MN0013','UPI');
+INSERT INTO Billing VALUES ('INV0358','MN0014','Debit card');
+INSERT INTO Billing VALUES ('INV0359','MN0015','Debit card');
+INSERT INTO Billing VALUES ('INV0360','MN0016','Net banking');
+INSERT INTO Billing VALUES ('INV0361','MN0017','UPI');
+INSERT INTO Billing VALUES ('INV0362','MN0040','Debit card');
+INSERT INTO Billing VALUES ('INV0363','MN0010','Debit card');
+INSERT INTO Billing VALUES ('INV0364','MN0011','Net banking');
+INSERT INTO Billing VALUES ('INV0365','MN0012','UPI');
+INSERT INTO Billing VALUES ('INV0366','MN0013','Debit card');
+INSERT INTO Billing VALUES ('INV0367','MN0014','Debit card');
+INSERT INTO Billing VALUES ('INV0368','MN0015','Net banking');
+INSERT INTO Billing VALUES ('INV0369','MN0016','UPI');
+INSERT INTO Billing VALUES ('INV0370','MN0017','Debit card');
+INSERT INTO Billing VALUES ('INV0371','MN0018','Debit card');
+INSERT INTO Billing VALUES ('INV0372','MN0019','Net banking');
+INSERT INTO Billing VALUES ('INV0373','MN0020','UPI');
+INSERT INTO Billing VALUES ('INV0374','MN0021','Debit card');
+INSERT INTO Billing VALUES ('INV0375','MN0001','Debit card');
+INSERT INTO Billing VALUES ('INV0376','MN0002','Net banking');
+INSERT INTO Billing VALUES ('INV0377','MN0003','UPI');
+INSERT INTO Billing VALUES ('INV0378','MN0004','Debit card');
+INSERT INTO Billing VALUES ('INV0379','MN0005','Cash');
+INSERT INTO Billing VALUES ('INV0380','MN0006','Cash');
+INSERT INTO Billing VALUES ('INV0381','MN0007','UPI');
+INSERT INTO Billing VALUES ('INV0382','MN0008','Debit card');
+INSERT INTO Billing VALUES ('INV0383','MN0009','Cash');
+INSERT INTO Billing VALUES ('INV0384','MN0010','Cash');
+INSERT INTO Billing VALUES ('INV0385','MN0011','UPI');
+INSERT INTO Billing VALUES ('INV0386','MN0012','Debit card');
+INSERT INTO Billing VALUES ('INV0387','MN0013','Cash');
+INSERT INTO Billing VALUES ('INV0388','MN0014','Cash');
+INSERT INTO Billing VALUES ('INV0389','MN0015','UPI');
+INSERT INTO Billing VALUES ('INV0390','MN0016','Debit card');
+INSERT INTO Billing VALUES ('INV0391','MN0017','Cash');
+INSERT INTO Billing VALUES ('INV0392','MN0018','Cash');
+INSERT INTO Billing VALUES ('INV0393','MN0019','UPI');
+INSERT INTO Billing VALUES ('INV0394','MN0020','Debit card');
+INSERT INTO Billing VALUES ('INV0395','MN0024','Cash');
+INSERT INTO Billing VALUES ('INV0396','MN0025','Cash');
+INSERT INTO Billing VALUES ('INV0397','MN0026','UPI');
+INSERT INTO Billing VALUES ('INV0398','MN0027','Debit card');
+INSERT INTO Billing VALUES ('INV0399','MN0028','Cash');
+INSERT INTO Billing VALUES ('INV0400','MN0029','Cash');
+INSERT INTO Billing VALUES ('INV0401','MN0030','UPI');
+INSERT INTO Billing VALUES ('INV0402','MN0031','Debit card');
+INSERT INTO Billing VALUES ('INV0403','MN0032','Cash');
+INSERT INTO Billing VALUES ('INV0404','MN0033','Cash');
+INSERT INTO Billing VALUES ('INV0405','MN0034','UPI');
+INSERT INTO Billing VALUES ('INV0406','MN0035','Debit card');
+INSERT INTO Billing VALUES ('INV0407','MN0036','Net banking');
+INSERT INTO Billing VALUES ('INV0408','MN0037','Net banking');
+INSERT INTO Billing VALUES ('INV0409','MN0038','Net banking');
+INSERT INTO Billing VALUES ('INV0410','MN0039','Net bankin');
+
+-- shipment
+INSERT INTO Shipments VALUES (11110001,22220001,'INV0001','MN0001','New York','London',999,10000,2000);
+INSERT INTO Shipments VALUES (11110002,22220002,'INV0002','MN0002','Paris','Berlin',995,5000,1500);
+INSERT INTO Shipments VALUES (11110003,22220003,'INV0003','MN0003','Madrid','Rome',982,2000,800);
+INSERT INTO Shipments VALUES (11110004,22220004,'INV0004','MN0004','Istanbul','Sydney',887,3000,1000);
+INSERT INTO Shipments VALUES (11110005,22220005,'INV0005','MN0005','Moscow','Rio de Janeiro',816,8000,4000);
+INSERT INTO Shipments VALUES (11110006,22220006,'INV0006','MN0006','Dubai','Berlin',874,1000,300);
+INSERT INTO Shipments VALUES (11110007,22220007,'INV0007','MN0007','Kuala Lampur','Mumbai',897,6000,2500);
+INSERT INTO Shipments VALUES (11110008,22220008,'INV0008','MN0008','Sydney','Vancouver',963,5000,2000);
+INSERT INTO Shipments VALUES (11110009,22220009,'INV0009','MN0009','Tokyo','Shanghai',817,6000,2500);
+INSERT INTO Shipments VALUES (11110010,22220010,'INV0010','MN0010','Barcelona','Istanbul',917,10000,5000);
+INSERT INTO Shipments VALUES (11110011,22220011,'INV0011','MN0011','Sydney','Venice',864,1500,500);
+INSERT INTO Shipments VALUES (11110012,22220012,'INV0012','MN0012','Mumbai','Prague',946,2500,1000);
+INSERT INTO Shipments VALUES (11110013,22220013,'INV0013','MN0013','Vancouver','Kiev',935,4000,1500);
+INSERT INTO Shipments VALUES (11110014,22220014,'INV0014','MN0014','Berlin','Bangkok',922,3500,1200);
+INSERT INTO Shipments VALUES (11110015,22220015,'INV0015','MN0015','Bangkok','Athens',837,7000,3500);
+INSERT INTO Shipments VALUES (11110016,22220016,'INV0016','MN0016','Dublin','Montreal',951,4000,1500);
+INSERT INTO Shipments VALUES (11110017,22220017,'INV0017','MN0017','Rio de Janeiro','Barcelona',932,8000,3500);
+INSERT INTO Shipments VALUES (11110018,22220018,'INV0018','MN0018','Amsterdam','Manila',954,3000,1000);
+INSERT INTO Shipments VALUES (11110019,22220019,'INV0019','MN0019','Seattle','Cape Town',840,5000,2000);
+INSERT INTO Shipments VALUES (11110020,22220020,'INV0020','MN0020','Mumbai','Auckland',873,10000,5000);
+INSERT INTO Shipments VALUES (11110021,22220021,'INV0021','MN0021','Shanghai','Florence',975,7000,3000);
+INSERT INTO Shipments VALUES (11110022,22220022,'INV0022','MN0022','Milan','Copenhagen',832,6000,2500);
+INSERT INTO Shipments VALUES (11110023,22220023,'INV0023','MN0023','Montreal','Edinburgh',942,7000,3000);
+INSERT INTO Shipments VALUES (11110024,22220024,'INV0024','MN0024','Moscow','Helsinki',858,8000,3500);
+INSERT INTO Shipments VALUES (11110025,22220025,'INV0025','MN0025','Seoul','Budapest',948,15000,7000);
+INSERT INTO Shipments VALUES (11110026,22220026,'INV0026','MN0026','Johannesburg','Zurich',901,2000,800);
+INSERT INTO Shipments VALUES (11110027,22220027,'INV0027','MN0027','Helsinki','Lisbon',905,3000,1000);
+INSERT INTO Shipments VALUES (11110028,22220028,'INV0028','MN0028','San Francisco','Krakow',800,10000,4500);
+INSERT INTO Shipments VALUES (11110029,22220029,'INV0029','MN0029','Kuala Lumpur','Amsterdam',916,15000,7000);
+INSERT INTO Shipments VALUES (11110030,22220030,'INV0030','MN0030','Paris','Stockholm',803,20000,10000);
+INSERT INTO Shipments VALUES (11110031,22220031,'INV0031','MN0031','Rome','Oslo',888,2500,1000);
+INSERT INTO Shipments VALUES (11110032,22220032,'INV0032','MN0032','Stockholm','Dubrovnik',851,6000,2500);
+INSERT INTO Shipments VALUES (11110033,22220033,'INV0033','MN0033','New York','Marrakech',913,5000,2000);
+INSERT INTO Shipments VALUES (11110034,22220034,'INV0034','MN0034','Budapest','Reykjavik',865,18000,8000);
+INSERT INTO Shipments VALUES (11110035,22220035,'INV0035','MN0035','Copenhagen','Marrakesh',902,17000,7500);
+INSERT INTO Shipments VALUES (11110036,22220036,'INV0036','MN0036','Mexico City','Munich',940,12000,6000);
+INSERT INTO Shipments VALUES (11110037,22220037,'INV0037','MN0037','Taipei','Salzburg',822,6000,2500);
+INSERT INTO Shipments VALUES (11110038,22220038,'INV0038','MN0038','Athens','Kyoto',825,8000,3500);
+INSERT INTO Shipments VALUES (11110039,22220039,'INV0039','MN0039','Vienna','Toronto',963,7000,3000);
+INSERT INTO Shipments VALUES (11110040,22220040,'INV0040','MN0040','Toronto','Nice',993,25000,10000);
+INSERT INTO Shipments VALUES (11110041,22220041,'INV0041','MN0041','Prague','Luxembourg City',811,14000,6000);
+INSERT INTO Shipments VALUES (11110042,22220042,'INV0042','MN0042','Dubai','St. Petersburg',998,5000,2000);
+INSERT INTO Shipments VALUES (11110043,22220043,'INV0043','MN0043','Oslo','Zurich',915,4000,1500);
+INSERT INTO Shipments VALUES (11110044,22220044,'INV0044','MN0044','Buenos Aires','Vienna',964,30000,12000);
+INSERT INTO Shipments VALUES (11110045,22220045,'INV0045','MN0045','Warsaw','Oslo',846,12000,5000);
+INSERT INTO Shipments VALUES (11110043,22220046,'INV0046','MN0046','Hong Kong','Copenhagen',876,8000,4000);
+INSERT INTO Shipments VALUES (11110037,22220047,'INV0047','MN0047','Los Angeles','Geneva',857,15000,7000);
+INSERT INTO Shipments VALUES (11110028,22220048,'INV0048','MN0048','Cape Town','Buenos Aires',898,10000,4500);
+INSERT INTO Shipments VALUES (11110019,22220049,'INV0049','MN0049','Madrid','Melbourne',860,12000,5500);
+INSERT INTO Shipments VALUES (11110010,22220050,'INV0050','MN0050','Chicago','Las Vegas',940,8000,3500);
+INSERT INTO Shipments VALUES (11110011,22220051,'INV0051','MN0051','Edinburgh','Miami',859,10000,2000);
+INSERT INTO Shipments VALUES (11110012,22220052,'INV0052','MN0052','Istanbul','Orlando',879,12000,2200);
+INSERT INTO Shipments VALUES (11110023,22220053,'INV0053','MN0053','Lima','San Francisco',901,50000,40000);
+INSERT INTO Shipments VALUES (11110024,22220054,'INV0054','MN0054','Lisbon','New Jersey',973,70000,60000);
+INSERT INTO Shipments VALUES (11110035,22220055,'INV0055','MN0055','Sydney','Toronto',883,80000,70000);
+INSERT INTO Shipments VALUES (11110026,22220056,'INV0056','MN0056','Miami','Berlin',830,50000,40000);
+INSERT INTO Shipments VALUES (11110007,22220057,'INV0057','MN0057','New Delhi','Tokyo',953,5000,4000);
+INSERT INTO Shipments VALUES (11110008,22220058,'INV0058','MN0058','San Diego','Barcelona',973,10000,8000);
+INSERT INTO Shipments VALUES (11110019,22220059,'INV0059','MN0059','Karanchi','Rome',952,5000,4000);
+INSERT INTO Shipments VALUES (11110010,22220060,'INV0060','MN0060','Rio de Janeiro','Vatican City',995,1000,50);
+
+
+-- distributes
+
+INSERT INTO Distributes VALUES (22220001,66660001,'INV0061','MN0001','Tokyo','Alexandria',583,10500,10000);
+INSERT INTO Distributes VALUES (22220002,66660002,'INV0062','MN0002','Sydney','Amsterdam',727,4750,5000);
+INSERT INTO Distributes VALUES (22220003,66660003,'INV0063','MN0003','Paris','Athens',510,2100,2000);
+INSERT INTO Distributes VALUES (22220004,66660004,'INV0064','MN0004','Rome','Atlanta',502,2850,3000);
+INSERT INTO Distributes VALUES (22220005,66660005,'INV0065','MN0005','Bangkok','Auckland',550,8400,8000);
+INSERT INTO Distributes VALUES (22220006,66660006,'INV0066','MN0006','Shanghai','Austin',702,950,1000);
+INSERT INTO Distributes VALUES (22220007,66660007,'INV0067','MN0007','New York','Baghdad',652,6300,6000);
+INSERT INTO Distributes VALUES (22220008,66660008,'INV0068','MN0008','Moscow','Baltimore',524,4750,5000);
+INSERT INTO Distributes VALUES (22220009,66660009,'INV0069','MN0009','Dubai','Bangalore',501,6300,6000);
+INSERT INTO Distributes VALUES (22220010,66660010,'INV0070','MN0010','Madrid','Barcelona',515,9500,10000);
+INSERT INTO Distributes VALUES (22220011,66660011,'INV0071','MN0011','Berlin','Beijing',522,1575,1500);
+INSERT INTO Distributes VALUES (22220012,66660012,'INV0072','MN0012','Mumbai','Belfast',655,2375,2500);
+INSERT INTO Distributes VALUES (22220013,66660013,'INV0073','MN0013','Cairo','Berlin',663,4200,4000);
+INSERT INTO Distributes VALUES (22220014,66660014,'INV0074','MN0014','Seoul','Birmingham',748,3325,3500);
+INSERT INTO Distributes VALUES (22220015,66660015,'INV0075','MN0015','Buenos Aires','Bogota',646,7350,7000);
+INSERT INTO Distributes VALUES (22220016,66660016,'INV0076','MN0016','Vienna','Boston',511,3800,4000);
+INSERT INTO Distributes VALUES (22220017,66660017,'INV0077','MN0017','Toronto','Brisbane',646,8400,8000);
+INSERT INTO Distributes VALUES (22220018,66660018,'INV0078','MN0018','Amsterdam','Brussels',766,2850,3000);
+INSERT INTO Distributes VALUES (22220019,66660019,'INV0079','MN0019','Rio de Janeiro','Budapest',621,5250,5000);
+INSERT INTO Distributes VALUES (22220020,66660020,'INV0080','MN0020','Barcelona','Buenos Aires',585,9500,10000);
+INSERT INTO Distributes VALUES (22220021,66660021,'INV0081','MN0021','Istanbul','Cairo',744,7350,7000);
+INSERT INTO Distributes VALUES (22220022,66660022,'INV0082','MN0022','Prague','Calgary',549,5700,6000);
+INSERT INTO Distributes VALUES (22220023,66660023,'INV0083','MN0023','Auckland','Cape Town',582,7350,7000);
+INSERT INTO Distributes VALUES (22220024,66660024,'INV0084','MN0024','Copenhagen','Chennai',676,7600,8000);
+INSERT INTO Distributes VALUES (22220025,66660025,'INV0085','MN0025','Helsinki','Chicago',750,15750,15000);
+INSERT INTO Distributes VALUES (22220026,66660026,'INV0086','MN0026','Athens','Cologne',535,1900,2000);
+INSERT INTO Distributes VALUES (22220027,66660027,'INV0087','MN0027','Singapore','Copenhagen',696,3150,3000);
+INSERT INTO Distributes VALUES (22220028,66660028,'INV0088','MN0028','Warsaw','Dallas',642,9500,10000);
+INSERT INTO Distributes VALUES (22220029,66660029,'INV0089','MN0029','Montreal','Delhi',726,15750,15000);
+INSERT INTO Distributes VALUES (22220030,66660030,'INV0090','MN0030','Melbourne','Denver',543,19000,20000);
+INSERT INTO Distributes VALUES (22220031,66660031,'INV0091','MN0031','Edinburgh','Detroit',792,2625,2500);
+INSERT INTO Distributes VALUES (22220032,66660032,'INV0092','MN0032','Zurich','Dublin',658,5700,6000);
+INSERT INTO Distributes VALUES (22220033,66660033,'INV0093','MN0033','Brussels','Edinburgh',751,5250,5000);
+INSERT INTO Distributes VALUES (22220034,66660034,'INV0094','MN0034','Oslo','Frankfurt',609,17100,18000);
+INSERT INTO Distributes VALUES (22220035,66660035,'INV0095','MN0035','Lisbon','Geneva',538,17850,17000);
+INSERT INTO Distributes VALUES (22220036,66660036,'INV0096','MN0036','Doha','Glasgow',704,11400,12000);
+INSERT INTO Distributes VALUES (22220037,66660037,'INV0097','MN0037','Reykjavik','Hamburg',776,6300,6000);
+INSERT INTO Distributes VALUES (22220038,66660038,'INV0098','MN0038','Florence','Helsinki',636,7600,8000);
+INSERT INTO Distributes VALUES (22220039,66660039,'INV0099','MN0039','Naples','Hong Kong',555,7350,7000);
+INSERT INTO Distributes VALUES (22220040,66660040,'INV0100','MN0040','San Francisco','Houston',563,23750,25000);
+INSERT INTO Distributes VALUES (22220041,66660041,'INV0101','MN0041','Cape Town','Istanbul',671,14700,14000);
+INSERT INTO Distributes VALUES (22220042,66660042,'INV0102','MN0042','Tel Aviv','Jakarta',680,4750,5000);
+INSERT INTO Distributes VALUES (22220043,66660043,'INV0103','MN0043','Vancouver','Jerusalem',800,4200,4000);
+INSERT INTO Distributes VALUES (22220044,66660044,'INV0104','MN0044','Budapest','Johannesburg',736,28500,30000);
+INSERT INTO Distributes VALUES (22220045,66660045,'INV0105','MN0045','Krakow','Karachi',732,12600,12000);
+INSERT INTO Distributes VALUES (22220046,66660046,'INV0106','MN0046','Taipei','Kiev',658,7600,8000);
+INSERT INTO Distributes VALUES (22220047,66660047,'INV0107','MN0047','Kyoto','Kuala Lumpur',646,15750,15000);
+INSERT INTO Distributes VALUES (22220048,66660048,'INV0108','MN0048','Munich','Las Vegas',668,9500,10000);
+INSERT INTO Distributes VALUES (22220049,66660049,'INV0109','MN0049','Hamburg','Lisbon',693,12600,12000);
+INSERT INTO Distributes VALUES (22220050,66660050,'INV0110','MN0050','Marrakech','Liverpool',658,7600,8000);
+INSERT INTO Distributes VALUES (22220051,66660051,'INV0111','MN0051','Dubrovnik','London',767,10500,10000);
+INSERT INTO Distributes VALUES (22220052,66660052,'INV0112','MN0052','Chiang Mai','Los Angeles',502,11400,12000);
+INSERT INTO Distributes VALUES (22220053,66660053,'INV0113','MN0053','Cartagena','Madrid',626,52500,50000);
+INSERT INTO Distributes VALUES (22220054,66660054,'INV0114','MN0054','Charleston','Manchester',718,66500,70000);
+INSERT INTO Distributes VALUES (22220055,66660055,'INV0115','MN0055','Cork','Manila',589,84000,80000);
+INSERT INTO Distributes VALUES (22220056,66660056,'INV0116','MN0056','Dubuque','Melbourne',645,47500,50000);
+INSERT INTO Distributes VALUES (22220057,66660057,'INV0117','MN0057','Gdansk','Mexico City',666,5250,5000);
+INSERT INTO Distributes VALUES (22220058,66660058,'INV0118','MN0058','Ghent','Miami',669,9500,10000);
+INSERT INTO Distributes VALUES (22220059,66660059,'INV0119','MN0059','Gothenburg','Milan',641,5250,5000);
+INSERT INTO Distributes VALUES (22220060,66660060,'INV0120','MN0060','Groningen','Minneapolis',669,950,1000);
+INSERT INTO Distributes VALUES (22220061,66660061,'INV0121','MN0050','Helsinki','Montreal',670,7600,8000);
+INSERT INTO Distributes VALUES (22220040,66660062,'INV0122','MN0051','Hoi An','Moscow',548,10500,10000);
+INSERT INTO Distributes VALUES (22220041,66660063,'INV0123','MN0052','Inverness','Mumbai',767,11400,12000);
+INSERT INTO Distributes VALUES (22220042,66660064,'INV0124','MN0053','Kyoto','Munich',576,52500,50000);
+INSERT INTO Distributes VALUES (22220043,66660065,'INV0125','MN0054','La Paz','Nairobi',796,66500,70000);
+INSERT INTO Distributes VALUES (22220044,66660066,'INV0126','MN0055','Leiden','Nashville',681,84000,80000);
+INSERT INTO Distributes VALUES (22220021,66660067,'INV0127','MN0056','Lviv','New Orleans',757,47500,50000);
+INSERT INTO Distributes VALUES (22220022,66660068,'INV0128','MN0057','Nafplio','New York',714,5250,5000);
+INSERT INTO Distributes VALUES (22220023,66660069,'INV0129','MN0058','Newcastle','Oslo',680,9500,10000);
+INSERT INTO Distributes VALUES (22220024,66660070,'INV0130','MN0059','Nice','Ottawa',651,5250,5000);
+INSERT INTO Distributes VALUES (22220025,66660071,'INV0131','MN0060','Oaxaca','Paris',632,950,1000);
+INSERT INTO Distributes VALUES (22220026,66660072,'INV0132','MN0027','Plovdiv','Perth',710,3150,3000);
+INSERT INTO Distributes VALUES (22220027,66660073,'INV0133','MN0028','Quebec City','Philadelphia',785,9500,10000);
+INSERT INTO Distributes VALUES (22220028,66660074,'INV0134','MN0029','Riga','Phoenix',796,15750,15000);
+INSERT INTO Distributes VALUES (22220005,66660075,'INV0135','MN0030','San Sebastian','Portland',767,19000,20000);
+INSERT INTO Distributes VALUES (22220006,66660076,'INV0136','MN0031','Sarajevo','Prague',544,2625,2500);
+INSERT INTO Distributes VALUES (22220007,66660077,'INV0137','MN0032','Split','Rio de Janeiro',775,5700,6000);
+INSERT INTO Distributes VALUES (22220008,66660078,'INV0138','MN0033','Tallinn','Rome',583,5250,5000);
+INSERT INTO Distributes VALUES (22220009,66660079,'INV0139','MN0034','Tbilisi','San Francisco',611,17100,18000);
+INSERT INTO Distributes VALUES (22220026,66660080,'INV0140','MN0035','Valencia','Seattle',601,17850,1700);
+
+
+-- W_sells
+
+INSERT INTO W_sells VALUES (66660001,55550001,'INV0141','MN0036',352,11025,10500);
+INSERT INTO W_sells VALUES (66660002,55550002,'INV0142','MN0037',491,'4512.5',4750);
+INSERT INTO W_sells VALUES (66660003,55550003,'INV0143','MN0038',403,2205,2100);
+INSERT INTO W_sells VALUES (66660004,55550004,'INV0144','MN0039',409,'2707.5',2850);
+INSERT INTO W_sells VALUES (66660005,55550005,'INV0145','MN0040',179,8820,8400);
+INSERT INTO W_sells VALUES (66660006,55550006,'INV0146','MN0010',296,'902.5',950);
+INSERT INTO W_sells VALUES (66660007,55550007,'INV0147','MN0011',167,6615,6300);
+INSERT INTO W_sells VALUES (66660008,55550008,'INV0148','MN0012',410,'4512.5',4750);
+INSERT INTO W_sells VALUES (66660009,55550009,'INV0149','MN0013',465,6615,6300);
+INSERT INTO W_sells VALUES (66660010,55550010,'INV0150','MN0014',354,9025,9500);
+INSERT INTO W_sells VALUES (66660011,55550011,'INV0151','MN0015',238,'1653.75',1575);
+INSERT INTO W_sells VALUES (66660012,55550012,'INV0152','MN0016',136,'2256.25',2375);
+INSERT INTO W_sells VALUES (66660013,55550013,'INV0153','MN0017',240,4410,4200);
+INSERT INTO W_sells VALUES (66660014,55550014,'INV0154','MN0018',88,'3158.75',3325);
+INSERT INTO W_sells VALUES (66660015,55550015,'INV0155','MN0019',434,'7717.5',7350);
+INSERT INTO W_sells VALUES (66660016,55550016,'INV0156','MN0020',80,3610,3800);
+INSERT INTO W_sells VALUES (66660017,55550017,'INV0157','MN0021',94,8820,8400);
+INSERT INTO W_sells VALUES (66660018,55550018,'INV0158','MN0001',73,'2707.5',2850);
+INSERT INTO W_sells VALUES (66660019,55550019,'INV0159','MN0002',56,'5512.5',5250);
+INSERT INTO W_sells VALUES (66660020,55550020,'INV0160','MN0003',206,9025,9500);
+INSERT INTO W_sells VALUES (66660021,55550021,'INV0161','MN0004',60,'7717.5',7350);
+INSERT INTO W_sells VALUES (66660022,55550022,'INV0162','MN0005',59,5415,5700);
+INSERT INTO W_sells VALUES (66660023,55550023,'INV0163','MN0006',379,'7717.5',7350);
+INSERT INTO W_sells VALUES (66660024,55550024,'INV0164','MN0007',486,7220,7600);
+INSERT INTO W_sells VALUES (66660025,55550025,'INV0165','MN0008',418,'16537.5',15750);
+INSERT INTO W_sells VALUES (66660026,55550026,'INV0166','MN0009',230,1805,1900);
+INSERT INTO W_sells VALUES (66660027,55550027,'INV0167','MN0010',71,'3307.5',3150);
+INSERT INTO W_sells VALUES (66660028,55550028,'INV0168','MN0011',78,9025,9500);
+INSERT INTO W_sells VALUES (66660029,55550029,'INV0169','MN0012',126,'16537.5',15750);
+INSERT INTO W_sells VALUES (66660030,55550030,'INV0170','MN0013',164,18050,19000);
+INSERT INTO W_sells VALUES (66660031,55550031,'INV0171','MN0014',221,'2756.25',2625);
+INSERT INTO W_sells VALUES (66660032,55550032,'INV0172','MN0015',74,5415,5700);
+INSERT INTO W_sells VALUES (66660033,55550033,'INV0173','MN0016',157,'5512.5',5250);
+INSERT INTO W_sells VALUES (66660034,55550034,'INV0174','MN0017',130,16245,17100);
+INSERT INTO W_sells VALUES (66660035,55550035,'INV0175','MN0018',291,'18742.5',17850);
+INSERT INTO W_sells VALUES (66660036,55550036,'INV0176','MN0019',346,10830,11400);
+INSERT INTO W_sells VALUES (66660037,55550037,'INV0177','MN0020',326,6615,6300);
+INSERT INTO W_sells VALUES (66660038,55550038,'INV0178','MN0050',286,7220,7600);
+INSERT INTO W_sells VALUES (66660039,55550039,'INV0179','MN0051',211,'7717.5',7350);
+INSERT INTO W_sells VALUES (66660040,55550040,'INV0180','MN0052',377,'22562.5',23750);
+INSERT INTO W_sells VALUES (66660041,55550041,'INV0181','MN0053',237,15435,14700);
+INSERT INTO W_sells VALUES (66660042,55550042,'INV0182','MN0054',211,'4512.5',4750);
+INSERT INTO W_sells VALUES (66660043,55550043,'INV0183','MN0055',196,4410,4200);
+INSERT INTO W_sells VALUES (66660044,55550044,'INV0184','MN0056',291,27075,28500);
+INSERT INTO W_sells VALUES (66660045,55550045,'INV0185','MN0057',432,13230,12600);
+INSERT INTO W_sells VALUES (66660046,55550046,'INV0186','MN0058',473,7220,7600);
+INSERT INTO W_sells VALUES (66660047,55550047,'INV0187','MN0059',340,'16537.5',15750);
+INSERT INTO W_sells VALUES (66660048,55550048,'INV0188','MN0060',326,9025,9500);
+INSERT INTO W_sells VALUES (66660049,55550049,'INV0189','MN0027',199,13230,12600);
+INSERT INTO W_sells VALUES (66660050,55550050,'INV0190','MN0028',174,7220,7600);
+INSERT INTO W_sells VALUES (66660051,55550051,'INV0191','MN0029',89,11025,10500);
+INSERT INTO W_sells VALUES (66660052,55550052,'INV0192','MN0030',233,10830,11400);
+INSERT INTO W_sells VALUES (66660053,55550053,'INV0193','MN0031',143,55125,52500);
+INSERT INTO W_sells VALUES (66660054,55550054,'INV0194','MN0032',194,63175,66500);
+INSERT INTO W_sells VALUES (66660055,55550055,'INV0195','MN0033',87,88200,84000);
+INSERT INTO W_sells VALUES (66660056,55550056,'INV0196','MN0034',138,45125,47500);
+INSERT INTO W_sells VALUES (66660057,55550057,'INV0197','MN0035',465,'5512.5',5250);
+INSERT INTO W_sells VALUES (66660058,55550058,'INV0198','MN0036',345,9025,9500);
+INSERT INTO W_sells VALUES (66660059,55550059,'INV0199','MN0037',185,'5512.5',5250);
+INSERT INTO W_sells VALUES (66660060,55550060,'INV0200','MN0038',225,'902.5',950);
+INSERT INTO W_sells VALUES (66660061,55550061,'INV0201','MN0039',238,7980,7600);
+INSERT INTO W_sells VALUES (66660062,55550062,'INV0202','MN0040',109,9975,10500);
+INSERT INTO W_sells VALUES (66660063,55550063,'INV0203','MN0010',194,11970,11400);
+INSERT INTO W_sells VALUES (66660064,55550064,'INV0204','MN0011',50,49875,52500);
+INSERT INTO W_sells VALUES (66660065,55550065,'INV0205','MN0012',300,69825,66500);
+INSERT INTO W_sells VALUES (66660066,55550066,'INV0206','MN0013',373,79800,84000);
+INSERT INTO W_sells VALUES (66660067,55550067,'INV0207','MN0014',413,49875,47500);
+INSERT INTO W_sells VALUES (66660068,55550068,'INV0208','MN0059',252,'4987.5',5250);
+INSERT INTO W_sells VALUES (66660069,55550069,'INV0209','MN0060',139,9975,9500);
+INSERT INTO W_sells VALUES (66660070,55550070,'INV0210','MN0027',72,'4987.5',5250);
+INSERT INTO W_sells VALUES (66660071,55550071,'INV0211','MN0028',470,'997.5',950);
+INSERT INTO W_sells VALUES (66660072,55550072,'INV0212','MN0029',487,'2992.5',3150);
+INSERT INTO W_sells VALUES (66660073,55550073,'INV0213','MN0030',384,9975,9500);
+INSERT INTO W_sells VALUES (66660074,55550074,'INV0214','MN0031',281,'14962.5',15750);
+INSERT INTO W_sells VALUES (66660075,55550075,'INV0215','MN0032',395,19950,19000);
+INSERT INTO W_sells VALUES (66660076,55550076,'INV0216','MN0033',462,'2493.75',2625);
+INSERT INTO W_sells VALUES (66660077,55550077,'INV0217','MN0034',420,5985,5700);
+INSERT INTO W_sells VALUES (66660078,55550078,'INV0218','MN0035',246,'4987.5',5250);
+INSERT INTO W_sells VALUES (66660079,55550079,'INV0219','MN0036',368,17955,17100);
+INSERT INTO W_sells VALUES (66660080,55550080,'INV0220','MN0037',438,'16957.5',17850);
+INSERT INTO W_sells VALUES (66660041,55550081,'INV0221','MN0038',75,2205,2100);
+INSERT INTO W_sells VALUES (66660042,55550082,'INV0222','MN0039',472,'2707.5',2850);
+INSERT INTO W_sells VALUES (66660043,55550083,'INV0223','MN0040',72,8820,8400);
+INSERT INTO W_sells VALUES (66660044,55550084,'INV0224','MN0010',66,'902.5',950);
+INSERT INTO W_sells VALUES (66660045,55550085,'INV0225','MN0011',380,6615,6300);
+INSERT INTO W_sells VALUES (66660046,55550086,'INV0226','MN0012',172,'4512.5',4750);
+INSERT INTO W_sells VALUES (66660047,55550087,'INV0227','MN0013',159,6615,6300);
+INSERT INTO W_sells VALUES (66660048,55550088,'INV0228','MN0014',397,9025,9500);
+INSERT INTO W_sells VALUES (66660049,55550089,'INV0229','MN0015',300,'1653.75',1575);
+INSERT INTO W_sells VALUES (66660004,55550090,'INV0230','MN0016',56,'2256.25',2375);
+INSERT INTO W_sells VALUES (66660005,55550091,'INV0231','MN0017',237,4410,4200);
+INSERT INTO W_sells VALUES (66660006,55550092,'INV0232','MN0018',412,'3158.75',3325);
+INSERT INTO W_sells VALUES (66660007,55550093,'INV0233','MN0019',332,'7717.5',7350);
+INSERT INTO W_sells VALUES (66660008,55550094,'INV0234','MN0020',187,3610,3800);
+INSERT INTO W_sells VALUES (66660009,55550095,'INV0235','MN0021',200,8820,8400);
+INSERT INTO W_sells VALUES (66660010,55550096,'INV0236','MN0001',100,'2707.5',2850);
+INSERT INTO W_sells VALUES (66660011,55550097,'INV0237','MN0002',127,'5512.5',5250);
+INSERT INTO W_sells VALUES (66660051,55550098,'INV0238','MN0003',245,9025,9500);
+INSERT INTO W_sells VALUES (66660052,55550099,'INV0239','MN0004',54,'7717.5',7350);
+INSERT INTO W_sells VALUES (66660053,55550100,'INV0240','MN0005',275,5415,5700);
+INSERT INTO W_sells VALUES (66660054,55550101,'INV0241','MN0006',318,'7717.5',7350);
+INSERT INTO W_sells VALUES (66660055,55550102,'INV0242','MN0007',273,7220,7600);
+INSERT INTO W_sells VALUES (66660056,55550103,'INV0243','MN0008',412,'16537.5',15750);
+INSERT INTO W_sells VALUES (66660007,55550104,'INV0244','MN0009',359,1805,1900);
+INSERT INTO W_sells VALUES (66660008,55550105,'INV0245','MN0010',430,'3307.5',3150);
+INSERT INTO W_sells VALUES (66660009,55550106,'INV0246','MN0011',258,9025,9500);
+INSERT INTO W_sells VALUES (66660010,55550107,'INV0247','MN0012',64,'16537.5',15750);
+INSERT INTO W_sells VALUES (66660011,55550108,'INV0248','MN0013',377,18050,19000);
+INSERT INTO W_sells VALUES (66660051,55550109,'INV0249','MN0014',160,'2756.25',2625);
+INSERT INTO W_sells VALUES (66660052,55550110,'INV0250','MN0015',50,5415,5700);
+INSERT INTO W_sells VALUES (66660012,55550111,'INV0251','MN0016',388,'5512.5',5250);
+INSERT INTO W_sells VALUES (66660013,55550112,'INV0252','MN0017',340,16245,17100);
+INSERT INTO W_sells VALUES (66660014,55550113,'INV0253','MN0001',226,'2992.5',2850);
+INSERT INTO W_sells VALUES (66660015,55550114,'INV0254','MN0002',334,'4987.5',5250);
+INSERT INTO W_sells VALUES (66660016,55550115,'INV0255','MN0003',324,9975,9500);
+INSERT INTO W_sells VALUES (66660017,55550116,'INV0256','MN0004',432,'6982.5',7350);
+INSERT INTO W_sells VALUES (66660018,55550117,'INV0257','MN0005',457,5985,5700);
+INSERT INTO W_sells VALUES (66660019,55550118,'INV0258','MN0006',157,'6982.5',7350);
+INSERT INTO W_sells VALUES (66660020,55550119,'INV0259','MN0007',228,7980,7600);
+INSERT INTO W_sells VALUES (66660021,55550120,'INV0260','MN0008',263,'14962.5',1575);
+
+
+-- R_sells
+
+INSERT INTO R_sells VALUES (55550001,77770001,'INV0261','MN0009',4,'11576.25',11025);
+INSERT INTO R_sells VALUES (55550002,77770002,'INV0262','MN0010',4,'4286.875','4512.5');
+INSERT INTO R_sells VALUES (55550003,77770003,'INV0263','MN0011',2,'2315.25',2205);
+INSERT INTO R_sells VALUES (55550004,77770004,'INV0264','MN0012',5,'2572.125','2707.5');
+INSERT INTO R_sells VALUES (55550005,77770005,'INV0265','MN0013',3,9261,8820);
+INSERT INTO R_sells VALUES (55550006,77770006,'INV0266','MN0014',4,'857.375','902.5');
+INSERT INTO R_sells VALUES (55550007,77770007,'INV0267','MN0015',2,'6945.75',6615);
+INSERT INTO R_sells VALUES (55550008,77770008,'INV0268','MN0016',4,'4286.875','4512.5');
+INSERT INTO R_sells VALUES (55550009,77770009,'INV0269','MN0017',4,'6945.75',6615);
+INSERT INTO R_sells VALUES (55550010,77770010,'INV0270','MN0018',2,'8573.75',9025);
+INSERT INTO R_sells VALUES (55550011,77770011,'INV0271','MN0019',1,'1736.4375','1653.75');
+INSERT INTO R_sells VALUES (55550012,77770012,'INV0272','MN0020',3,'2143.4375','2256.25');
+INSERT INTO R_sells VALUES (55550013,77770013,'INV0273','MN0021',1,'4630.5',4410);
+INSERT INTO R_sells VALUES (55550014,77770014,'INV0274','MN0022',1,'3000.8125','3158.75');
+INSERT INTO R_sells VALUES (55550015,77770015,'INV0275','MN0023',2,'8103.375','7717.5');
+INSERT INTO R_sells VALUES (55550016,77770016,'INV0276','MN0024',5,'3429.5',3610);
+INSERT INTO R_sells VALUES (55550017,77770017,'INV0277','MN0025',2,9261,8820);
+INSERT INTO R_sells VALUES (55550018,77770018,'INV0278','MN0026',4,'2572.125','2707.5');
+INSERT INTO R_sells VALUES (55550019,77770019,'INV0279','MN0027',4,'5788.125','5512.5');
+INSERT INTO R_sells VALUES (55550020,77770020,'INV0280','MN0028',3,'8573.75',9025);
+INSERT INTO R_sells VALUES (55550021,77770021,'INV0281','MN0029',5,'8103.375','7717.5');
+INSERT INTO R_sells VALUES (55550022,77770022,'INV0282','MN0030',1,'5144.25',5415);
+INSERT INTO R_sells VALUES (55550023,77770023,'INV0283','MN0031',5,'8103.375','7717.5');
+INSERT INTO R_sells VALUES (55550024,77770024,'INV0284','MN0032',4,6859,7220);
+INSERT INTO R_sells VALUES (55550025,77770025,'INV0285','MN0033',1,'17364.375','16537.5');
+INSERT INTO R_sells VALUES (55550026,77770026,'INV0286','MN0034',5,'1714.75',1805);
+INSERT INTO R_sells VALUES (55550027,77770027,'INV0287','MN0035',2,'3472.875','3307.5');
+INSERT INTO R_sells VALUES (55550028,77770028,'INV0288','MN0036',5,'8573.75',9025);
+INSERT INTO R_sells VALUES (55550029,77770029,'INV0289','MN0037',5,'17364.375','16537.5');
+INSERT INTO R_sells VALUES (55550030,77770030,'INV0290','MN0038',5,'17147.5',18050);
+INSERT INTO R_sells VALUES (55550031,77770031,'INV0291','MN0039',2,'2894.0625','2756.25');
+INSERT INTO R_sells VALUES (55550032,77770032,'INV0292','MN0040',5,'5144.25',5415);
+INSERT INTO R_sells VALUES (55550033,77770033,'INV0293','MN0041',2,'5788.125','5512.5');
+INSERT INTO R_sells VALUES (55550034,77770034,'INV0294','MN0042',1,'15432.75',16245);
+INSERT INTO R_sells VALUES (55550035,77770035,'INV0295','MN0043',3,'19679.625','18742.5');
+INSERT INTO R_sells VALUES (55550036,77770036,'INV0296','MN0044',4,'10288.5',10830);
+INSERT INTO R_sells VALUES (55550037,77770037,'INV0297','MN0045',1,'6945.75',6615);
+INSERT INTO R_sells VALUES (55550038,77770038,'INV0298','MN0046',2,6859,7220);
+INSERT INTO R_sells VALUES (55550039,77770039,'INV0299','MN0047',2,'8103.375','7717.5');
+INSERT INTO R_sells VALUES (55550040,77770040,'INV0300','MN0048',2,'21434.375','22562.5');
+INSERT INTO R_sells VALUES (55550041,77770041,'INV0301','MN0049',5,'16206.75',15435);
+INSERT INTO R_sells VALUES (55550042,77770042,'INV0302','MN0050',4,'4286.875','4512.5');
+INSERT INTO R_sells VALUES (55550043,77770043,'INV0303','MN0051',1,'4630.5',4410);
+INSERT INTO R_sells VALUES (55550044,77770044,'INV0304','MN0052',2,'25721.25',27075);
+INSERT INTO R_sells VALUES (55550045,77770045,'INV0305','MN0053',3,'13891.5',13230);
+INSERT INTO R_sells VALUES (55550046,77770046,'INV0306','MN0054',2,6859,7220);
+INSERT INTO R_sells VALUES (55550047,77770047,'INV0307','MN0055',2,'17364.375','16537.5');
+INSERT INTO R_sells VALUES (55550048,77770048,'INV0308','MN0056',3,'8573.75',9025);
+INSERT INTO R_sells VALUES (55550049,77770049,'INV0309','MN0057',2,'13891.5',13230);
+INSERT INTO R_sells VALUES (55550050,77770050,'INV0310','MN0058',3,6859,7220);
+INSERT INTO R_sells VALUES (55550051,77770051,'INV0311','MN0059',5,'11576.25',11025);
+INSERT INTO R_sells VALUES (55550052,77770052,'INV0312','MN0060',4,'10288.5',10830);
+INSERT INTO R_sells VALUES (55550053,77770053,'INV0313','MN0001',1,'57881.25',55125);
+INSERT INTO R_sells VALUES (55550054,77770054,'INV0314','MN0002',2,'60016.25',63175);
+INSERT INTO R_sells VALUES (55550055,77770055,'INV0315','MN0003',1,92610,88200);
+INSERT INTO R_sells VALUES (55550056,77770056,'INV0316','MN0004',2,'42868.75',45125);
+INSERT INTO R_sells VALUES (55550057,77770057,'INV0317','MN0005',3,'5788.125','5512.5');
+INSERT INTO R_sells VALUES (55550058,77770058,'INV0318','MN0006',4,'8573.75',9025);
+INSERT INTO R_sells VALUES (55550059,77770059,'INV0319','MN0007',3,'5788.125','5512.5');
+INSERT INTO R_sells VALUES (55550060,77770060,'INV0320','MN0008',3,'857.375','902.5');
+INSERT INTO R_sells VALUES (55550061,77770061,'INV0321','MN0009',1,8379,7980);
+INSERT INTO R_sells VALUES (55550062,77770062,'INV0322','MN0010',1,'9476.25',9975);
+INSERT INTO R_sells VALUES (55550063,77770063,'INV0323','MN0011',3,'12568.5',11970);
+INSERT INTO R_sells VALUES (55550064,77770064,'INV0324','MN0012',3,'47381.25',49875);
+INSERT INTO R_sells VALUES (55550065,77770065,'INV0325','MN0013',5,'73316.25',69825);
+INSERT INTO R_sells VALUES (55550066,77770066,'INV0326','MN0014',1,75810,79800);
+INSERT INTO R_sells VALUES (55550067,77770067,'INV0327','MN0015',4,'52368.75',49875);
+INSERT INTO R_sells VALUES (55550068,77770068,'INV0328','MN0016',3,'4738.125','4987.5');
+INSERT INTO R_sells VALUES (55550069,77770069,'INV0329','MN0037',1,'10473.75',9975);
+INSERT INTO R_sells VALUES (55550070,77770070,'INV0330','MN0038',1,'4738.125','4987.5');
+INSERT INTO R_sells VALUES (55550071,77770071,'INV0331','MN0039',5,'1047.375','997.5');
+INSERT INTO R_sells VALUES (55550072,77770072,'INV0332','MN0040',2,'2842.875','2992.5');
+INSERT INTO R_sells VALUES (55550073,77770073,'INV0333','MN0010',4,'10473.75',9975);
+INSERT INTO R_sells VALUES (55550074,77770074,'INV0334','MN0011',3,'14214.375','14962.5');
+INSERT INTO R_sells VALUES (55550075,77770075,'INV0335','MN0012',1,'20947.5',19950);
+INSERT INTO R_sells VALUES (55550076,77770076,'INV0336','MN0013',2,'2369.0625','2493.75');
+INSERT INTO R_sells VALUES (55550077,77770077,'INV0337','MN0014',4,'6284.25',5985);
+INSERT INTO R_sells VALUES (55550078,77770078,'INV0338','MN0015',4,'4738.125','4987.5');
+INSERT INTO R_sells VALUES (55550079,77770079,'INV0339','MN0016',2,'18852.75',17955);
+INSERT INTO R_sells VALUES (55550080,77770080,'INV0340','MN0017',2,'16109.625','16957.5');
+INSERT INTO R_sells VALUES (55550081,77770081,'INV0341','MN0018',1,'2315.25',2205);
+INSERT INTO R_sells VALUES (55550082,77770082,'INV0342','MN0019',2,'2572.125','2707.5');
+INSERT INTO R_sells VALUES (55550083,77770083,'INV0343','MN0020',2,9261,8820);
+INSERT INTO R_sells VALUES (55550084,77770084,'INV0344','MN0021',2,'857.375','902.5');
+INSERT INTO R_sells VALUES (55550085,77770085,'INV0345','MN0001',1,'6945.75',6615);
+INSERT INTO R_sells VALUES (55550086,77770086,'INV0346','MN0002',3,'4286.875','4512.5');
+INSERT INTO R_sells VALUES (55550087,77770087,'INV0347','MN0003',2,'6945.75',6615);
+INSERT INTO R_sells VALUES (55550088,77770088,'INV0348','MN0004',1,'8573.75',9025);
+INSERT INTO R_sells VALUES (55550089,77770089,'INV0349','MN0005',3,'1736.4375','1653.75');
+INSERT INTO R_sells VALUES (55550090,77770090,'INV0350','MN0006',1,'2143.4375','2256.25');
+INSERT INTO R_sells VALUES (55550091,77770091,'INV0351','MN0007',1,'4630.5',4410);
+INSERT INTO R_sells VALUES (55550092,77770092,'INV0352','MN0008',4,'3000.8125','3158.75');
+INSERT INTO R_sells VALUES (55550093,77770093,'INV0353','MN0009',4,'8103.375','7717.5');
+INSERT INTO R_sells VALUES (55550094,77770094,'INV0354','MN0010',2,'3429.5',3610);
+INSERT INTO R_sells VALUES (55550095,77770095,'INV0355','MN0011',2,9261,8820);
+INSERT INTO R_sells VALUES (55550096,77770096,'INV0356','MN0012',5,'2572.125','2707.5');
+INSERT INTO R_sells VALUES (55550097,77770097,'INV0357','MN0013',3,'5788.125','5512.5');
+INSERT INTO R_sells VALUES (55550098,77770098,'INV0358','MN0014',3,'8573.75',9025);
+INSERT INTO R_sells VALUES (55550099,77770099,'INV0359','MN0015',2,'8103.375','7717.5');
+INSERT INTO R_sells VALUES (55550100,77770100,'INV0360','MN0016',2,'5144.25',5415);
+INSERT INTO R_sells VALUES (55550101,77770101,'INV0361','MN0017',4,'8103.375','7717.5');
+INSERT INTO R_sells VALUES (55550102,77770102,'INV0362','MN0040',5,6859,7220);
+INSERT INTO R_sells VALUES (55550103,77770103,'INV0363','MN0010',5,'17364.375','16537.5');
+INSERT INTO R_sells VALUES (55550104,77770104,'INV0364','MN0011',3,'1714.75',1805);
+INSERT INTO R_sells VALUES (55550105,77770105,'INV0365','MN0012',3,'3472.875','3307.5');
+INSERT INTO R_sells VALUES (55550106,77770106,'INV0366','MN0013',2,'8573.75',9025);
+INSERT INTO R_sells VALUES (55550107,77770107,'INV0367','MN0014',2,'17364.375','16537.5');
+INSERT INTO R_sells VALUES (55550108,77770108,'INV0368','MN0015',2,'17147.5',18050);
+INSERT INTO R_sells VALUES (55550109,77770109,'INV0369','MN0016',4,'2894.0625','2756.25');
+INSERT INTO R_sells VALUES (55550110,77770110,'INV0370','MN0017',3,'5144.25',5415);
+INSERT INTO R_sells VALUES (55550111,77770111,'INV0371','MN0018',2,'5788.125','5512.5');
+INSERT INTO R_sells VALUES (55550112,77770112,'INV0372','MN0019',5,'1736.4375','1653.75');
+INSERT INTO R_sells VALUES (55550113,77770113,'INV0373','MN0020',4,'2143.4375','2256.25');
+INSERT INTO R_sells VALUES (55550114,77770114,'INV0374','MN0021',1,'4630.5',4410);
+INSERT INTO R_sells VALUES (55550115,77770115,'INV0375','MN0001',3,'52368.75',55125);
+INSERT INTO R_sells VALUES (55550116,77770116,'INV0376','MN0002',4,'66333.75',63175);
+INSERT INTO R_sells VALUES (55550117,77770117,'INV0377','MN0003',2,83790,88200);
+INSERT INTO R_sells VALUES (55550118,77770118,'INV0378','MN0004',1,'47381.25',45125);
+INSERT INTO R_sells VALUES (55550119,77770119,'INV0379','MN0005',3,'5236.875','5512.5');
+INSERT INTO R_sells VALUES (55550120,77770120,'INV0380','MN0006',4,'9476.25',9025);
+INSERT INTO R_sells VALUES (55550040,77770121,'INV0381','MN0007',5,'5236.875','5512.5');
+INSERT INTO R_sells VALUES (55550041,77770122,'INV0382','MN0008',2,'947.625','902.5');
+INSERT INTO R_sells VALUES (55550042,77770123,'INV0383','MN0009',2,7581,7980);
+INSERT INTO R_sells VALUES (55550043,77770124,'INV0384','MN0010',3,'10473.75',9975);
+INSERT INTO R_sells VALUES (55550044,77770125,'INV0385','MN0011',3,'11371.5',11970);
+INSERT INTO R_sells VALUES (55550045,77770126,'INV0386','MN0012',4,'52368.75',49875);
+INSERT INTO R_sells VALUES (55550103,77770127,'INV0387','MN0013',3,'66333.75',69825);
+INSERT INTO R_sells VALUES (55550104,77770128,'INV0388','MN0014',3,83790,79800);
+INSERT INTO R_sells VALUES (55550105,77770129,'INV0389','MN0015',2,'47381.25',49875);
+INSERT INTO R_sells VALUES (55550106,77770130,'INV0390','MN0016',5,'5236.875','4987.5');
+INSERT INTO R_sells VALUES (55550107,77770131,'INV0391','MN0017',2,'16109.625','16957.5');
+INSERT INTO R_sells VALUES (55550018,77770132,'INV0392','MN0018',5,'2315.25',2205);
+INSERT INTO R_sells VALUES (55550019,77770133,'INV0393','MN0019',1,'2572.125','2707.5');
+INSERT INTO R_sells VALUES (55550020,77770134,'INV0394','MN0020',2,9261,8820);
+INSERT INTO R_sells VALUES (55550021,77770135,'INV0395','MN0024',3,'3429.5',3610);
+INSERT INTO R_sells VALUES (55550022,77770136,'INV0396','MN0025',1,9261,8820);
+INSERT INTO R_sells VALUES (55550023,77770137,'INV0397','MN0026',2,'2572.125','2707.5');
+INSERT INTO R_sells VALUES (55550104,77770138,'INV0398','MN0027',5,'5788.125','5512.5');
+INSERT INTO R_sells VALUES (55550105,77770139,'INV0399','MN0028',4,'8573.75',9025);
+INSERT INTO R_sells VALUES (55550106,77770140,'INV0400','MN0029',1,'8103.375','7717.5');
+INSERT INTO R_sells VALUES (55550107,77770141,'INV0401','MN0030',1,'5144.25',5415);
+INSERT INTO R_sells VALUES (55550018,77770142,'INV0402','MN0031',4,'8103.375','7717.5');
+INSERT INTO R_sells VALUES (55550019,77770143,'INV0403','MN0032',1,6859,7220);
+INSERT INTO R_sells VALUES (55550020,77770144,'INV0404','MN0033',2,'17364.375','16537.5');
+INSERT INTO R_sells VALUES (55550064,77770145,'INV0405','MN0034',3,'1714.75',1805);
+INSERT INTO R_sells VALUES (55550065,77770146,'INV0406','MN0035',3,'3472.875','3307.5');
+INSERT INTO R_sells VALUES (55550066,77770147,'INV0407','MN0036',1,'8573.75',9025);
+INSERT INTO R_sells VALUES (55550067,77770148,'INV0408','MN0037',5,'17364.375','16537.5');
+INSERT INTO R_sells VALUES (55550068,77770149,'INV0409','MN0038',1,'17147.5',18050);
+INSERT INTO R_sells VALUES (55550069,77770150,'INV0410','MN0039',2,'2894.0625','2756.2');

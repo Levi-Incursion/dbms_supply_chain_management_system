@@ -1,0 +1,231 @@
+SET SEARCH_PATH TO group8dbmsproject;
+
+CREATE TABLE administration(
+	Employee_name varchar(50),
+	Employee_ID Bigint NOT NULL,
+	primary key(Employee_ID)
+);
+
+CREATE TABLE manufacturer(
+	Manufacturer_name varchar(50) NOT NULL,
+	Manufacturer_id Bigint NOT NULL,
+	Supervisor_id Bigint NOT NULL,
+	Company_name varchar(50) NOT NULL,
+	Contact_Number Bigint,
+	"State" varchar(50),
+	City varchar(50),
+	Contact_Email varchar(50),
+	PRIMARY KEY (Manufacturer_id),
+	FOREIGN KEY (Supervisor_id) REFERENCES administration(Employee_ID)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE supplier(
+	Supplier_ID Bigint NOT NULL,
+	Supplier_name varchar(50),
+	Contact_Number Bigint,
+	Contact_Email varchar(50),
+	"State" varchar(50),
+	City varchar(50),
+	PRIMARY KEY (Supplier_ID)
+);
+CREATE TABLE Parts(
+	PID Bigint NOT NULL,
+	Part_name varchar(50) NOT NULL,
+	Unit_Cost Bigint NOT NULL,
+	category varchar(20) NOT NULL,
+	PRIMARY KEY (PID)
+);
+CREATE TABLE supplies(
+	Sid Bigint NOT NULL,
+	 Pid Bigint NOT NULL,
+	Manufacturer_ID Bigint NOT NULL,
+	quantity integer NOT NULL,
+	PRIMARY KEY (Sid,Pid,Manufacturer_id),
+	foreign key (Sid) references Supplier(Supplier_ID),
+	foreign key (Pid) references Parts(PID),
+	foreign key (Manufacturer_id) references Manufacturer(Manufacturer_id)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+CREATE TABLE Products(
+	Model_no varchar(10) NOT NULL,
+	Product_name varchar(50) NOT NULL,
+	Category varchar(10) NOT NULL,
+	PRIMARY KEY (Model_no)
+);
+
+CREATE TABLE invoice_details(
+	invno varchar(16) NOT NULL,
+	invdate date NOT NULL,
+	PRIMARY KEY (invno)
+);
+
+CREATE TABLE billing (
+    invno varchar(16) NOT NULL,
+	model_no varchar(10) NOT NULL,
+	payment_method varchar(20),
+	primary key(invno,model_no),
+	foreign key (invno) references invoice_details(invno),
+	foreign key (model_no) references products(Model_no)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+Create table Tax(
+    item_code varchar(10) NOT NULL,
+	Tax_rate decimal NOT NULL,
+	primary key(item_code),
+   foreign key (item_code) references Products (model_no) 
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+create table manufactures(
+	manufacturer_ID Bigint NOT NULL,
+	model_no varchar(10) NOT NULL,
+	Manufacturing_date date NOT NULL,
+	quantity Bigint NOT NULL,
+	primary key(manufacturer_id,model_no),
+	foreign key (model_no) references products(model_no),
+	foreign key (manufacturer_id) references manufacturer(manufacturer_id)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+CREATE TABLE distributor(
+	DistID Bigint NOT NULL,
+	"Name" varchar(50) NOT NULL,
+	Contact_Number Bigint,
+	Contact_Email varchar(50),
+	"State" varchar(50),
+	City varchar(50),
+	PRIMARY KEY (DistID)
+);
+
+CREATE TABLE D_contains(
+	model_no varchar(10) NOT NULL,
+	Distributor_ID Bigint NOT NULL,
+	quantity Bigint NOT NULL,
+	PRIMARY KEY (Distributor_ID,model_no),
+	foreign key (model_no) references products(model_no),
+	foreign key (Distributor_ID) references Distributor(DistID)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE shipments(
+	manufacturer_ID Bigint NOT NULL,
+	distributor_id Bigint NOT NULL,
+	Invoice_no varchar(16) NOT NULL,
+	model_no varchar(10) NOT NULL,
+	"Source" varchar(50) NOT NULL,
+	Destination varchar(50) NOT NULL,
+	quantity Bigint NOT NULL,
+	saleprice Bigint NOT NULL,
+	costprice Bigint NOT NULL,
+	PRIMARY KEY (manufacturer_ID,distributor_id,Invoice_no,model_no),
+	FOREIGN KEY (Invoice_no,model_no) REFERENCES billing(invno,model_no),
+	FOREIGN KEY (Distributor_id) REFERENCES distributor(DistID),
+	FOREIGN KEY (manufacturer_ID) REFERENCES manufacturer(manufacturer_ID)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+CREATE TABLE Wholesaler(
+	W_GST_Num Bigint NOT NULL,
+	Wholesaler_name varchar(50) NOT NULL,
+	W_Shop_Name varchar(50) NOT NULL,
+	Contact_Email varchar(50),
+	Contact_Number Bigint,
+	"State" varchar(50),
+	City varchar(50),
+	PRIMARY KEY (W_GST_Num)
+	
+);
+
+CREATE TABLE Distributes(
+	Distributor_ID Bigint NOT NULL,
+	W_GST_Num Bigint NOT NULL,
+	Invoice_no varchar(16) NOT NULL,
+	model_no varchar(10) NOT NULL,
+	"Source" varchar(50), 
+	Destination varchar(50),
+	quantity Bigint NOT NULL,	
+	saleprice Bigint NOT NULL,
+	costprice Bigint NOT NULL,
+	PRIMARY KEY (Distributor_ID,W_GST_Num,Invoice_no,model_no),
+	FOREIGN KEY (Invoice_no,model_no) REFERENCES billing(invno,model_no),
+	FOREIGN KEY (Distributor_id) REFERENCES distributor(DistID),
+	FOREIGN KEY (W_GST_Num) REFERENCES wholesaler(W_GST_Num)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE W_contains(
+	model_no varchar(10) NOT NULL,
+	W_GST_Num Bigint NOT NULL,
+	quantity Bigint NOT NULL,
+	PRIMARY KEY (W_GST_Num,model_no),
+	foreign key (model_no) references products(model_no),
+	foreign key (W_GST_Num) references wholesaler(W_GST_Num)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE Retailer(
+	R_GST_Num Bigint NOT NULL,
+	Retailer_Name varchar(50) NOT NULL,
+	R_Shop_Name varchar(50) not NULL,
+	Contact_Email varchar(50),
+	Contact_number Bigint,
+	"State" varchar(50),
+	City varchar(50),
+	PRIMARY KEY (R_GST_Num)
+);
+
+CREATE TABLE R_contains(
+	model_no varchar(10) NOT NULL,
+	R_GST_Num Bigint NOT NULL,
+	quantity Bigint NOT NULL,
+	PRIMARY KEY (R_GST_Num,model_no),
+	foreign key (model_no) references products(model_no),
+	foreign key (R_GST_Num) references retailer(R_GST_Num)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE W_sells(
+	W_GST_Num Bigint NOT NULL,
+	R_GST_Num Bigint NOT NULL,
+	Invoice_no varchar(16) NOT NULL,
+	model_no varchar(10) NOT NULL,
+	quantity Bigint NOT NULL,	
+	saleprice Decimal NOT NULL,
+	costprice Bigint NOT NULL,
+	PRIMARY KEY (R_GST_Num,W_GST_Num,Invoice_no,model_no),
+	FOREIGN KEY (Invoice_no,model_no) REFERENCES billing(invno,model_no),
+	FOREIGN KEY (R_GST_Num) REFERENCES retailer(R_GST_Num),
+	FOREIGN KEY (W_GST_Num) REFERENCES wholesaler(W_GST_Num)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+CREATE TABLE customer(
+	Cust_name varchar(50),
+	Cust_ID Bigint NOT NULL,
+	"State" varchar(50),
+	City varchar(50),
+	Contact_Email varchar(50),
+	Contact_number Bigint,
+	PRIMARY KEY (Cust_ID)
+);
+
+CREATE TABLE R_sells(
+	R_GST_Num Bigint NOT NULL,
+	cust_id Bigint NOT NULL,
+	Invoice_no varchar(16) NOT NULL,
+	model_no varchar(10) NOT NULL,
+	quantity Bigint NOT NULL,	
+	saleprice Decimal NOT NULL,
+	costprice Decimal NOT NULL,
+	PRIMARY KEY (R_GST_Num,cust_id,Invoice_no,model_no),
+	FOREIGN KEY (Invoice_no,model_no) REFERENCES billing(invno,model_no),
+	FOREIGN KEY (R_GST_Num) REFERENCES retailer(R_GST_Num),
+	FOREIGN KEY (cust_id) REFERENCES customer(cust_id)
+	ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+
+
